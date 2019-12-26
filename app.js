@@ -10,7 +10,7 @@
 webpackJsonp([4], [function(e, t, n) {
     "use strict";
     n(320);
-    var r = n(184);
+    var r = n(183);
     n(319), n(277), n(335), r.ngMainModule.run(["appService", function(e) {
         e.main()
     }])
@@ -1458,7 +1458,7 @@ webpackJsonp([4], [function(e, t, n) {
         a = o(i),
         s = n(10);
     n(629), n(114), n(50), n(113), n(136), n(22), n(16), n(608), n(496), n(120);
-    var l = n(191),
+    var l = n(190),
         c = r(l),
         u = s.ngUpdatesModule.service("updatesService", ["$log", "$filter", "TASK_STATUS", "updatesInstallerDialogService", "INSTALLER_PAGE", "eventAggregator", "INSTALLER_EVENTS", "$q", "driversEndpoints", "UPDATE_EVENTS", "UPDATE_SOCKET_EVENTS", "socketService", "UPDATE_REFRESH_STATUS", "INSTALLER_FORM_EVENT", "downloadsEndpoints", "DOWNLOAD_PROGRESS_STATUS", "DOWNLOAD_SOCKET_EVENTS", "installersEndpoints", "INSTALLER_SOCKET_EVENTS", "hardwareService", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "gfwslDriverInformationService", "INSTALLER_ERROR_CODE", "COMMON_EVENTS", "nodeService", "SOCKETIO_EVENTS", "PREFETCH_EVENTS", "$rootScope", "$compile", "cefService", "$mdDialog", "gfeSearchService", "gfwslEndpoints", "CRD_GFWSL_CAMPAIGNS", "gfeService", "DRIVERTYPE", "CRD_STATE_EVENT", function(e, t, n, r, o, i, s, l, u, d, f, m, p, g, v, h, y, E, b, S, _, w, A, T, C, I, x, D, M, O, R, N, L, k, P, G, F, U) {
             function V(e) {
@@ -2118,7 +2118,7 @@ webpackJsonp([4], [function(e, t, n) {
             return e
         });
     t.nvFallbackSrc = o
-}, , , , function(e, t, n) {
+}, , , function(e, t, n) {
     "use strict";
     Object.defineProperty(t, "__esModule", {
         value: !0
@@ -2157,7 +2157,7 @@ webpackJsonp([4], [function(e, t, n) {
         l = n(4),
         c = n(52),
         u = n(24),
-        d = n(187),
+        d = n(186),
         f = n(8),
         m = n(134),
         p = angular.module("main", [r.ngMainConstantsModule.name, o.ngMainCommonModule.name, "main.common.config", i.ngOobeModule.name, a.ngGamesModule.name, s.ngUpdatesModule.name, l.ngPreferencesModule.name, c.ngRewardsModule.name, u.ngTelemetryModule.name, d.ngSearchModule.name, f.ngUserProfileModule.name, m.ngGfnCloudGamesModule.name, "ngMaterial", "ngResource", "pascalprecht.translate", "ui.router", "ui.layout", "ngAnimate", "bm.uiTour"]);
@@ -2365,7 +2365,7 @@ webpackJsonp([4], [function(e, t, n) {
         a = n(13),
         s = r(a),
         l = n(1);
-    n(200);
+    n(199);
     var c = n(235),
         u = r(c),
         d = l.ngMainCommonModule.service("cevoService", ["$log", "$q", "$state", "eventAggregator", "cevoEndpoint", "gfeGeolocationService", "gfeService", "jarvisService", "localeService", "telemetryService", "gamesService", "COMMON_EVENTS", "DB_NAMES", "GFECLIENT_CONFIG", "IMAGE_UPDATE_STATE", "NOTIFICATION_CATEGORY", "NOTIFICATION_EVENTS", "PREFETCH_EVENTS", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_AFFINITY_API_NAME", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_ORIGINAL_SERVICE_NAME", "USER_PROFILE_EVENTS", "PROFILE_EVENTS", "MISSION_CONSTANTS", "MISSION_TYPE", "USER_PROFILE_TAB_NAMES", "USER_PROFILE_DIALOG_NAMES", "USER_PROFILE_ERRORS", "LEVELS", "httpTelemetryService", function(e, t, n, r, o, a, l, c, d, f, m, p, g, v, h, y, E, b, S, w, A, T, C, I, x, D, M, O, R, N, L, k) {
@@ -3181,7 +3181,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(3),
         i = r(o),
         a = n(1);
-    n(11), n(176);
+    n(11), n(175);
     var s = a.ngMainCommonModule.service("framerateLimiterService", ["$log", "framerateLimiterEndpoints", "$q", "jarvisService", "dbCacheService", "DB_NAMES", function(e, t, n, r, o, a) {
         function s(e) {
             return y = e.data, e.data
@@ -3246,6 +3246,265 @@ webpackJsonp([4], [function(e, t, n) {
         h.getStateInfo = f, h.getSupportInfo = d, h.setStateInfo = p
     }]);
     t.framerateLimiterService = s
+}, function(e, t, n) {
+    "use strict";
+
+    function r(e) {
+        if (e && e.__esModule) return e;
+        var t = {};
+        if (null != e)
+            for (var n in e) Object.prototype.hasOwnProperty.call(e, n) && (t[n] = e[n]);
+        return t.default = e, t
+    }
+
+    function o(e) {
+        return e && e.__esModule ? e : {
+            default: e
+        }
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    }), t.gfeTargetService = void 0;
+    var i = n(13),
+        a = o(i),
+        s = n(37),
+        l = o(s),
+        c = n(3),
+        u = r(c),
+        d = n(44);
+    n(12), n(16), n(200);
+    var f = d.ngMainUtilsModule.service("gfeTargetService", ["$log", "jarvisService", "eventAggregator", "COMMON_EVENTS", "telemetryService", "targetService", "GFECLIENT_CONFIG", "$q", "dbCacheService", "DB_NAMES", "$filter", "SERVICE_HOSTNAMES", "HTTP_STATUS_CODES", "ADOBE_TARGET_ERROR_MSGS", "TELEMETRY_ORIGINAL_SERVICE_NAME", "TELEMETRY_ADOBE_TARGET_API_URL", "EXPERIENCE_TYPE", "VARIANT_TYPE", "socketService", "AB_HUB_SOCKET_EVENTS", "AB_HUB_MESSAGE_TYPES", "abHubEndpoints", "gfeService", "gxTargetEndpoints", "httpTelemetryService", function(e, t, n, r, o, i, s, c, d, f, m, p, g, v, h, y, E, b, S, _, w, A, T, C, I) {
+        function x() {
+            var e = t.getLoggedInUser();
+            e && e.userId ? (q.userId = e.userId, z = d.getCachedUserItem(e.userId, f.JARVIS_GFE_STORE, f.USER_AB_STATE)) : z = null, $ = [], W = null, U.setMboxThirdPartyId(e && e.userId)
+        }
+
+        function D() {
+            j = c.defer(), Y = j.promise
+        }
+
+        function M(e) {
+            V.info("AB Context updated", e), e.messageType === w.SYNC && (K = e.experiments, o.syncExperienceControlInfo(K))
+        }
+
+        function O(e) {
+            V.info("Ab Hub client status", H), H = e, H && (D(), j.resolve())
+        }
+
+        function R(e) {
+            var t = k(K, e),
+                n = c.defer();
+            if (t) n.resolve(t);
+            else {
+                var r = L(z, e),
+                    o = L(B, e);
+                c.all([r, o]).then(function(r) {
+                    var o = r[0],
+                        i = r[1];
+                    if (o) {
+                        var a = z.activeExperiments;
+                        t = k(a, e)
+                    } else if (i) {
+                        var s = B.activeExperiments;
+                        t = k(s, e)
+                    }
+                    n.resolve(t)
+                })
+            }
+            return n.promise
+        }
+
+        function N(e) {
+            var t = (0, l.default)({}, X);
+            t.activity.id = e, P("remove", w.DELETE, t)
+        }
+
+        function L(e, t) {
+            var n = c.defer();
+            return e ? e.sync_().then(function() {
+                var r = e.activeExperiments,
+                    o = k(r, t);
+                n.resolve(!!o)
+            }).catch(function() {
+                V.error("Failed to sync db while finding experiment"), n.resolve(!1)
+            }) : n.resolve(!1), n.promise
+        }
+
+        function k(e, t) {
+            return u.find(e, function(e) {
+                return e.activity.id == t
+            })
+        }
+
+        function P(e, t, n) {
+            H || (V.info("AB Hub not ready, checking status"), A.status().then(function(e) {
+                V.info("AB Hub Ready status", e), H = !0, j.resolve(H)
+            }).catch(function(e) {
+                V.error("AB Hub status API failed", e), j.reject(e)
+            })), Y.then(function() {
+                u.isEmpty(q.userId) && x();
+                var r = {
+                    activity: n.activity,
+                    variant: n.result
+                };
+                V.info("Going to call ab hub endpoint", e, t, n), A[e]({}, {
+                    messageType: t,
+                    userId: q.userId,
+                    clientName: q.clientName,
+                    clientVer: q.clientVer,
+                    experiments: [r]
+                })
+            }).catch(function(e) {
+                V.error("Failed to call Ab hub endpoint", e)
+            })
+        }
+
+        function G(e, t) {
+            I.sendSdkHttpTelemetry(t, T.onlineState.online, p.ADOBE_TARGET, e.duration, e.status, y.GET_VARIANT, e.response, h.ADOBE, e.serviceUseCase)
+        }
+
+        function F(e, t) {
+            var n = u.find($, function(t) {
+                return t.activity.id === e
+            });
+            u.isUndefined(n) && (n = (0, l.default)({}, Z), n.activity.id = e, n.activity.name = e, n.result.data = t, n.result.name = e, $.push(n), P("add", w.ADD, n))
+        }
+        var U = this,
+            V = e.getInstance("main.utils/GfeTargetService"),
+            z = null,
+            B = null,
+            $ = [],
+            W = null,
+            H = !1,
+            j = null,
+            Y = null,
+            q = {
+                userId: "",
+                clientName: s.windowName,
+                clientVer: T.version
+            },
+            K = [],
+            Q = {},
+            Z = {
+                activity: {
+                    id: "",
+                    name: "",
+                    type: E.BETA
+                },
+                result: {
+                    data: {},
+                    name: "",
+                    type: b.CONTROL,
+                    status: !1
+                }
+            },
+            X = {
+                activity: {
+                    id: "",
+                    name: "",
+                    type: ""
+                },
+                result: {
+                    data: {},
+                    name: "",
+                    type: E.FR,
+                    status: !1
+                }
+            };
+        U.initialize = function() {
+            i.setExperimentMbox(s.windowName), x(), n.on(r.LOGIN_STATUS_CHANGE, x), B = d.getCachedGlobalItem(f.GLOBAL_STORE, f.GLOBAL_AB_STATE), Q = s.experienceControlQa || {}, i.setQaConfig(Q), D(), S.register(_.AB_CONTEXT_UPDATED, r.AB_CONTEXT_UPDATED), n.on(r.AB_CONTEXT_UPDATED, M), S.register(_.AB_HUB_STATUS_UPDATED, r.AB_HUB_STATUS_UPDATED), n.on(r.AB_HUB_STATUS_UPDATED, O)
+        }, U.setMboxThirdPartyId = function(e) {
+            var t = e ? e : o.deviceId ? o.deviceId : o.sessionId;
+            i.setMboxThirdPartyId(t)
+        }, U.getVariant = function(e, t) {
+            var n = c.defer(),
+                r = e.activityId,
+                o = Date.now();
+            return i.getVariant(e).then(function(e) {
+                var i = e.activity,
+                    s = (0, l.default)({}, e.variant);
+                if (e.result = s, delete e.variant, i && i.id && i.name && s && s.name) {
+                    if (e.disableContext ? V.info("Telemetry context disabled for activity id: ", r) : P("add", w.ADD, e), t) {
+                        V.info("Tracking success telemetry for activity id: ", r);
+                        var c = {
+                            serviceUseCase: t,
+                            duration: Date.now() - o,
+                            response: (0, a.default)(e).slice(0, 1024),
+                            status: g.SUCCESS
+                        };
+                        G(c, !0)
+                    }
+                    n.resolve(s.data)
+                } else V.info("No telemetry for legacy config experiments"), n.resolve(e)
+            }).catch(function(e) {
+                if (e)
+                    if (e.apiFailure) {
+                        if (t) {
+                            V.info("Tracking failure telemetry for activity id: ", r);
+                            var i = {
+                                serviceUseCase: t
+                            };
+                            e.status === v.TIMEOUT ? (i.networkErrorCode = g.TIMEOUT, G(i, !1)) : (i.response = (0, a.default)(e).slice(0, 1024), i.duration = Date.now() - o, i.status = g.SERVER_ERROR, G(i, !0))
+                        }
+                        R(r).then(function(t) {
+                            t ? (V.info("api failure for get variant, resolving saved experiment data", e), n.resolve(t.variant.data)) : (V.info("api failure for get variant, no saved data found"), n.reject(e))
+                        })
+                    } else N(r), n.reject(e)
+            }), n.promise
+        }, U.trackConversion = i.trackConversion, U.getActiveExperiments = function() {
+            var e = [],
+                t = c.defer();
+            return e = e.concat($, K), z ? z.sync_().then(function() {
+                e = e.concat(z.activeExperiments), B.sync_().then(function() {
+                    e = e.concat(B.activeExperiments), t.resolve(e)
+                }).catch(function() {
+                    V.error("Failed to sync global Db for active experiments"), t.resolve(e)
+                })
+            }).catch(function() {
+                V.error("Failed to sync user Db for active experiments"), t.resolve(e)
+            }) : B.sync_().then(function() {
+                e = e.concat(B.activeExperiments), t.resolve(e)
+            }).catch(function() {
+                V.error("Failed to sync global Db for active experiments"), t.resolve(e)
+            }), t.promise
+        }, U.getBetaVariant = function(e) {
+            var n = c.defer(),
+                r = null;
+            return r = u.isNull(W) ? t.getUserData(s.jarvis.commonClientId, f.BETA_FEATURES).then(function(e) {
+                W = e
+            }).catch(function() {
+                W = {}
+            }) : c.resolve(), r.then(function() {
+                var t = u.findWhere(W.features, {
+                    name: e
+                });
+                if (u.isUndefined(t)) {
+                    var r = (0, l.default)({}, Z);
+                    r.activity.id = e, P("remove", w.DELETE, r)
+                } else F(e, t);
+                n.resolve(t)
+            }), n.promise
+        }, U.getFeature = function(e) {
+            var t = e.activityId,
+                n = {
+                    clientParams: e
+                };
+            if (!u.isEmpty(Q) && Q[t]) {
+                var r = Q[t];
+                if (r.resolve) return V.debug("Resolving fake response for", t, r), c.resolve(r.resolve.result);
+                if (r.reject) return V.debug("Rejecting with fake payload for", t, r), c.reject(r.reject)
+            }
+            return C.getFeature(n).then(function(e) {
+                V.info("GX Target Feature", t, e);
+                var n = e.data.result,
+                    r = e.data.metadata;
+                return !r || r && !r.disableContext ? n.status ? P("add", w.ADD, e.data) : N(t) : V.info("Telemetry context disabled for activity id: ", t), n
+            }).catch(function(e) {
+                return V.error("failed to get feature from gx target", e), {}
+            })
+        }
+    }]);
+    t.gfeTargetService = f
 }, , function(e, t, n) {
     "use strict";
 
@@ -3713,7 +3972,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.countdownTimerDirective = void 0;
-    var o = n(198),
+    var o = n(197),
         i = r(o),
         a = n(1);
     n(382);
@@ -3821,7 +4080,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(1),
         i = n(724),
         a = r(i);
-    n(336), n(282), n(168);
+    n(336), n(282), n(167);
     var s = o.ngMainCommonModule.directive("nvDialogEditEmail", [function() {
         return {
             restrict: "A",
@@ -4327,7 +4586,7 @@ webpackJsonp([4], [function(e, t, n) {
             }
 
             function z() {
-                o.trigger(r.WECHAT_NOTIFICATION_CLICKED, s.NFAN);
+                o.trigger(r.WECHAT_NOTIFICATION_CLICKED, s.NFAN)
             }
 
             function B() {
@@ -4781,7 +5040,7 @@ webpackJsonp([4], [function(e, t, n) {
     var i = n(3),
         a = o(i),
         s = n(14);
-    n(46), n(11), n(133), n(16), n(20), n(186);
+    n(46), n(11), n(133), n(16), n(20), n(185);
     n(9);
     n(12), n(289);
     var l = n(53),
@@ -5204,7 +5463,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.oobeDialogService = void 0;
     var o = n(9);
-    n(521), n(518), n(186), n(301), n(26), n(12), n(11), n(179), n(22);
+    n(521), n(518), n(185), n(301), n(26), n(12), n(11), n(178), n(22);
     var i = n(3),
         a = r(i),
         s = o.ngOobeModule.factory("oobeDialogService", ["$log", "$state", "gfeService", "jarvisService", "eventAggregator", "dbService", "DB_NAMES", "oobeTelemetryService", "$mdPanel", "hardwareService", "oobeGamesService", "COMMON_EVENTS", "COMMON_DEFAULT_STATES", "OOBE_STATE", "gfeTargetService", "ACTIVE_EXPERIMENTS", "OOBE_LOGIN", "$q", "gamesService", "TELEMETRY_API_SUB_USECASES", function(e, t, n, r, o, i, s, l, c, u, d, f, m, p, g, v, h, y, E, b) {
@@ -5334,7 +5593,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.oobeFeatureService = void 0;
     var r = n(9);
-    n(186);
+    n(185);
     var o = r.ngOobeModule.service("oobeFeatureService", ["$log", "oobeTelemetryService", "oobeGamesService", "$q", "preferencesService", "eventAggregator", "OOBE_EVENTS", "oobeDialogService", "$filter", "toastService", "COMMON_HTTP_ERROR_CODES", "SHARE_CONSTANTS", function(e, t, n, r, o, i, a, s, l, c, u, d) {
         function f() {
             o.getShareRunningStatus().then(function(e) {
@@ -5750,8 +6009,8 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.appService = void 0;
     var o = n(314),
         i = r(o),
-        a = n(184);
-    n(19), n(141), n(50), n(16), n(606), n(12), n(26), n(119), n(36), n(165), n(353), n(185), n(291), n(288), n(120), n(550);
+        a = n(183);
+    n(19), n(141), n(50), n(16), n(606), n(12), n(26), n(119), n(36), n(211), n(353), n(184), n(291), n(288), n(120), n(550);
     var s = n(813),
         l = r(s);
     n(373), n(480);
@@ -5867,8 +6126,8 @@ webpackJsonp([4], [function(e, t, n) {
             default: e
         }
     }
-    n(321), n(19), n(11), n(12), n(355), n(299), n(607), n(64), n(50), n(46), n(16), n(133), n(36), n(22), n(167), n(340), n(215), n(524), n(206), n(162), n(384), n(372);
-    var o = n(184);
+    n(321), n(19), n(11), n(12), n(355), n(299), n(607), n(64), n(50), n(46), n(16), n(133), n(36), n(22), n(166), n(340), n(215), n(524), n(205), n(162), n(384), n(372);
+    var o = n(183);
     n(401), n(395), n(435), n(296), n(482), n(489), n(447), n(613), n(547), n(570), n(545), n(556), n(584), n(580), n(338), n(303), n(339), n(659);
     var i = n(957),
         a = r(i);
@@ -6020,11 +6279,12 @@ webpackJsonp([4], [function(e, t, n) {
                     _ = e
                 }).finally(function() {
                     if (_ == m.BLOCKED) return void s.gfeBlocked();
-                    e.handleGfeInitializeTimeTelemetry(t.VALID_SESSION), w.info("Retrieve full system Information after login"), o.getSystemInfo().then(function(e) {
-                        w.info("Retrieved System Info"), h.hasHardwareInfo() || h.updateHardwareInfo(e), y.hasHardwareInfo() || y.updateHardwareInfo(e), E.checkForUpdates()
-                    }).catch(function() {
-                        w.error("Failed to retriev System Info")
-                    }), "main.loggedOut" !== f.name && (l.syncData(i), s.finishOobe(i));
+                    e.handleGfeInitializeTimeTelemetry(t.VALID_SESSION),
+                        w.info("Retrieve full system Information after login"), o.getSystemInfo().then(function(e) {
+                            w.info("Retrieved System Info"), h.hasHardwareInfo() || h.updateHardwareInfo(e), y.hasHardwareInfo() || y.updateHardwareInfo(e), E.checkForUpdates()
+                        }).catch(function() {
+                            w.error("Failed to retriev System Info")
+                        }), "main.loggedOut" !== f.name && (l.syncData(i), s.finishOobe(i));
                     var r, a = !1;
                     S.getItem(d.DRIVER_INSTALL_STATE).then(function(e) {
                         r = e, w.debug("found resume driver installation entry", r)
@@ -6264,7 +6524,7 @@ webpackJsonp([4], [function(e, t, n) {
     }])
 }, function(e, t, n) {
     "use strict";
-    n(60), n(71), n(72), n(75), n(73), n(74), n(130), n(61), n(203), n(202), n(128), n(951), n(948), n(69), n(317), n(129), n(950), n(947), n(953), n(949), n(952), n(958), n(67), n(66), n(928), n(931), n(930), n(124), n(933), n(934), n(929), n(932), n(935), n(68), n(156), n(315), n(939), n(940), n(110), n(941), n(942), n(943), n(271), n(944), n(945)
+    n(60), n(71), n(72), n(75), n(73), n(74), n(130), n(61), n(202), n(201), n(128), n(951), n(948), n(69), n(317), n(129), n(950), n(947), n(953), n(949), n(952), n(958), n(67), n(66), n(928), n(931), n(930), n(124), n(933), n(934), n(929), n(932), n(935), n(68), n(156), n(315), n(939), n(940), n(110), n(941), n(942), n(943), n(271), n(944), n(945)
 }, function(e, t, n) {
     "use strict";
     Object.defineProperty(t, "__esModule", {
@@ -6693,7 +6953,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvCustomDate = void 0;
-    var o = n(198),
+    var o = n(197),
         i = r(o),
         a = n(1);
     n(366);
@@ -7188,7 +7448,8 @@ webpackJsonp([4], [function(e, t, n) {
                 n = e.getInstance("main.common/DialogEditEmailController");
             t.done = function() {
                 t.emailForm.$invalid ? (n.debug("tried to submit invalid form"), t.nvDialogModel.is2FactorAuthentication || t.emailForm.password.$setTouched(), t.emailForm.email.$setTouched(), t.emailForm.reEnterEmail.$setTouched()) : (t.nvDialogModel.error = null, t.nvDialogModel.waiting = !0, t.nvDialogModel.sessionObject.user.core.primaryEmail === t.email || t.nvDialogModel.is2FactorAuthentication ? (n.debug("Email did not change or 2 factor authentication. Resend verification"), t.nvDialogModel.actionVerifyEmail(t.email)) : (n.debug("Email has changed. Attempt to change email address"), t.nvDialogModel.password = t.password, t.nvDialogModel.actionUpdateEmail(t.nvDialogModel.sessionObject, t.email, t.password).catch(function(e) {
-                    t.nvDialogModel.waiting = !1, 401 === e.status ? (n.debug("Change Email: Invalid credentials"), t.emailForm.password.$setValidity("invalidPassword", !1), t.emailForm.password.$setTouched()) : 403 === e.status ? (n.debug("Change Email: Account has no password, must be a social-only account"), t.nvDialogModel.error = "l10n.noPassword") : 409 === e.status ? (n.debug("Change Email: Email address is already being used"), t.emailForm.email.$setValidity("notAvailable", !1), t.emailForm.email.$setTouched()) : (n.debug("Change Email: Generic server error. status:", e.status), t.nvDialogModel.error = "l10n.unableToConnect")
+                    t.nvDialogModel.waiting = !1, 401 === e.status ? (n.debug("Change Email: Invalid credentials"), t.emailForm.password.$setValidity("invalidPassword", !1), t.emailForm.password.$setTouched()) : 403 === e.status ? (n.debug("Change Email: Account has no password, must be a social-only account"),
+                        t.nvDialogModel.error = "l10n.noPassword") : 409 === e.status ? (n.debug("Change Email: Email address is already being used"), t.emailForm.email.$setValidity("notAvailable", !1), t.emailForm.email.$setTouched()) : (n.debug("Change Email: Generic server error. status:", e.status), t.nvDialogModel.error = "l10n.unableToConnect")
                 })))
             }, t.emailChanged = function() {
                 t.emailForm.email.$setValidity("notAvailable", !0)
@@ -7405,7 +7666,7 @@ webpackJsonp([4], [function(e, t, n) {
         }, g.showFloatStateButton = function() {
             return !g.viewState.feedbackFloatOverlayEnabled && !g.viewState.feedbackFloatShowState && !g.isDialogOpen
         }, g.showFloatStateOpen = function() {
-            return g.viewState.feedbackFloatOverlayEnabled || (g.viewState.feedbackFloatShowState || g.isDialogOpen) && g.viewState.feedbackFloatOpenOnMouseEnter;
+            return g.viewState.feedbackFloatOverlayEnabled || (g.viewState.feedbackFloatShowState || g.isDialogOpen) && g.viewState.feedbackFloatOpenOnMouseEnter
         }, m(), l.$on("$destroy", p)
     }]);
     t.feedbackFloatController = o
@@ -7958,7 +8219,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.mediaTileController = void 0;
     var r = n(1);
-    n(295), n(213), n(166);
+    n(295), n(213), n(165);
     var o = r.ngMainCommonModule.controller("MediaTileController", ["MEDIA_FILE_TYPE", "mediaDialogService", "imageFormatService", function(e, t, n) {
         var r = this;
         r.mediaItem = {
@@ -9773,7 +10034,7 @@ webpackJsonp([4], [function(e, t, n) {
     n(12), n(11), n(26), n(22), n(164), n(29);
     var o = n(238);
     r(o);
-    n(227), n(119), n(185), n(55), n(206), n(289), n(120);
+    n(227), n(119), n(184), n(55), n(205), n(289), n(120);
     angular.module("main").controller("MainToolbarController", ["$scope", "jarvisService", "gfeService", "CHECK_FOR_UPDATE", "eventAggregator", "COMMON_EVENTS", "dbCacheService", "DB_NAMES", "$log", "hardwareService", "preferencesService", "toastService", "$filter", "socketService", "SHARE_SOCKET_EVENTS", "$document", "$timeout", "REWARDS_EVENTS", "$state", "COMMON_HTTP_ERROR_CODES", "PREFERENCES_EVENTS", "DEFAULT_AVATAR", "rewardsService", "gfeSearchService", "cevoToggleService", "cevoService", "preferencesFeatureService", "FEATURES_NAME", "USER_PROFILE_TAB_NAMES", "productTourService", "gfeTargetService", "ACTIVE_EXPERIMENTS", "$q", "COMMON_DEFAULT_STATES", "TELEMETRY_API_SUB_USECASES", function(e, t, n, r, o, i, a, s, l, c, u, d, f, m, p, g, v, h, y, E, b, S, _, w, A, T, C, I, x, D, M, O, R, N, L) {
         function k() {
             var e = t.getLoggedInUser();
@@ -9969,7 +10230,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvMain = t.ngMainModule = void 0;
-    var o = n(184);
+    var o = n(183);
     n(217), n(400), n(345);
     var i = n(757),
         a = r(i);
@@ -10333,7 +10594,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFriendGameSummary = void 0;
     var o = n(15);
-    n(204);
+    n(203);
     var i = n(773),
         a = r(i);
     n(436);
@@ -11096,7 +11357,8 @@ webpackJsonp([4], [function(e, t, n) {
         }, S.currentFpsSliderChanged = function() {
             S.applyButtonDisabled = !1
         }, n.ready(function() {
-            C.info("whisper mode fps document ready for game ", S.nvSystemGame.shortName), m(), d(), g()
+            C.info("whisper mode fps document ready for game ", S.nvSystemGame.shortName),
+                m(), d(), g()
         }), b = e.$on("$stateChangeStart", function(e, t, n, r, o) {
             C.info("state changed in custom fps dialog for game ", S.nvSystemGame.shortName), S.cancelCustomFps()
         }), e.$on("$destroy", E), y()
@@ -11226,7 +11488,7 @@ webpackJsonp([4], [function(e, t, n) {
         }
 
         function R(e, t, n) {
-            return n ? c.HYPERSAMPLE : O(e, t, 16, 10) ? c.WIDE_16_10 : O(e, t, 16, 9) ? c.WIDE_16_9 : O(e, t, 4, 3) ? c.STANDARD_4_3 : O(e, t, 5, 4) ? c.STANDARD_5_4 : M(e, t, 16, 9) ? c.WIDE_16_9 : M(e, t, 16, 10) ? c.WIDE_16_10 : c.CUSTOM;
+            return n ? c.HYPERSAMPLE : O(e, t, 16, 10) ? c.WIDE_16_10 : O(e, t, 16, 9) ? c.WIDE_16_9 : O(e, t, 4, 3) ? c.STANDARD_4_3 : O(e, t, 5, 4) ? c.STANDARD_5_4 : M(e, t, 16, 9) ? c.WIDE_16_9 : M(e, t, 16, 10) ? c.WIDE_16_10 : c.CUSTOM
         }
 
         function N(e) {
@@ -11831,7 +12093,8 @@ webpackJsonp([4], [function(e, t, n) {
                     })
                 } else Y.error("slider settings not found for game:", W.nvSystemGame.displayName), T(), C()
             }).catch(function(e) {
-                Y.error("get State failed for game:", W.nvSystemGame.displayName, "with error:", e), T(), C()
+                Y.error("get State failed for game:", W.nvSystemGame.displayName, "with error:", e),
+                    T(), C()
             }).finally(function() {
                 B = null
             })
@@ -12106,7 +12369,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvGameTile = void 0;
     var o = n(14);
-    n(17), n(220), n(219), n(34), n(166);
+    n(17), n(220), n(219), n(34), n(165);
     var i = n(799),
         a = r(i);
     n(472);
@@ -12153,7 +12416,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(3),
         i = r(o),
         a = n(14);
-    n(211), n(11), n(12);
+    n(210), n(11), n(12);
     var s = a.ngGamesModule.controller("OptimizationController", ["$scope", "SETTING_TYPE", "framerateLimiterService", "dbCacheService", "DB_NAMES", "OPS_TAB", "POWER_MODE", "jarvisService", function(e, t, n, r, o, a, s, l) {
         function c() {
             i.isNull(v) || (v.cancel(), v = null), v = m.systemGame.getState(), v.then(function(e) {
@@ -12446,7 +12709,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.gfnCloudGamesService = void 0;
     var o = n(3),
         i = (r(o), n(134));
-    n(171), n(62);
+    n(170), n(62);
     var a = i.ngGfnCloudGamesModule.service("gfnCloudGamesService", ["$log", "$q", "gfnCloudGamesEndpoints", "jarvisService", "eventAggregator", "COMMON_EVENTS", "gfeTargetService", "ACTIVE_EXPERIMENTS", "GFECLIENT_CONFIG", "TELEMETRY_API_SUB_USECASES", function(e, t, n, r, o, i, a, s, l, c) {
         function u(e) {
             e ? d() : (y = !1, E = !1, b = null, o.trigger(i.GFN_CLOUD_GAMES_FEATURE_UPDATED, y))
@@ -12949,7 +13212,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.notificationsController = void 0;
     var o = n(226);
-    n(185), n(16);
+    n(184), n(16);
     var i = n(3),
         a = r(i),
         s = o.ngNotificationsModule.controller("NotificationsController", ["eventAggregator", "NOTIFICATION_EVENTS", "$scope", "jarvisService", "dbCacheService", "DB_NAMES", "COMMON_EVENTS", "$log", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "$document", "$filter", "$timeout", function(e, t, n, r, o, i, s, l, c, u, d, f, m) {
@@ -13729,7 +13992,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(9),
         i = n(819),
         a = r(i);
-    n(509), n(281), n(283), n(290), n(333), n(168), n(337), n(284);
+    n(509), n(281), n(283), n(290), n(333), n(167), n(337), n(284);
     var s = o.ngOobeModule.directive("nvOobeAuthNvRegister", [function() {
         return {
             restrict: "E",
@@ -13979,7 +14242,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.oobeController = void 0;
     var r = n(9);
-    n(186), n(26);
+    n(185), n(26);
     var o = r.ngOobeModule.controller("OobeController", ["$log", "oobeDialogService", "oobeGamesService", "gfeService", "OOBE_STATE", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "eventAggregator", "OOBE_EVENTS", function(e, t, n, r, o, i, a, s, l) {
         function c(e) {
             u.nvActiveView = e
@@ -14397,7 +14660,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvEditPassword = void 0;
     var o = n(4);
-    n(281), n(282), n(168);
+    n(281), n(282), n(167);
     var i = n(831),
         a = r(i);
     n(530);
@@ -15048,7 +15311,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesFeatureReadiness = void 0;
     var o = n(4);
-    n(204), n(535), n(533);
+    n(203), n(535), n(533);
     var i = n(843),
         a = r(i);
     n(548);
@@ -15202,7 +15465,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(3),
         i = r(o),
         a = n(4);
-    n(211), n(20);
+    n(210), n(20);
     var s = a.ngPreferencesModule.controller("PreferencesGamesBatteryBoostController", ["$scope", "$log", "$document", "framerateLimiterService", "$timeout", "eventAggregator", "COMMON_EVENTS", "toastService", "$filter", function(e, t, n, r, o, a, s, l, c) {
         function u() {
             if (i.isNull(A) || A.clearRect(0, 0, T.width, T.height), !i.isEmpty(y)) {
@@ -15294,7 +15557,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.preferencesGamesController = void 0;
     var r = n(4);
-    n(211), n(132);
+    n(210), n(132);
     var o = r.ngPreferencesModule.controller("PreferencesGamesController", ["$log", "framerateLimiterService", "quietModeService", "preferencesService", "performanceModeService", function(e, t, n, r, o) {
         function i() {
             t.getSupportInfo().then(function(e) {
@@ -15384,7 +15647,7 @@ webpackJsonp([4], [function(e, t, n) {
         }
 
         function d() {
-            p && (y.info("pending scroll to timeout cancelled"), s.cancel(p)), v && (y.info("cancelling pending add promise"), t.searchPathsAddCancel(v)), h && (y.info("cancelling pending remove promise"), t.searchPathsRemoveCancel(h)), g && (y.info("cancelling pending get search path promise"), t.getSearchPathsCancel(g));
+            p && (y.info("pending scroll to timeout cancelled"), s.cancel(p)), v && (y.info("cancelling pending add promise"), t.searchPathsAddCancel(v)), h && (y.info("cancelling pending remove promise"), t.searchPathsRemoveCancel(h)), g && (y.info("cancelling pending get search path promise"), t.getSearchPathsCancel(g))
         }
         var f = this,
             m = null,
@@ -15891,8 +16154,8 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.preferencesGeneralAboutController = void 0;
     n(4);
-    n(31), n(26), n(29), n(20), n(537), n(205);
-    var o = n(191),
+    n(31), n(26), n(29), n(20), n(537), n(204);
+    var o = n(190),
         i = (r(o), angular.module("main.preferences").controller("PreferencesGeneralAboutController", ["$log", "gfeService", "preferencesService", "toastService", "$filter", "GFE_DOWNLOAD_PROGRESS_STATUS", "GFE_UPDATE_EVENTS", "TASK_STATUS", "eventAggregator", "$scope", "cefService", "POST_PROCESSING_STATES", function(e, t, n, r, o, i, a, s, l, c, u, d) {
             function f() {
                 r.showError({
@@ -16222,7 +16485,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.preferencesGeneralNotificationsController = void 0;
     var o = n(4);
-    n(29), n(20), n(185), n(119), n(16);
+    n(29), n(20), n(184), n(119), n(16);
     var i = n(3),
         a = r(i),
         s = o.ngPreferencesModule.controller("PreferencesGeneralNotificationsController", ["$log", "preferencesService", "toastService", "$filter", "rewardsService", "$q", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", function(e, t, n, r, o, i, s, l) {
@@ -16413,7 +16676,7 @@ webpackJsonp([4], [function(e, t, n) {
             }).catch(function(e) {
                 P.error("Error in opening OSC Settings page:", e), S()
             })
-        }, N(), e.$on("$destroy", L);
+        }, N(), e.$on("$destroy", L)
     }]);
     t.preferencesGeneralShareController = o
 }, function(e, t, n) {
@@ -16962,7 +17225,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.preferencesShieldGamestreamController = void 0;
     var o = n(4);
-    n(29), n(168), n(34), n(17);
+    n(29), n(167), n(34), n(17);
     var i = n(862),
         a = r(i);
     n(585), n(19), n(20);
@@ -17084,7 +17347,7 @@ webpackJsonp([4], [function(e, t, n) {
                 I.requestInProgress = !1
             })
         }, I.canNotRemove = function() {
-            return void 0 === D || null === D || I.requestInProgress === !0
+            return void 0 === D || null === D || I.requestInProgress === !0;
         }, I.updateApp = function(t) {
             x.info("AppCollector:Edit:: ", t), I.requestInProgress = !0, e.appCollectorEdit(t).then(function(e) {
                 e.data.AppData.BoxArtPath = A(e.data.AppData.BoxArtPath), I.streamApps[I.streamApps.indexOf(D)] = e.data, D = e.data, x.info("Stream app updated")
@@ -17343,8 +17606,7 @@ webpackJsonp([4], [function(e, t, n) {
                 if (l.codeInvalid = !1, l.couponCode) {
                     l.couponCode = l.couponCode.replace(/\s+/g, "");
                     var e = new RegExp(/^[a-zA-Z0-9]*$/);
-                    if (l.codeInvalid = !e.test(l.couponCode), l.couponCode.length > t.REWARDS_COUPONS.CODE_LENGTH_NO_DASHES - 1 ? (l.couponCode = l.couponCode.slice(0, t.REWARDS_COUPONS.CODE_LENGTH_NO_DASHES), l.codeInvalid = !e.test(l.couponCode),
-                            l.actionButtonDisabled = l.codeInvalid) : l.actionButtonDisabled = !0, l.couponCode.length > c.length) {
+                    if (l.codeInvalid = !e.test(l.couponCode), l.couponCode.length > t.REWARDS_COUPONS.CODE_LENGTH_NO_DASHES - 1 ? (l.couponCode = l.couponCode.slice(0, t.REWARDS_COUPONS.CODE_LENGTH_NO_DASHES), l.codeInvalid = !e.test(l.couponCode), l.actionButtonDisabled = l.codeInvalid) : l.actionButtonDisabled = !0, l.couponCode.length > c.length) {
                         if (l.couponCode.replace(/-/g, "").length - c.replace(/-/g, "").length > 1 || 0 === l.couponCode.indexOf(c)) n.trigger(o.COUPON_INPUT.RESTORE_CARET);
                         else
                             for (var r = 0; r < l.couponCode.length; r++)
@@ -17461,7 +17723,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(52),
         i = n(238);
     r(i);
-    n(227), n(17), n(41), n(166);
+    n(227), n(17), n(41), n(165);
     var a = o.ngRewardsModule.controller("RewardCardController", ["$filter", "$log", "REWARDS_CONSTANTS", "eventAggregator", "REWARDS_EVENTS", "TELEMETRY_CRIMSON_EVENT_NAMES", "telemetryService", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_AFFINITY_ELEMENT", "REWARDS_ASSET_DIMENSIONS", "rewardsService", function(e, t, n, r, o, i, a, s, l, c, u) {
         function d() {
             var t = f.nvReward.campaign.rules.end_date,
@@ -17955,7 +18217,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.searchController = void 0;
-    var o = n(187),
+    var o = n(186),
         i = n(3),
         a = r(i),
         s = o.ngSearchModule.controller("SearchController", ["$scope", "$log", "$state", "$timeout", "jarvisService", "eventAggregator", "gfeSearchService", "DB_NAMES", "dbCacheService", "gamesService", "COMMON_EVENTS", "$document", "KEYBOARD_EVENT_KEYCODE", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_SCREENS", "TELEMETRY_SEARCH_TYPE", "TELEMETRY_ONOFF_STATE", function(e, t, n, r, o, i, s, l, c, u, d, f, m, p, g, v, h) {
@@ -18137,7 +18399,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvSearch = void 0;
-    var o = n(187),
+    var o = n(186),
         i = n(868),
         a = r(i);
     n(597), n(41), n(690);
@@ -18487,8 +18749,8 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.highlightTileController = void 0;
     var o = n(10);
-    n(205), n(141);
-    var i = n(191),
+    n(204), n(141);
+    var i = n(190),
         a = r(i),
         s = o.ngUpdatesModule.controller("HighlightTileController", ["$scope", "$mdDialog", "DRIVER_TYPE", "updatesService", "$q", "$log", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "gfeService", "VIDEO_TYPE", "mediaDialogService", "toastService", "$filter", "TELEMETRY_GRD_CONTENT_TYPE", "TELEMETRY_GRD_DISPLAY_SECTION", function(e, t, n, r, o, i, s, l, c, u, d, f, m, p, g) {
             function v(e) {
@@ -19115,7 +19377,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdatesDriver = void 0;
     var o = n(10);
-    n(305), n(304), n(204), n(140), n(612), n(112), n(216);
+    n(305), n(304), n(203), n(140), n(612), n(112), n(216);
     var i = n(876),
         a = r(i);
     n(614);
@@ -19365,7 +19627,7 @@ webpackJsonp([4], [function(e, t, n) {
             var e = "";
             return o.installationDriverData && (e = n.trustAsResourceUrl(o.installationDriverData.billboardURL)), e
         }, o.canShowUninstallProgress = function() {
-            return !o.isPreparingInstall && !o.isInstalling;
+            return !o.isPreparingInstall && !o.isInstalling
         }, o.canShowInstallProgress = function() {
             return !o.isPreparingInstall && o.isInstalling
         }, r.updateRefreshInstallingRegister(o.refreshInstallingCallback), r.updateProgressTitleRegister(o.progressTitleCallback), r.updateProgressSetTotalRegister(o.progressSetTotalCallback), r.updateIsInstallingRegister(o.updateIsInstallingCallback)
@@ -20415,7 +20677,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.sweepstakesDialogController = void 0;
     var r = n(8);
-    n(163), n(278), n(41), n(206);
+    n(163), n(278), n(41), n(205);
     var o = r.ngUserProfileModule.controller("SweepstakesDialogController", ["$scope", "$log", "$mdDialog", "$timeout", "$filter", "cevoService", "gfeService", "eventAggregator", "telemetryService", "SWEEPSTAKE_EVENTS", "SWEEPSTAKE_DIALOG_STATES", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_AFFINITY_ACTION", "rewardsService", "TELEMETRY_STATUS", "TELEMETRY_SCREENS", function(e, t, n, r, o, i, a, s, l, c, u, d, f, m, p, g, v) {
         function h() {
             C.remainingTokens = C.availableTokens - (C.tokensEntered - I)
@@ -20463,8 +20725,7 @@ webpackJsonp([4], [function(e, t, n) {
             } catch (e) {
                 C.boxArt = "#", R.error("exception while getting image", e.message, C.giveaway)
             }
-            C.agreeToElementHtml = "<span>" + o("translate")("l10n.agreeToRules") + "</span>", C.availableTokens = C.tokens.available,
-                C.tokens.entered > 0 && (C.tncAgreed = !0, C.termsAlreadyAgreed = !0, I = C.tokens.entered, C.minRequiredTokens = C.tokens.entered, C.tokensEntered = C.minRequiredTokens), h()
+            C.agreeToElementHtml = "<span>" + o("translate")("l10n.agreeToRules") + "</span>", C.availableTokens = C.tokens.available, C.tokens.entered > 0 && (C.tncAgreed = !0, C.termsAlreadyAgreed = !0, I = C.tokens.entered, C.minRequiredTokens = C.tokens.entered, C.tokensEntered = C.minRequiredTokens), h()
         }
 
         function T() {
@@ -20691,7 +20952,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.userActivityLogController = void 0;
     var o = n(8),
-        i = n(198),
+        i = n(197),
         a = r(i),
         s = o.ngUserProfileModule.controller("UserActivityLogController", ["$scope", "$log", "$filter", "cevoService", "preferencesService", "eventAggregator", "telemetryService", "COMMON_EVENTS", "PROFILE_EVENTS", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_STATUS", "TELEMETRY_SCREENS", function(e, t, n, r, o, i, s, l, c, u, d, f, m, p) {
             function g(e) {
@@ -21646,7 +21907,7 @@ webpackJsonp([4], [function(e, t, n) {
         });
     t.nvWinners = s
 }, function(e, t, n) {
-    t = e.exports = n(6)(), t.push([e.id, 'input[type=range]{width:300px}ul[rn-carousel]{overflow:hidden;padding:0;white-space:nowrap;position:relative;-webkit-perspective:1000px;-ms-perspective:1000px;perspective:1000px;-ms-touch-action:pan-y;touch-action:pan-y}ul[rn-carousel]>li{color:#000;-webkit-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;overflow:visible;vertical-align:top;position:absolute;left:0;right:0;white-space:normal;padding:0;margin:0;list-style-type:none;width:100%;height:100%;display:inline-block}ul[rn-carousel-buffered]>li{display:none}ul[rn-carousel-transition=hexagon]{overflow:visible}div.rn-carousel-indicator span{cursor:pointer;color:#666}div.rn-carousel-indicator span.active{color:#fff}.rn-carousel-control{-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out;font-size:2rem;position:absolute;top:40%;opacity:.75;cursor:pointer}.rn-carousel-control:hover{opacity:1}.rn-carousel-control.rn-carousel-control-prev{left:.5em}.rn-carousel-control.rn-carousel-control-prev:before{content:"<"}.rn-carousel-control.rn-carousel-control-next{right:.5em}.rn-carousel-control.rn-carousel-control-next:before{content:">"}', ""]);
+    t = e.exports = n(6)(), t.push([e.id, 'input[type=range]{width:300px}ul[rn-carousel]{overflow:hidden;padding:0;white-space:nowrap;position:relative;-webkit-perspective:1000px;-ms-perspective:1000px;perspective:1000px;-ms-touch-action:pan-y;touch-action:pan-y}ul[rn-carousel]>li{color:#000;-webkit-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;overflow:visible;vertical-align:top;position:absolute;left:0;right:0;white-space:normal;padding:0;margin:0;list-style-type:none;width:100%;height:100%;display:inline-block}ul[rn-carousel-buffered]>li{display:none}ul[rn-carousel-transition=hexagon]{overflow:visible}div.rn-carousel-indicator span{cursor:pointer;color:#666}div.rn-carousel-indicator span.active{color:#fff}.rn-carousel-control{-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out;font-size:2rem;position:absolute;top:40%;opacity:.75;cursor:pointer}.rn-carousel-control:hover{opacity:1}.rn-carousel-control.rn-carousel-control-prev{left:.5em}.rn-carousel-control.rn-carousel-control-prev:before{content:"<"}.rn-carousel-control.rn-carousel-control-next{right:.5em}.rn-carousel-control.rn-carousel-control-next:before{content:">"}', ""])
 }, function(e, t, n) {
     t = e.exports = n(6)(), t.push([e.id, ".croppie-container{width:100%;height:100%}.croppie-container .cr-image{z-index:-1;position:absolute;top:0;left:0;transform-origin:0 0;max-height:none;max-width:none}.croppie-container .cr-boundary{position:relative;overflow:hidden;margin:0 auto;z-index:1;width:100%;height:100%}.croppie-container .cr-viewport{position:absolute;border:2px solid #fff;margin:auto;top:0;bottom:0;right:0;left:0;box-shadow:0 0 2000px 2000px rgba(0,0,0,.5);z-index:0}.croppie-container .cr-original-image{display:none}.croppie-container .cr-vp-circle{border-radius:50%}.croppie-container .cr-overlay{z-index:1;position:absolute;cursor:move}.croppie-container .cr-slider-wrap{width:75%;margin:15px auto;text-align:center}.croppie-result{position:relative;overflow:hidden}.croppie-result img{position:absolute}.croppie-container .cr-image,.croppie-container .cr-overlay,.croppie-container .cr-viewport{-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0)}.cr-slider{-webkit-appearance:none;width:300px;max-width:100%}.cr-slider::-webkit-slider-runnable-track{width:100%;height:3px;background:rgba(0,0,0,.5);border:0;border-radius:3px}.cr-slider::-webkit-slider-thumb{-webkit-appearance:none;border:none;height:16px;width:16px;border-radius:50%;background:#ddd;margin-top:-6px}.cr-slider:focus{outline:0}.cr-slider::-moz-range-track{width:100%;height:3px;background:rgba(0,0,0,.5);border:0;border-radius:3px}.cr-slider::-moz-range-thumb{border:none;height:16px;width:16px;border-radius:50%;background:#ddd;margin-top:-6px}.cr-slider:-moz-focusring{outline:#fff solid 1px;outline-offset:-1px}.cr-slider::-ms-track{width:100%;height:5px;background:0 0;border-color:transparent;border-width:6px 0;color:transparent}.cr-slider::-ms-fill-lower{background:rgba(0,0,0,.5);border-radius:10px}.cr-slider::-ms-fill-upper{background:rgba(0,0,0,.5);border-radius:10px}.cr-slider::-ms-thumb{border:none;height:16px;width:16px;border-radius:50%;background:#ddd;margin-top:1px}.cr-slider:focus::-ms-fill-lower{background:rgba(0,0,0,.5)}.cr-slider:focus::-ms-fill-upper{background:rgba(0,0,0,.5)}.cr-rotate-controls{position:absolute;bottom:5px;left:5px;z-index:1}.cr-rotate-controls button{border:0;background:0 0}.cr-rotate-controls i:before{display:inline-block;font-style:normal;font-weight:900;font-size:22px}.cr-rotate-l i:before{content:'↺'}.cr-rotate-r i:before{content:'↻'}", ""])
 }, function(e, t, n) {
@@ -21880,7 +22141,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = '<form nv-input-autofocus nv-key-code=27 nv-key-action=oobeAuthNvRegisterCtrl.onClickClose() class=oobe-dialog-right-pane autocomplete=off flex layout=column name=oobeAuthNvRegisterCtrl.regForm ng-submit=oobeAuthNvRegisterCtrl.onSubmit() novalidate> <waiting-overlay layout layout-align="center center" ng-if=oobeAuthNvRegisterCtrl.waiting> <md-progress-circular class=md-accent md-mode=indeterminate md-diameter=35></md-progress-circular> </waiting-overlay> <div class="title large" layout=column> <div class=logo-title layout=row layout-fill> <md-icon class="title-logo nv-custom-icons" md-font-icon=icon-nvlogo></md-icon> <h1 flex translate={{oobeAuthNvRegisterCtrl.title}} ng-if="oobeAuthNvRegisterCtrl.regView === \'register\'"></h1> <h1 flex translate=l10n.registrationFailed ng-if="oobeAuthNvRegisterCtrl.regView === \'coppa\'"></h1> </div> <div class=message-banner ng-if=oobeAuthNvRegisterCtrl.messageBanner()> <span translate={{oobeAuthNvRegisterCtrl.messageBanner()}}></span> </div> </div> <md-content class=content flex layout=column ng-show="oobeAuthNvRegisterCtrl.regView === \'register\'"> <div layout=column layout-align="start start"> <md-input-container layout-fill> <label translate=l10n.displayName></label> <input nv-input maxlength={{oobeAuthNvRegisterCtrl.validationObject.displayName.maxsize}} nv-extended-pattern={{oobeAuthNvRegisterCtrl.validationObject.displayName}} ng-trim=false name=displayName ng-model=oobeAuthNvRegisterCtrl.regModel.displayName nv-valid-display-name required md-no-asterisk> <div class=error-message ng-messages=oobeAuthNvRegisterCtrl.displayNameErrorWrapper md-auto-hide=false> <div ng-message=required> <div translate=l10n.required></div> </div> <div ng-message=extendedPattern> <div translate=l10n.displayNameReqs translate-values={{oobeAuthNvRegisterCtrl.validationObject.displayName}}></div> </div> <div ng-message=notAvailable> <div translate=l10n.displayNameNotAvailable></div> </div> </div> </md-input-container> <div class=input-helper translate=l10n.displayNameDetails></div> <md-input-container layout-fill> <label translate=l10n.emailAddress></label> <input nv-input maxlength={{oobeAuthNvRegisterCtrl.validationObject.email.maxsize}} nv-extended-pattern={{oobeAuthNvRegisterCtrl.validationObject.email}} name=email ng-model=oobeAuthNvRegisterCtrl.regModel.email ng-change=oobeAuthNvRegisterCtrl.emailChanged() required type=email ng-disabled=oobeAuthNvRegisterCtrl.emailDisabled md-no-asterisk> <div class=error-message ng-messages=oobeAuthNvRegisterCtrl.regForm.email.$error ng-show=oobeAuthNvRegisterCtrl.regForm.email.$touched md-auto-hide=false> <div ng-message=required> <div translate=l10n.required></div> </div> <div ng-message="extendedPattern, email"> <div translate=l10n.invalidEmail></div> </div> <div ng-message=notAvailable> <div translate=l10n.emailAddressInUse></div> </div> </div> </md-input-container> <md-input-container layout-fill class=md-icon-right ng-if="oobeAuthNvRegisterCtrl.nvType !== \'social\'" ng-init="oobeAuthNvRegisterCtrl.passwordBoxType=\'password\'"> <label translate=l10n.password></label> <input nv-input minlength={{oobeAuthNvRegisterCtrl.validationObject.password.minsize}} maxlength={{oobeAuthNvRegisterCtrl.validationObject.password.maxsize}} nv-extended-pattern={{oobeAuthNvRegisterCtrl.validationObject.password}} name=password ng-model=oobeAuthNvRegisterCtrl.regModel.password required type={{oobeAuthNvRegisterCtrl.passwordBoxType}} md-no-asterisk> <md-icon ng-if="oobeAuthNvRegisterCtrl.passwordBoxType == \'password\'" class="nv-custom-icons oobe-login-pointer" md-font-icon=icon-eye ng-click="oobeAuthNvRegisterCtrl.passwordBoxType = \'text\'"></md-icon> <md-icon ng-if="oobeAuthNvRegisterCtrl.passwordBoxType == \'text\'" class="nv-custom-icons oobe-login-pointer" md-font-icon=icon-eye-off ng-click="oobeAuthNvRegisterCtrl.passwordBoxType = \'password\'"></md-icon> <div class=error-message ng-messages=oobeAuthNvRegisterCtrl.regForm.password.$error ng-show=oobeAuthNvRegisterCtrl.regForm.password.$touched md-auto-hide=false> <div ng-message=required> <div translate=l10n.required></div> </div> <div ng-message="minlength, maxlength, extendedPattern"> <div translate-values="{{ {minsize: oobeAuthNvRegisterCtrl.validationObject.password.minsize || 9, required: oobeAuthNvRegisterCtrl.validationObject.password.patternGroups.required || 3} }}" translate=l10n.passwordReqs></div> </div> </div> </md-input-container> <nv-custom-date ng-model=oobeAuthNvRegisterCtrl.regModel.birthdate title-string={{oobeAuthNvRegisterCtrl.dateOfBirthTitle}} locale-string={{oobeAuthNvRegisterCtrl.locale}}> </nv-custom-date> <md-checkbox class=checkbox-20 ng-model=oobeAuthNvRegisterCtrl.regModel.subscribe> <div translate=l10n.subscribe></div> </md-checkbox> <md-checkbox class=checkbox-20 name=agreeToTerms ng-model=oobeAuthNvRegisterCtrl.regModel.agree required> <span translate=l10n.agreeToTerms translate-values=\'{agreeToTermsLink: "class=\\"in-app-link\\" ng-click=\\"oobeAuthNvRegisterCtrl.onClickAgreeToTerms($event)\\""}\' translate-compile></span> </md-checkbox> </div> </md-content> <md-content class=content flex layout=column ng-show="oobeAuthNvRegisterCtrl.regView === \'coppa\'"> <p translate=l10n.coppaText></p> </md-content> <div class="md-actions shadow-top" layout=row dir=rtl ng-if="oobeAuthNvRegisterCtrl.regView === \'register\'"> <md-button ng-disabled=!oobeAuthNvRegisterCtrl.onlineState.online type=submit class="md-raised md-accent color-white-important" translate=l10n.register></md-button> <md-button class=margin-right-8 ng-click=oobeAuthNvRegisterCtrl.onClickBack() translate=l10n.back></md-button> <span flex></span> </div> <div class=md-actions layout=row dir=rtl ng-if="oobeAuthNvRegisterCtrl.regView === \'coppa\'"> <md-button ng-click=oobeAuthNvRegisterCtrl.onClickDone() translate=l10n.done></md-button> <md-button class=margin-right-8 ng-click=oobeAuthNvRegisterCtrl.onClickPrivacyPolicy() translate=l10n.privacyPolicy></md-button> <span flex></span> </div> </form> '
 }, function(e, t, n) {
-    e.exports = '<div class=oobe-dialog-right-pane flex layout=column> <div class=oobe-dialog-done-pane-content> <div layout=column flex layout-align="center center"> <img src=' + n(190) + ' /> </div> </div> <span flex></span> <div class=md-actions layout=row dir=rtl> <md-button ng-click=oobeAuthQrCodeCtrl.onContinue() class="md-raised md-accent color-white-important" translate=l10n.continue></md-button> </div> </div> '
+    e.exports = '<div class=oobe-dialog-right-pane flex layout=column> <div class=oobe-dialog-done-pane-content> <div layout=column flex layout-align="center center"> <img src=' + n(189) + ' /> </div> </div> <span flex></span> <div class=md-actions layout=row dir=rtl> <md-button ng-click=oobeAuthQrCodeCtrl.onContinue() class="md-raised md-accent color-white-important" translate=l10n.continue></md-button> </div> </div> '
 }, function(e, t) {
     e.exports = '<md-content class=oobe-dialog-right-pane layout=column layout-align="center center" flex> <img ng-src={{oobeAuthSyncCtrl.avatar.url}} class=md-avatar alt={{oobeAuthSyncCtrl.displayName}} nv-fallback-src={{oobeAuthSyncCtrl.defaultAvatarUrl}} nv-circle=medium /> <p class="font-size-lg color-white-hue-1">{{oobeAuthSyncCtrl.displayName}}</p> <p class=color-light-gray translate=l10n.loginProgress></p> </md-content> '
 }, function(e, t) {
@@ -22141,7 +22402,7 @@ webpackJsonp([4], [function(e, t, n) {
     e.exports = {
         set: Object.setPrototypeOf || ("__proto__" in {} ? function(e, t, r) {
             try {
-                r = n(192)(Function.call, n(193).f(Object.prototype, "__proto__").set, 2), r(e, []), t = !(e instanceof Array)
+                r = n(191)(Function.call, n(192).f(Object.prototype, "__proto__").set, 2), r(e, []), t = !(e instanceof Array)
             } catch (e) {
                 t = !0
             }
@@ -22158,8 +22419,8 @@ webpackJsonp([4], [function(e, t, n) {
     })
 }, , function(e, t, n) {
     var r = n(54),
-        o = n(194);
-    n(195)("getPrototypeOf", function() {
+        o = n(193);
+    n(194)("getPrototypeOf", function() {
         return function(e) {
             return o(r(e))
         }
