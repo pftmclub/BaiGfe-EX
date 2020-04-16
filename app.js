@@ -152,7 +152,7 @@ webpackJsonp([4], [function(e, t, n) {
         a = o(i),
         s = n(1);
     n(17);
-    var l = n(735),
+    var l = n(736),
         c = r(l),
         u = s.ngMainCommonModule.directive("nvImageFallback", ["$log", "$compile", "$window", "$timeout", function(e, t, n, r) {
             return {
@@ -359,7 +359,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvSelectMenu = void 0;
     var o = n(1),
-        i = n(747),
+        i = n(748),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvSelectMenu", ["$mdMenu", function(e) {
             return {
@@ -416,9 +416,9 @@ webpackJsonp([4], [function(e, t, n) {
         u = n(3),
         d = r(u);
     n(51), n(161), n(12), n(26), n(380), n(22), n(16), n(62), n(292), n(120);
-    var f = n(956),
+    var f = n(957),
         m = o(f),
-        p = n(955),
+        p = n(956),
         g = o(p),
         v = c.ngRewardsModule.service("rewardsService", ["$log", "gfwslEndpoints", "$q", "REWARDS_CONSTANTS", "jarvisService", "gfeService", "eventAggregator", "COMMON_EVENTS", "signPayloadService", "hardwareService", "REWARDS_EVENTS", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "NOTIFICATION_EVENTS", "GFECLIENT_CONFIG", "socketService", "REWARDS_SOCKET_EVENTS", "$state", "GPU_HARDWARE_SIGNATURE_DEFAULTS", "localeService", "COMMON_DYNAMIC_REDIRECT", "windowSpawnService", "NOTIFICATION_CATEGORY", "$timeout", "gfeSearchService", "USER_PROFILE_TAB_NAMES", "USER_PROFILE_EVENTS", "gfeTargetService", "ACTIVE_EXPERIMENTS", "$window", "cevoService", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_SCREENS", "TELEMETRY_STATUS", "TELEMETRY_AFFINITY_ELEMENT", "REWARDS_CAMPAIGN_STATUS", "REWARDS_ASSET_DIMENSIONS", "REWARDS_ENTITLEMENT_TYPES", "REWARDS_GFWSL_CAMPAIGNS", "$filter", "TELEMETRY_API_SUB_USECASES", function(e, t, n, r, o, i, s, c, u, f, p, v, h, y, E, b, S, _, w, A, T, C, I, x, D, M, O, R, N, L, k, P, G, F, U, V, z, B, $, W, H) {
             function j(e) {
@@ -1275,7 +1275,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvNoContentFallback = void 0;
     var o = n(1),
-        i = n(742),
+        i = n(743),
         a = r(i),
         s = o.ngMainCommonModule.component("nvNoContentFallback", {
             bindings: {
@@ -3517,7 +3517,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.mediaDialogService = void 0;
     var o = n(1),
-        i = n(737),
+        i = n(738),
         a = r(i);
     n(360), n(17), n(163), n(386);
     var s = o.ngMainCommonModule.service("mediaDialogService", ["$mdDialog", "$rootElement", function(e, t) {
@@ -3627,7 +3627,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvSelectMenuItem = void 0;
     var o = n(1),
-        i = n(746),
+        i = n(747),
         a = r(i);
     n(379);
     var s = o.ngMainCommonModule.directive("nvSelectMenuItem", [function() {
@@ -3666,7 +3666,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOptimizedIcon = void 0;
     var o = n(14),
-        i = n(801),
+        i = n(802),
         a = r(i);
     n(476);
     var s = o.ngGamesModule.directive("nvOptimizedIcon", function() {
@@ -3703,7 +3703,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPlayGame = void 0;
     var o = n(1),
-        i = n(802),
+        i = n(803),
         a = r(i);
     n(477);
     var s = o.ngMainCommonModule.directive("nvPlayGame", [function() {
@@ -3754,7 +3754,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.redeemRewardController = void 0;
     var o = n(52);
     n(119), n(16), n(17);
-    var i = n(713),
+    var i = n(714),
         a = r(i),
         s = o.ngRewardsModule.controller("RedeemRewardController", ["$log", "$mdDialog", "REWARDS_CONSTANTS", "$sce", "$timeout", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "$document", "rewardsService", "$filter", "REWARDS_ASSET_DIMENSIONS", function(e, t, n, r, o, i, s, l, c, u, d) {
             function f(e) {
@@ -3903,7 +3903,7 @@ webpackJsonp([4], [function(e, t, n) {
         a = o(i),
         s = n(1);
     n(356), n(17), n(332);
-    var l = n(722),
+    var l = n(723),
         c = r(l);
     n(329);
     var u = s.ngMainCommonModule.directive("nvCarousel", ["eventAggregator", "GAME_EVENTS", function(e, t) {
@@ -4078,7 +4078,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDialogEditEmail = void 0;
     var o = n(1),
-        i = n(724),
+        i = n(725),
         a = r(i);
     n(336), n(282), n(167);
     var s = o.ngMainCommonModule.directive("nvDialogEditEmail", [function() {
@@ -4106,7 +4106,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDialogEmailVerification = void 0;
     var o = n(1),
-        i = n(725),
+        i = n(726),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvDialogEmailVerification", [function() {
             return {
@@ -4135,7 +4135,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvExtendedPattern = void 0;
     var o = n(1),
-        i = n(961),
+        i = n(962),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvExtendedPattern", [function() {
             return {
@@ -4249,9 +4249,9 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvNewsItem = t.nvNews = void 0;
     var o = n(1),
-        i = n(741),
+        i = n(742),
         a = r(i),
-        s = n(740),
+        s = n(741),
         l = r(s);
     n(365), n(34);
     var c = o.ngMainCommonModule.component("nvNews", {
@@ -4538,7 +4538,7 @@ webpackJsonp([4], [function(e, t, n) {
         s = n(3),
         l = r(s),
         c = n(1),
-        u = n(706),
+        u = n(707),
         d = o(u),
         f = c.ngMainCommonModule.service("weChatService", ["dbService", "DB_NAMES", "$filter", "WECHAT_EVENTS", "eventAggregator", "NOTIFICATION_EVENTS", "WECHAT_CONSTANTS", "NOTIFICATION_CATEGORY", "COMMON_EVENTS", "$q", "$log", "jarvisService", "$state", "windowSpawnService", "dbCacheService", "parllayService", "toastService", "gfeService", "PARLLAY_CONSTANTS", "GFECLIENT_CONFIG", "telemetryService", "TELEMETRY_PARLLAY_JS_SDK_API_NAME", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_WECHAT_SERVICE_API_STATE", "TELEMETRY_SCREENS", "$timeout", "OOBE_STATE", "OOBE_EVENTS", "ACTIVE_EXPERIMENTS", "gfeTargetService", "gfeGeolocationService", function(e, t, n, r, o, i, s, c, u, f, m, p, g, v, h, y, E, b, S, _, w, A, T, C, I, x, D, M, O, R, N) {
             function L() {
@@ -4972,7 +4972,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvMediaPreviewToolbar = void 0;
     var o = n(27),
-        i = n(789),
+        i = n(790),
         a = r(i),
         s = o.ngGalleryModule.directive("nvMediaPreviewToolbar", [function() {
             return {
@@ -4994,7 +4994,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameDetails = void 0;
     var o = n(14);
     n(334), n(220), n(221), n(479), n(475), n(465), n(286), n(362), n(131);
-    var i = n(795),
+    var i = n(796),
         a = r(i);
     n(466);
     var s = o.ngGamesModule.directive("nvGameDetails", function() {
@@ -5434,7 +5434,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameStore = void 0;
     var o = n(28);
     n(487);
-    var i = n(807),
+    var i = n(808),
         a = r(i);
     n(485);
     var s = o.ngGfnModule.directive("nvGameStore", function() {
@@ -5733,7 +5733,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvEditAvatar = void 0;
     var o = n(4),
-        i = n(829),
+        i = n(830),
         a = r(i);
     n(527), n(357);
     var s = o.ngPreferencesModule.directive("nvEditAvatar", [function() {
@@ -5761,7 +5761,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvRewardsCenter = void 0;
     var o = n(52),
-        i = n(867),
+        i = n(868),
         a = r(i);
     n(596), n(41), n(595);
     var s = o.ngRewardsModule.directive("nvRewardsCenter", ["eventAggregator", "REWARDS_EVENTS", "$log", "$timeout", function(e, t, n, r) {
@@ -5806,7 +5806,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdateDownloadProgress = void 0;
     var o = n(10),
-        i = n(875),
+        i = n(876),
         a = r(i),
         s = o.ngUpdatesModule.directive("nvUpdateDownloadProgress", function() {
             return {
@@ -5839,7 +5839,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDriverItem = void 0;
     var o = n(10),
-        i = n(885),
+        i = n(886),
         a = r(i),
         s = o.ngUpdatesModule.directive("nvDriverItem", function() {
             return {
@@ -5976,7 +5976,7 @@ webpackJsonp([4], [function(e, t, n) {
     e.exports = '<md-dialog layout=column class=croppie-dialog ng-class=editProfileCover.dialogClass> <h1 class="title font-style-normal color-white-hue-1" translate={{editProfileCover.title}}></h1> <p translate={{editProfileCover.subTitle}} class="subtitle color-white-hue-4 font-size-xxs"></p> <div class=padding-24> <div ng-show=editProfileCover.showCroppie() class=cover-image-preview> <div layout=row layout-align="center center" class=constants-position-relative> <nv-croppie async-result=editProfileCover.output output-format=editProfileCover.outputFormat update=editProfileCover.onUpdate boundry=editProfileCover.croppieBoundary viewport=editProfileCover.croppieViewport type=square zoom=true src=editProfileCover.sourceImage hit-apply=editProfileCover.hitApply> </nv-croppie> <nv-overlay class=common-overlay layout-fill ng-show=editProfileCover.showProgressIndicator> <span layout-fill layout-align="center center" layout=column> <md-progress-circular id=progressIndicator class=md-accent md-diameter=15 md-mode=indeterminate></md-progress-circular> </span> </nv-overlay> <nv-overlay class=common-overlay layout-fill ng-show=editProfileCover.showSuccess> <span layout-fill layout-align="center center" layout=column> <md-icon md-font-set=material-icons class="margin-zero md-accent md-32">check_circle</md-icon> </span> </nv-overlay> </div> </div> <div ng-show=editProfileCover.showPreview() class=cover-image-preview> <div layout=column layout-align="center center" class=constants-position-relative> <img ng-src={{editProfileCover.image}} nv-fallback-src={{editProfileCover.defaultImage}} /> <nv-overlay class=common-overlay layout-fill ng-show=editProfileCover.showProgressIndicator> <span layout-fill layout-align="center center" layout=column> <md-progress-circular id=progressIndicator class=md-accent md-diameter=15 md-mode=indeterminate></md-progress-circular> </span> </nv-overlay> <nv-overlay class=common-overlay layout-fill ng-show=editProfileCover.showSuccess> <span layout-fill layout-align="center center" layout=column> <md-icon md-font-set=material-icons class="margin-zero md-accent md-32">check_circle</md-icon> </span> </nv-overlay> </div> </div> <div layout=column ng-show=editProfileCover.showError() flex layout-align="center center" class="bg-dark-eh cover-image-preview"> <md-icon md-font-set=material-icons class="margin-zero color-white-hue-4 md-32">error</md-icon> <p class="color-white-hue-4 font-size-sm1">{{editProfileCover.errorMsg}}</p> </div> <div layout=row layout-align="space-between center" class="margin-bottom-8 margin-top-8"> <p class="color-white-hue-4 margin-zero" translate=l10n.chooseFromLatestCaptures></p> <div flex></div> <nv-image-upload on-image-select=editProfileCover.onFileSelect(newImage)> <span class="md-button margin-zero" translate=l10n.uploadFromPC></span> </nv-image-upload> </div> <md-content class=gallery-tile-container> <md-list> <md-list-item class=gallery-tile> <img ng-src={{editProfileCover.defaultCoverImage}} class="clickable-element no-focus-outline" ng-click=editProfileCover.selectDefaultCover() /> <nv-overlay class="common-overlay no-background" nv-position="bottom right"> <span layout-fill layout-align="center center" class=margin-24 layout=column translate=l10n.default></span> </nv-overlay> </md-list-item> <md-list-item ng-if=editProfileCover.recentlyCapturedVisible() class=gallery-tile ng-repeat="recentFile in editProfileCover.recentImages track by $index"> <img ng-src={{recentFile.data}} class="clickable-element no-focus-outline" ng-click=editProfileCover.selectScreenshot(recentFile) /> </md-list-item> </md-list> </md-content> </div> <div layout=row layout-align="end center"> <md-button ng-click=editProfileCover.cancelUpdate() translate=l10n.cancel></md-button> <md-button type=submit ng-click=editProfileCover.commitUpdate() ng-disabled=editProfileCover.submitDisabled() translate=l10n.apply></md-button> </div> </md-dialog> '
 }, , , function(e, t, n) {
     e.exports = {
-        default: n(915),
+        default: n(916),
         __esModule: !0
     }
 }, , , , function(e, t, n) {
@@ -6011,10 +6011,10 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(183);
     n(19), n(141), n(50), n(16), n(606), n(12), n(26), n(119), n(36), n(211), n(353), n(184), n(291), n(288), n(120), n(550);
-    var s = n(813),
+    var s = n(814),
         l = r(s);
     n(373), n(480);
-    var c = n(907),
+    var c = n(908),
         u = r(c);
     n(132);
     var d = a.ngMainModule.service("appService", ["$log", "$window", "$translate", "$translatePartialLoader", "$state", "$rootScope", "$interpolate", "eventAggregator", "gfeService", "cefService", "gfwslEndpoints", "gfservicesEndpoints", "oobeDialogService", "nodeService", "gfeUpdatesService", "updatesService", "socketService", "annotoriousService", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "jarvisService", "dbService", "dbCacheService", "DB_NAMES", "GFECLIENT_CONFIG", "GFECLIENT_BUILD_INFO", "COMMON_EVENTS", "COMMON_EVENTS_VALUE", "COMMON_DEFAULT_STATES", "ANNOTATION_PROPERTIES", "GAME_EVENTS", "rewardsService", "hardwareService", "COMMON_ERRORS", "preferencesService", "gfeTargetService", "notificationsService", "weChatService", "gfeSearchService", "cevoToggleService", "gfeGeolocationService", "quietModeService", "BACKEND_STATE_SOCKET_EVENTS", "BACKEND_STATE_EVENTS", "preferencesFeatureService", "productTourService", "TELEMETRY_STATUS", "piiSanityService", "gfnCloudGamesService", "performanceModeService", function(e, t, n, r, o, a, s, c, d, f, m, p, g, v, h, y, E, b, S, w, A, T, C, I, x, D, M, O, R, N, L, k, P, G, F, U, V, z, B, $, W, H, j, Y, q, K, Q, Z, X, J) {
@@ -6129,7 +6129,7 @@ webpackJsonp([4], [function(e, t, n) {
     n(321), n(19), n(11), n(12), n(355), n(299), n(607), n(64), n(50), n(46), n(16), n(133), n(36), n(22), n(166), n(340), n(215), n(524), n(205), n(162), n(384), n(372);
     var o = n(183);
     n(401), n(395), n(435), n(296), n(482), n(489), n(447), n(613), n(547), n(570), n(545), n(556), n(584), n(580), n(338), n(303), n(339), n(659);
-    var i = n(957),
+    var i = n(958),
         a = r(i);
     o.ngMainModule.config(["$stateProvider", "$urlRouterProvider", "TELEMETRY_CRIMSON_EVENT_NAMES", "$httpProvider", "$provide", function(e, t, n, r, o) {
         o.decorator("$state", ["$delegate", "$rootScope", function(e, t) {
@@ -6524,7 +6524,7 @@ webpackJsonp([4], [function(e, t, n) {
     }])
 }, function(e, t, n) {
     "use strict";
-    n(60), n(71), n(72), n(75), n(73), n(74), n(130), n(61), n(202), n(201), n(128), n(951), n(948), n(69), n(317), n(129), n(950), n(947), n(953), n(949), n(952), n(958), n(67), n(66), n(928), n(931), n(930), n(124), n(933), n(934), n(929), n(932), n(935), n(68), n(156), n(315), n(939), n(940), n(110), n(941), n(942), n(943), n(271), n(944), n(945)
+    n(60), n(71), n(72), n(75), n(73), n(74), n(130), n(61), n(202), n(201), n(128), n(952), n(949), n(69), n(317), n(129), n(951), n(948), n(954), n(950), n(953), n(959), n(67), n(66), n(929), n(932), n(931), n(124), n(934), n(935), n(930), n(933), n(936), n(68), n(156), n(315), n(940), n(941), n(110), n(942), n(943), n(944), n(271), n(945), n(946)
 }, function(e, t, n) {
     "use strict";
     Object.defineProperty(t, "__esModule", {
@@ -6682,7 +6682,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvCallToAction = void 0;
     var o = n(1);
     n(326);
-    var i = n(719),
+    var i = n(720),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvCallToAction", [function() {
             return {
@@ -6731,7 +6731,7 @@ webpackJsonp([4], [function(e, t, n) {
     var i = n(3),
         a = o(i),
         s = n(1),
-        l = n(946),
+        l = n(947),
         c = r(l);
     n(213), n(62);
     var u = s.ngMainCommonModule.controller("CarouselController", ["$scope", "mediaDialogService", "MEDIA_FILE_TYPE", "VIDEO_TYPE", "$log", "gfeService", "toastService", "$filter", "CAROUSEL_INDICATOR_ART", "updatesService", "telemetryService", "TELEMETRY_GRD_CONTENT_TYPE", function(e, t, n, r, o, i, s, l, u, d, f, m) {
@@ -6846,7 +6846,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvCarouselIndicator = void 0;
     var o = n(1),
-        i = n(720),
+        i = n(721),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvCarouselIndicator", function() {
             return {
@@ -6918,7 +6918,7 @@ webpackJsonp([4], [function(e, t, n) {
     var i = n(3),
         a = (o(i), n(1));
     n(330);
-    var s = n(721),
+    var s = n(722),
         l = r(s);
     n(331);
     var c = a.ngMainCommonModule.directive("nvCarouselIndicators", [function() {
@@ -6957,7 +6957,7 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(1);
     n(366);
-    var s = n(723),
+    var s = n(724),
         l = r(s),
         c = a.ngMainCommonModule.directive("nvCustomDate", function() {
             return {
@@ -7482,7 +7482,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDialogHtml = void 0;
     var o = n(1),
-        i = n(726),
+        i = n(727),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvDialogHtml", [function() {
             return {
@@ -7509,7 +7509,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDialogMessage = void 0;
     var o = n(1),
-        i = n(727),
+        i = n(728),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvDialogMessage", [function() {
             return {
@@ -7536,7 +7536,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDialogText = void 0;
     var o = n(1),
-        i = n(728),
+        i = n(729),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvDialogText", [function() {
             return {
@@ -7566,7 +7566,7 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(1);
     n(341), n(29);
-    var s = n(954),
+    var s = n(955),
         l = r(s),
         c = a.ngMainCommonModule.provider("exceptionService", function() {
             var e = !0;
@@ -7682,7 +7682,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFeedbackFloat = void 0;
     var o = n(1),
-        i = n(729),
+        i = n(730),
         a = r(i);
     n(344);
     var s = o.ngMainCommonModule.component("nvFeedbackFloat", {
@@ -7770,9 +7770,9 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(242),
         s = r(a),
-        l = n(911),
+        l = n(912),
         c = r(l),
-        u = n(910),
+        u = n(911),
         d = r(u),
         f = n(241),
         m = r(f),
@@ -7854,7 +7854,7 @@ webpackJsonp([4], [function(e, t, n) {
         a = o(i),
         s = n(1);
     n(41);
-    var l = n(734),
+    var l = n(735),
         c = r(l),
         u = s.ngMainCommonModule.directive("nvImageAnnotation", ["annotoriousService", "eventAggregator", "GAME_EVENTS", "$timeout", "$interval", "SCROLL_STEPS", "COMMON_EVENTS", "$document", function(e, t, n, r, o, i, s, l) {
             function u(e, t, n, r) {
@@ -7967,7 +7967,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvImageUpload = void 0;
     var o = n(1),
-        i = n(736),
+        i = n(737),
         a = r(i),
         s = o.ngMainCommonModule.directive("nvImageUpload", [function() {
             return {
@@ -8253,7 +8253,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvMediaTile = void 0;
     var o = n(1),
-        i = n(738),
+        i = n(739),
         a = r(i);
     n(361), n(17), n(41);
     var s = o.ngMainCommonModule.component("nvMediaTile", {
@@ -8305,7 +8305,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.navigationalDialogService = void 0;
     var o = n(1);
     n(363), n(163);
-    var i = n(739),
+    var i = n(740),
         a = r(i),
         s = o.ngMainCommonModule.service("navigationalDialogService", ["$mdDialog", function(e) {
             function t(t, n) {
@@ -8465,7 +8465,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvSlider = void 0;
     var o = n(1),
-        i = n(743),
+        i = n(744),
         a = r(i);
     n(368);
     var s = o.ngMainCommonModule.directive("nvSlider", [function() {
@@ -8582,7 +8582,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvTileCarousel = void 0;
     var o = n(1),
-        i = n(744),
+        i = n(745),
         a = r(i);
     n(370);
     var s = o.ngMainCommonModule.directive("nvTileCarousel", ["$timeout", function(e) {
@@ -8810,7 +8810,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvRangeSlider = void 0;
     var o = n(1),
-        i = n(745),
+        i = n(746),
         a = r(i);
     n(375);
     var s = o.ngMainCommonModule.directive("nvRangeSlider", [function() {
@@ -9132,7 +9132,7 @@ webpackJsonp([4], [function(e, t, n) {
         l = n(312),
         c = r(l),
         u = n(1),
-        d = n(960),
+        d = n(961),
         f = r(d),
         m = u.ngMainCommonModule.provider("tracingService", function() {
             return {
@@ -9548,7 +9548,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvVideo = void 0;
     var o = n(1),
-        i = n(749),
+        i = n(750),
         a = r(i);
     n(385), n(17);
     var s = o.ngMainCommonModule.directive("nvVideo", function() {
@@ -9808,7 +9808,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvHome = void 0, n(467), n(460);
-    var o = n(753),
+    var o = n(754),
         i = r(o);
     n(394);
     var a = angular.module("main").directive("nvHome", function() {
@@ -9844,7 +9844,7 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(309),
         s = r(a),
-        l = n(959),
+        l = n(960),
         c = r(l),
         u = angular.module("main").controller("MainController", ["$log", "$templateCache", "cefService", "gfeUpdatesEndpoints", "eventAggregator", "GFE_SOCK_MESSAGE", "WINDOW_STYLES", "preferencesFeatureService", "FEATURE_CRITERIA", "stateService", "COMMON_EVENTS", "jarvisService", "updatesService", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_UI_PROGRESS_NAMES", "TELEMETRY_SCREENS", "TELEMETRY_ACTIONS", "$filter", function(e, t, n, r, o, a, l, u, d, f, m, p, g, v, h, y, E, b, S) {
             function _() {
@@ -9923,7 +9923,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvMainTabButton = void 0;
-    var o = n(754),
+    var o = n(755),
         i = r(o),
         a = angular.module("main").directive("nvMainTabButton", ["$state", function(e) {
             return {
@@ -9963,7 +9963,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvMainTabIcon = void 0;
-    var o = n(755),
+    var o = n(756),
         i = r(o);
     n(29);
     var a = angular.module("main").directive("nvMainTabIcon", ["$state", "$log", function(e, t) {
@@ -10210,7 +10210,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvMainToolbar = void 0, n(398), n(397), n(598), n(499), n(632), n(358);
-    var o = n(756),
+    var o = n(757),
         i = r(o);
     n(399);
     var a = angular.module("main").component("nvMainToolbar", {
@@ -10232,7 +10232,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvMain = t.ngMainModule = void 0;
     var o = n(183);
     n(217), n(400), n(345);
-    var i = n(757),
+    var i = n(758),
         a = r(i);
     n(396);
     var s = o.ngMainModule.component("nvMain", {
@@ -10286,7 +10286,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFriendAbout = void 0;
     var o = n(15),
-        i = n(767),
+        i = n(768),
         a = r(i);
     n(424);
     var s = o.ngFriendsModule.directive("nvFriendAbout", function() {
@@ -10333,7 +10333,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFriendAchievements = void 0;
     var o = n(15),
-        i = n(768),
+        i = n(769),
         a = r(i);
     n(426);
     var s = o.ngFriendsModule.directive("nvFriendAchievements", function() {
@@ -10365,7 +10365,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFriendActivityFeed = void 0;
     var o = n(15),
-        i = n(769),
+        i = n(770),
         a = r(i);
     n(428);
     var s = o.ngFriendsModule.directive("nvFriendActivityFeed", function() {
@@ -10427,7 +10427,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFriendBroadcast = void 0;
     var o = n(15);
     n(17);
-    var i = n(770),
+    var i = n(771),
         a = r(i);
     n(430);
     var s = o.ngFriendsModule.directive("nvFriendBroadcast", function() {
@@ -10459,7 +10459,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvFriendCompareGames = void 0;
     var o = n(15),
-        i = n(771),
+        i = n(772),
         a = r(i);
     n(432);
     var s = o.ngFriendsModule.directive("nvFriendCompareGames", function() {
@@ -10502,7 +10502,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFriendDetails = void 0;
     var o = n(15);
     n(431), n(437), n(433), n(427), n(429), n(425), n(441), n(439);
-    var i = n(772),
+    var i = n(773),
         a = r(i);
     n(434);
     var s = o.ngFriendsModule.directive("nvFriendDetails", function() {
@@ -10528,9 +10528,9 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.friendGameSummaryController = void 0;
-    var o = n(925),
+    var o = n(926),
         i = r(o),
-        a = n(926),
+        a = n(927),
         s = r(a),
         l = n(3),
         c = r(l),
@@ -10595,7 +10595,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFriendGameSummary = void 0;
     var o = n(15);
     n(203);
-    var i = n(773),
+    var i = n(774),
         a = r(i);
     n(436);
     var s = o.ngFriendsModule.directive("nvFriendGameSummary", function() {
@@ -10634,9 +10634,9 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFriendGroupList = void 0;
     var o = n(15);
     n(34);
-    var i = n(775),
+    var i = n(776),
         a = r(i),
-        s = n(774),
+        s = n(775),
         l = r(s);
     n(438);
     var c = o.ngFriendsModule.directive("nvFriendGroupList", [function() {
@@ -10747,9 +10747,9 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFriendList = void 0;
     var o = n(15);
     n(112), n(216), n(388), n(34);
-    var i = n(777),
+    var i = n(778),
         a = r(i),
-        s = n(776),
+        s = n(777),
         l = r(s);
     n(440);
     var c = o.ngFriendsModule.directive("nvFriendList", [function() {
@@ -10779,7 +10779,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryLibrary = void 0;
     var o = n(27);
     n(451);
-    var i = n(780),
+    var i = n(781),
         a = r(i),
         s = o.ngGalleryModule.directive("nvGalleryLibrary", function() {
             return {
@@ -10801,7 +10801,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryMain = void 0;
     var o = n(27);
     n(449), n(454);
-    var i = n(781),
+    var i = n(782),
         a = r(i),
         s = o.ngGalleryModule.directive("nvGalleryMain", function() {
             return {
@@ -10856,7 +10856,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryMoments = void 0;
     var o = n(27);
     n(112), n(446), n(452), n(459);
-    var i = n(782),
+    var i = n(783),
         a = r(i);
     n(448);
     var s = o.ngGalleryModule.directive("nvGalleryMoments", function() {
@@ -10923,7 +10923,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryPanel = void 0;
     var o = n(27);
     n(458);
-    var i = n(783),
+    var i = n(784),
         a = r(i);
     n(450);
     var s = o.ngGalleryModule.directive("nvGalleryPanel", ["$timeout", "eventAggregator", "COMMON_EVENTS", function(e, t, n) {
@@ -10979,7 +10979,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvGalleryPreview = void 0;
     var o = n(27),
-        i = n(784),
+        i = n(785),
         a = r(i),
         s = o.ngGalleryModule.directive("nvGalleryPreview", function() {
             return {
@@ -11043,7 +11043,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryShowcase = void 0;
     var o = n(27);
     n(112), n(456);
-    var i = n(785),
+    var i = n(786),
         a = r(i);
     n(453);
     var s = o.ngGalleryModule.directive("nvGalleryShowcase", function() {
@@ -11085,7 +11085,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryShowcaseTile = void 0;
     var o = n(27);
     n(17), n(34);
-    var i = n(786),
+    var i = n(787),
         a = r(i);
     n(455);
     var s = o.ngGalleryModule.directive("nvGalleryShowcaseTile", function() {
@@ -11150,7 +11150,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGalleryTile = void 0;
     var o = n(27);
     n(17), n(34);
-    var i = n(787),
+    var i = n(788),
         a = r(i);
     n(457);
     var s = o.ngGalleryModule.directive("nvGalleryTile", function() {
@@ -11177,7 +11177,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvGalleryTimeline = void 0;
     var o = n(27),
-        i = n(788),
+        i = n(789),
         a = r(i),
         s = o.ngGalleryModule.directive("nvGalleryTimeline", function() {
             return {
@@ -11199,7 +11199,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvClassicGameList = void 0;
     var o = n(14);
     n(11), n(12), n(112), n(216), n(17), n(131), n(219), n(34), n(41), n(296);
-    var i = n(790),
+    var i = n(791),
         a = r(i);
     n(297);
     var s = o.ngGamesModule.directive("nvClassicGameList", ["eventAggregator", "COMMON_GAME_EVENTS", "$log", "$document", function(e, t, n, r) {
@@ -11618,7 +11618,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvDsrInfo = void 0;
     var o = n(14),
-        i = n(793),
+        i = n(794),
         a = r(i),
         s = o.ngGamesModule.directive("nvDsrInfo", function() {
             return {
@@ -11650,7 +11650,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.gameDetailPreviewController = void 0;
     var o = n(14);
     n(36);
-    var i = n(798),
+    var i = n(799),
         a = r(i);
     n(471);
     var s = o.ngGamesModule.controller("GameDetailPreviewController", ["$scope", "$log", "$mdDialog", "dbCacheService", "DB_NAMES", function(e, t, n, r, o) {
@@ -11696,7 +11696,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameDetailPreview = void 0;
     var o = n(14);
     n(219), n(220), n(221), n(41);
-    var i = n(794),
+    var i = n(795),
         a = r(i);
     n(464);
     var s = o.ngGamesModule.component("nvGameDetailPreview", {
@@ -11763,7 +11763,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameList = void 0;
     var o = n(14);
     n(112), n(17), n(473), n(131);
-    var i = n(796),
+    var i = n(797),
         a = r(i);
     n(297), n(11), n(12);
     var s = o.ngGamesModule.directive("nvGameList", ["eventAggregator", "COMMON_GAME_EVENTS", "dbCacheService", "DB_NAMES", "$log", "COMMON_EVENTS", "jarvisService", function(e, t, n, r, o, i, s) {
@@ -11836,10 +11836,10 @@ webpackJsonp([4], [function(e, t, n) {
         a = o(i),
         s = n(14);
     n(16), n(20);
-    var l = n(792),
+    var l = n(793),
         c = r(l);
     n(462);
-    var u = n(791),
+    var u = n(792),
         d = r(u);
     n(461), n(132);
     var f = s.ngGamesModule.controller("GameSettingsController", ["$scope", "$log", "$filter", "SETTING_TYPE", "$mdDialog", "CUSTOM_OPS_CALLBACK_ACTION", "eventAggregator", "GAME_EVENTS", "$timeout", "OPS_TAB_STATE", "$document", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "toastService", "quietModeService", "framerateLimiterService", "performanceModeService", "PERFORMANCE_MODES", function(e, t, n, r, o, i, s, l, u, f, m, p, g, v, h, y, E, b) {
@@ -12265,7 +12265,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameSettings = void 0;
     var o = n(14);
     n(469), n(463), n(17);
-    var i = n(797),
+    var i = n(798),
         a = r(i);
     n(468);
     var s = o.ngGamesModule.directive("nvGameSettings", ["$document", "eventAggregator", "COMMON_EVENTS", function(e, t, n) {
@@ -12370,7 +12370,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGameTile = void 0;
     var o = n(14);
     n(17), n(220), n(219), n(34), n(165);
-    var i = n(799),
+    var i = n(800),
         a = r(i);
     n(472);
     var s = o.ngGamesModule.directive("nvGameTile", ["$timeout", function(e) {
@@ -12475,7 +12475,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvOptimization = void 0;
     var o = n(14);
     n(470);
-    var i = n(800),
+    var i = n(801),
         a = r(i);
     n(474);
     var s = o.ngGamesModule.directive("nvOptimization", function() {
@@ -12670,7 +12670,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvVops = void 0;
     var o = n(14);
     n(131), n(276);
-    var i = n(803),
+    var i = n(804),
         a = r(i);
     n(478);
     var s = o.ngGamesModule.directive("nvVops", function() {
@@ -12814,7 +12814,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGfn = void 0;
     var o = n(28);
     n(484), n(298), n(493);
-    var i = n(804),
+    var i = n(805),
         a = r(i);
     n(481);
     var s = o.ngGfnModule.directive("nvGfn", function() {
@@ -12854,7 +12854,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGfnFeature = void 0;
     var o = n(28);
     n(286), n(495);
-    var i = n(805),
+    var i = n(806),
         a = r(i);
     n(483);
     var s = o.ngGfnModule.directive("nvGfnFeature", function() {
@@ -12916,7 +12916,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvGameStoreItem = void 0;
     var o = n(28),
-        i = n(806),
+        i = n(807),
         a = r(i);
     n(486);
     var s = o.ngGfnModule.directive("nvGameStoreItem", function() {
@@ -12980,7 +12980,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGenreGames = void 0;
     var o = n(28);
     n(298);
-    var i = n(808),
+    var i = n(809),
         a = r(i);
     n(488);
     var s = o.ngGfnModule.directive("nvGenreGames", function() {
@@ -13016,7 +13016,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvGenreItem = void 0;
     var o = n(28),
-        i = n(809),
+        i = n(810),
         a = r(i);
     n(490);
     var s = o.ngGfnModule.directive("nvGenreItem", function() {
@@ -13087,7 +13087,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvGfnGenres = void 0;
     var o = n(28);
     n(491);
-    var i = n(810),
+    var i = n(811),
         a = r(i);
     n(492);
     var s = o.ngGfnModule.directive("nvGfnGenres", function() {
@@ -13129,9 +13129,9 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvLatestGameItem = t.nvLatestGames = void 0;
     var o = n(28),
-        i = n(812),
+        i = n(813),
         a = r(i),
-        s = n(811),
+        s = n(812),
         l = r(s);
     n(494);
     var c = o.ngGfnModule.directive("nvLatestGames", function() {
@@ -13335,7 +13335,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvNotifications = void 0;
     var o = n(226);
     n(275), n(41);
-    var i = n(814),
+    var i = n(815),
         a = r(i);
     n(498), n(367);
     var s = o.ngNotificationsModule.component("nvNotifications", {
@@ -13477,7 +13477,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthChoose = void 0;
     var o = n(9),
-        i = n(815),
+        i = n(816),
         a = r(i);
     n(500);
     var s = o.ngOobeModule.component("nvOobeAuthChoose", {
@@ -13645,7 +13645,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthEditEmail = void 0;
     var o = n(9),
-        i = n(816),
+        i = n(817),
         a = r(i);
     n(503);
     var s = o.ngOobeModule.directive("nvOobeAuthEditEmail", [function() {
@@ -13707,7 +13707,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthForgotPassword = void 0;
     var o = n(9),
-        i = n(817),
+        i = n(818),
         a = r(i);
     n(505);
     var s = o.ngOobeModule.directive("nvOobeAuthForgotPassword", [function() {
@@ -13793,7 +13793,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthNvLogin = void 0;
     var o = n(9),
-        i = n(818),
+        i = n(819),
         a = r(i);
     n(283), n(284), n(507);
     var s = o.ngOobeModule.directive("nvOobeAuthNvLogin", [function() {
@@ -13990,7 +13990,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthNvRegister = void 0;
     var o = n(9),
-        i = n(819),
+        i = n(820),
         a = r(i);
     n(509), n(281), n(283), n(290), n(333), n(167), n(337), n(284);
     var s = o.ngOobeModule.directive("nvOobeAuthNvRegister", [function() {
@@ -14037,7 +14037,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthQrCode = void 0;
     var o = n(9),
-        i = n(820),
+        i = n(821),
         a = r(i);
     n(511);
     var s = o.ngOobeModule.directive("nvOobeAuthQrCode", [function() {
@@ -14088,7 +14088,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthSync = void 0;
     var o = n(9),
-        i = n(821),
+        i = n(822),
         a = r(i);
     n(513);
     var s = o.ngOobeModule.component("nvOobeAuthSync", {
@@ -14148,7 +14148,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuthVerification = void 0;
     var o = n(9),
-        i = n(822),
+        i = n(823),
         a = r(i);
     n(515);
     var s = o.ngOobeModule.component("nvOobeAuthVerification", {
@@ -14176,7 +14176,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeAuth = void 0;
     var o = n(9),
-        i = n(823),
+        i = n(824),
         a = r(i);
     n(502), n(501), n(508), n(510), n(514), n(506), n(516), n(504), n(512);
     var s = o.ngOobeModule.component("nvOobeAuth", {
@@ -14204,7 +14204,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeBlocked = void 0;
     var o = n(9),
-        i = n(824),
+        i = n(825),
         a = r(i),
         s = o.ngOobeModule.component("nvOobeBlocked", {
             template: a.default,
@@ -14230,7 +14230,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeDialogLeftSide = void 0;
     var o = n(9),
-        i = n(825),
+        i = n(826),
         a = r(i),
         s = o.ngOobeModule.component("nvOobeDialogLeftSide", {
             template: a.default
@@ -14279,7 +14279,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobe = void 0;
     var o = n(9),
-        i = n(826),
+        i = n(827),
         a = r(i);
     n(520), n(526), n(517), n(523);
     var s = o.ngOobeModule.component("nvOobe", {
@@ -14320,7 +14320,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeNoDriver = void 0;
     var o = n(9),
-        i = n(827),
+        i = n(828),
         a = r(i);
     n(522);
     var s = o.ngOobeModule.component("nvOobeNoDriver", {
@@ -14407,7 +14407,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvOobeUlWelcome = void 0;
     var o = n(9),
-        i = n(828),
+        i = n(829),
         a = r(i);
     n(525), n(519);
     var s = o.ngOobeModule.component("nvOobeUlWelcome", {
@@ -14507,7 +14507,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvEditEmailResultDialog = void 0;
     var o = n(9),
-        i = n(830),
+        i = n(831),
         a = r(i),
         s = o.ngOobeModule.directive("nvEditEmailResultDialog", [function() {
             return {
@@ -14661,7 +14661,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvEditPassword = void 0;
     var o = n(4);
     n(281), n(282), n(167);
-    var i = n(831),
+    var i = n(832),
         a = r(i);
     n(530);
     var s = o.ngPreferencesModule.directive("nvEditPassword", [function() {
@@ -14773,7 +14773,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFeatureDescription = void 0;
     var o = n(4);
     n(34);
-    var i = n(832),
+    var i = n(833),
         a = r(i);
     n(532);
     var s = o.ngPreferencesModule.component("nvFeatureDescription", {
@@ -14834,7 +14834,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFeatureHeader = void 0;
     var o = n(4);
     n(34), n(17);
-    var i = n(833),
+    var i = n(834),
         a = r(i);
     n(534);
     var s = o.ngPreferencesModule.component("nvFeatureHeader", {
@@ -14884,7 +14884,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvLicenseAgreement = void 0;
     var o = n(4),
-        i = n(834),
+        i = n(835),
         a = r(i);
     n(536);
     var s = o.ngPreferencesModule.directive("nvLicenseAgreement", [function() {
@@ -14912,7 +14912,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsAvatar = void 0;
     var o = n(4),
-        i = n(835),
+        i = n(836),
         a = r(i);
     n(140);
     var s = o.ngPreferencesModule.directive("nvPreferencesAccountsAvatar", function() {
@@ -15008,7 +15008,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsDevices = void 0;
     var o = n(4),
-        i = n(836),
+        i = n(837),
         a = r(i),
         s = o.ngPreferencesModule.directive("nvPreferencesAccountsDevices", function() {
             return {
@@ -15033,7 +15033,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsLinked = void 0;
     var o = n(4),
-        i = n(837),
+        i = n(838),
         a = r(i),
         s = o.ngPreferencesModule.directive("nvPreferencesAccountsLinked", function() {
             return {
@@ -15058,7 +15058,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsNewsletter = void 0;
     var o = n(4),
-        i = n(838),
+        i = n(839),
         a = r(i),
         s = o.ngPreferencesModule.directive("nvPreferencesAccountsNewsletter", function() {
             return {
@@ -15083,7 +15083,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsPersonalInfo = void 0;
     var o = n(4),
-        i = n(839),
+        i = n(840),
         a = r(i),
         s = o.ngPreferencesModule.directive("nvPreferencesAccountsPersonalInfo", function() {
             return {
@@ -15108,7 +15108,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesAccountsSecurity = void 0;
     var o = n(4),
-        i = n(840),
+        i = n(841),
         a = r(i),
         s = o.ngPreferencesModule.directive("nvPreferencesAccountsSecurity", function() {
             return {
@@ -15134,7 +15134,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesAccounts = void 0;
     var o = n(4);
     n(290);
-    var i = n(841),
+    var i = n(842),
         a = r(i);
     n(539), n(538), n(543), n(544), n(541), n(540), n(542);
     var s = o.ngPreferencesModule.component("nvPreferencesAccounts", {
@@ -15229,7 +15229,7 @@ webpackJsonp([4], [function(e, t, n) {
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.nvPreferences = void 0;
-    var o = (n(4), n(842)),
+    var o = (n(4), n(843)),
         i = r(o);
     n(546);
     var a = angular.module("main.preferences").component("nvPreferences", {
@@ -15312,7 +15312,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesFeatureReadiness = void 0;
     var o = n(4);
     n(203), n(535), n(533);
-    var i = n(843),
+    var i = n(844),
         a = r(i);
     n(548);
     var s = o.ngPreferencesModule.component("nvPreferencesFeatureReadiness", {
@@ -15542,7 +15542,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesGamesBatteryBoost = void 0;
     var o = n(4);
     n(17);
-    var i = n(845),
+    var i = n(846),
         a = r(i);
     n(553);
     var s = o.ngPreferencesModule.component("nvPreferencesGamesBatteryBoost", {
@@ -15604,7 +15604,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesGames = void 0;
     var o = n(4);
     n(567), n(559), n(561), n(554), n(565), n(563);
-    var i = n(846),
+    var i = n(847),
         a = r(i);
     n(555);
     var s = o.ngPreferencesModule.component("nvPreferencesGames", {
@@ -15716,7 +15716,7 @@ webpackJsonp([4], [function(e, t, n) {
     var i = n(3),
         a = o(i),
         s = n(4),
-        l = n(847),
+        l = n(848),
         c = r(l),
         u = s.ngPreferencesModule.directive("nvPreferencesGamesLocationItem", ["$log", "$timeout", function(e, t) {
             return {
@@ -15756,7 +15756,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGamesLocation = void 0;
     var o = n(4),
-        i = n(848),
+        i = n(849),
         a = r(i);
     n(557), n(558);
     var s = o.ngPreferencesModule.component("nvPreferenceGamesLocation", {
@@ -15800,7 +15800,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGamesOps = void 0;
     var o = n(4),
-        i = n(849),
+        i = n(850),
         a = r(i);
     n(560);
     var s = o.ngPreferencesModule.component("nvPreferenceGamesOps", {
@@ -15909,7 +15909,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesGamesPerfMode = void 0;
     var o = n(4);
     n(17);
-    var i = n(850),
+    var i = n(851),
         a = r(i);
     n(562);
     var s = o.ngPreferencesModule.component("nvPreferencesGamesPerfMode", {
@@ -16016,7 +16016,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesGamesQuietMode = void 0;
     var o = n(4);
     n(17);
-    var i = n(851),
+    var i = n(852),
         a = r(i);
     n(564);
     var s = o.ngPreferencesModule.component("nvPreferencesGamesQuietMode", {
@@ -16133,7 +16133,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGamesScan = void 0;
     var o = n(4),
-        i = n(852),
+        i = n(853),
         a = r(i);
     n(566);
     var s = o.ngPreferencesModule.component("nvPreferenceGamesScan", {
@@ -16334,7 +16334,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferenceGeneralAbout = void 0;
     var o = n(4);
     n(34);
-    var i = n(853),
+    var i = n(854),
         a = r(i);
     n(568);
     var s = o.ngPreferencesModule.component("nvPreferenceGeneralAbout", {
@@ -16356,7 +16356,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesGeneral = void 0;
     var o = n(4);
     n(569), n(574), n(578), n(576), n(572), n(591), n(549);
-    var i = n(854),
+    var i = n(855),
         a = r(i),
         s = o.ngPreferencesModule.component("nvPreferencesGeneral", {
             template: a.default
@@ -16411,7 +16411,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGeneralDownloads = void 0;
     var o = n(4),
-        i = n(855),
+        i = n(856),
         a = r(i);
     n(571);
     var s = o.ngPreferencesModule.component("nvPreferenceGeneralDownloads", {
@@ -16462,7 +16462,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGeneralLanguage = void 0;
     var o = n(4),
-        i = n(856),
+        i = n(857),
         a = r(i);
     n(573);
     var s = o.ngPreferencesModule.component("nvPreferenceGeneralLanguage", {
@@ -16551,7 +16551,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferenceGeneralNotifications = void 0;
     var o = n(4),
-        i = n(857),
+        i = n(858),
         a = r(i);
     n(575);
     var s = o.ngPreferencesModule.component("nvPreferenceGeneralNotifications", {
@@ -16692,7 +16692,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferenceGeneralShare = void 0;
     var o = n(4);
     n(17);
-    var i = n(858),
+    var i = n(859),
         a = r(i);
     n(577);
     var s = o.ngPreferencesModule.component("nvPreferenceGeneralShare", {
@@ -16713,7 +16713,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.preferencesLedController = void 0;
     var o = n(4),
-        i = n(705),
+        i = n(706),
         a = r(i);
     n(376);
     var s = o.ngPreferencesModule.controller("PreferencesLedController", ["$log", "preferencesService", "cefService", "LED_EFFECT", "ANIMATION", "DEVICE_TYPE", "VARIATION", "$filter", "LED_SELECTION", "ZONE_LOCATION", "LED_DEFAULTS", "$document", "$timeout", function(e, t, n, r, o, i, s, l, c, u, d, f, m) {
@@ -17055,7 +17055,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesLed = void 0;
     var o = n(4),
-        i = n(859),
+        i = n(860),
         a = r(i);
     n(579);
     var s = o.ngPreferencesModule.directive("nvPreferencesLed", [function() {
@@ -17102,7 +17102,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesShieldDevices = void 0;
     var o = n(4),
-        i = n(860),
+        i = n(861),
         a = r(i);
     n(581);
     var s = o.ngPreferencesModule.component("nvPreferencesShieldDevices", {
@@ -17145,7 +17145,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesShield = void 0;
     var o = n(4);
     n(587), n(582);
-    var i = n(861),
+    var i = n(862),
         a = r(i);
     n(583);
     var s = o.ngPreferencesModule.component("nvPreferencesShield", {
@@ -17226,7 +17226,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.preferencesShieldGamestreamController = void 0;
     var o = n(4);
     n(29), n(167), n(34), n(17);
-    var i = n(862),
+    var i = n(863),
         a = r(i);
     n(585), n(19), n(20);
     var s = o.ngPreferencesModule.controller("PreferencesShieldGamestreamController", ["preferencesService", "$log", "$window", "cefService", "toastService", "$filter", "$mdDialog", "$document", "$timeout", "localeService", "telemetryService", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_SCREENS", "COMMON_DYNAMIC_REDIRECT", "dialogService", "COMMON_HTTP_ERROR_CODES", "$scope", function(e, t, n, r, o, i, s, l, c, u, d, f, m, p, g, v, h) {
@@ -17392,7 +17392,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesShieldGamestream = void 0;
     var o = n(4);
     n(589);
-    var i = n(863),
+    var i = n(864),
         a = r(i);
     n(586);
     var s = o.ngPreferencesModule.component("nvPreferencesShieldGamestream", {
@@ -17430,7 +17430,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvPreferencesShieldTile = void 0;
     var o = n(4);
     n(17), n(34);
-    var i = n(864),
+    var i = n(865),
         a = r(i);
     n(588);
     var s = o.ngPreferencesModule.component("nvPreferencesShieldTile", {
@@ -17573,7 +17573,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvPreferencesSystemInfo = void 0;
     var o = n(4),
-        i = n(865),
+        i = n(866),
         a = r(i);
     n(590);
     var s = o.ngPreferencesModule.component("nvPreferencesSystemInfo", {
@@ -17789,7 +17789,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvRewardCard = void 0;
     var o = n(52),
-        i = n(866),
+        i = n(867),
         a = r(i);
     n(594), n(41);
     var s = o.ngRewardsModule.component("nvRewardCard", {
@@ -18400,7 +18400,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvSearch = void 0;
     var o = n(186),
-        i = n(868),
+        i = n(869),
         a = r(i);
     n(597), n(41), n(690);
     var s = o.ngSearchModule.directive("nvSearch", ["hotkeys", function(e) {
@@ -18856,7 +18856,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvHighlightTile = void 0;
     var o = n(10);
     n(17), n(140), n(34), n(41);
-    var i = n(872),
+    var i = n(873),
         a = r(i);
     n(609);
     var s = o.ngUpdatesModule.directive("nvHighlightTile", function() {
@@ -18947,7 +18947,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdateDetails = void 0;
     var o = n(10);
     n(131), n(619), n(617);
-    var i = n(873),
+    var i = n(874),
         a = r(i);
     n(611);
     var s = o.ngUpdatesModule.directive("nvUpdateDetails", function() {
@@ -18985,7 +18985,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdates = void 0;
     var o = n(10);
     n(615);
-    var i = n(874),
+    var i = n(875),
         a = r(i),
         s = o.ngUpdatesModule.directive("nvUpdates", function() {
             return {
@@ -19378,7 +19378,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdatesDriver = void 0;
     var o = n(10);
     n(305), n(304), n(203), n(140), n(612), n(112), n(216);
-    var i = n(876),
+    var i = n(877),
         a = r(i);
     n(614);
     var s = o.ngUpdatesModule.directive("nvUpdatesDriver", [function() {
@@ -19430,7 +19430,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdatesDriverHighlights = void 0;
     var o = n(10);
     n(610);
-    var i = n(877),
+    var i = n(878),
         a = r(i);
     n(616);
     var s = o.ngUpdatesModule.directive("nvUpdatesDriverHighlights", function() {
@@ -19529,7 +19529,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdatesHighlightsBanner = void 0;
     var o = n(10);
     n(276);
-    var i = n(878),
+    var i = n(879),
         a = r(i);
     n(618);
     var s = o.ngUpdatesModule.directive("nvUpdatesHighlightsBanner", function() {
@@ -19588,7 +19588,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdatesInstallationCustom = void 0;
     var o = n(10),
-        i = n(879),
+        i = n(880),
         a = r(i);
     n(620);
     var s = o.ngUpdatesModule.component("nvUpdatesInstallationCustom", {
@@ -19645,7 +19645,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdatesInstallationProgress = void 0;
     var o = n(10),
-        i = n(880),
+        i = n(881),
         a = r(i);
     n(622);
     var s = o.ngUpdatesModule.component("nvUpdatesInstallationProgress", {
@@ -19681,7 +19681,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdatesInstallationReboot = void 0;
     var o = n(10),
-        i = n(881),
+        i = n(882),
         a = r(i);
     n(624);
     var s = o.ngUpdatesModule.directive("nvUpdatesInstallationReboot", function() {
@@ -19715,7 +19715,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUpdatesInstallerDialogInstallationComplete = void 0;
     var o = n(10),
-        i = n(882),
+        i = n(883),
         a = r(i),
         s = o.ngUpdatesModule.directive("nvUpdatesInstallerDialogInstallationComplete", [function() {
             return {
@@ -19736,7 +19736,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.ngUpdatesModule = void 0;
     var o = n(10),
-        i = n(883),
+        i = n(884),
         a = r(i);
     o.ngUpdatesModule.directive("nvUpdatesInstallerDialogInstallationError", [function() {
         return {
@@ -20066,7 +20066,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdatesInstallerDialog = void 0;
     var o = n(10);
     n(163);
-    var i = n(884),
+    var i = n(885),
         a = r(i);
     n(628);
     var s = o.ngUpdatesModule.directive("nvUpdatesInstallerDialog", function() {
@@ -20141,7 +20141,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUpdatesNotification = void 0;
     var o = n(10);
     n(275), n(305), n(304);
-    var i = n(886),
+    var i = n(887),
         a = r(i);
     n(631);
     var s = o.ngUpdatesModule.directive("nvUpdatesNotification", function() {
@@ -20322,7 +20322,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(243),
         i = r(o),
         a = n(8),
-        s = n(895),
+        s = n(896),
         l = r(s);
     n(645);
     var c = a.ngUserProfileModule.controller("FeaturedRewardController", ["$scope", "$log", "$filter", "$mdDialog", "$state", "cevoService", "gfeService", "toastService", "eventAggregator", "telemetryService", "USER_PROFILE_EVENTS", "SWEEPSTAKE_EVENTS", "USER_PROFILE_DIALOG_NAMES", "PROFILE_EVENTS", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_STATUS", "TELEMETRY_SCREENS", "USER_PROFILE_ERRORS", function(e, t, n, r, o, a, s, c, u, d, f, m, p, g, v, h, y, E, b, S) {
@@ -20438,7 +20438,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvFeaturedReward = void 0;
     var o = n(8);
     n(635);
-    var i = n(889),
+    var i = n(890),
         a = r(i);
     n(278), n(41);
     var s = o.ngUserProfileModule.component("nvFeaturedReward", {
@@ -20481,7 +20481,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvLevelDetails = void 0;
     var o = n(8),
-        i = n(890),
+        i = n(891),
         a = r(i);
     n(637);
     var s = o.ngUserProfileModule.component("nvLevelDetails", {
@@ -20588,7 +20588,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvMissionProgress = void 0;
     var o = n(8),
-        i = n(893),
+        i = n(894),
         a = r(i);
     n(641);
     var s = o.ngUserProfileModule.component("nvMissionProgress", {
@@ -20613,7 +20613,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.missionTileController = void 0;
     var o = n(8);
     n(640);
-    var i = n(892),
+    var i = n(893),
         a = r(i),
         s = o.ngUserProfileModule.controller("MissionTileController", ["$scope", "$state", "$mdDialog", "telemetryService", "eventAggregator", "MISSION_TYPE", "USER_PROFILE_EVENTS", "USER_PROFILE_DIALOG_NAMES", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_AFFINITY_ELEMENT", function(e, t, n, r, o, i, s, l, c, u, d) {
             function f(e) {
@@ -20659,7 +20659,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvMissionTile = void 0;
     var o = n(8),
-        i = n(894),
+        i = n(895),
         a = r(i);
     n(643), n(642), n(328);
     var s = o.ngUserProfileModule.component("nvMissionTile", {
@@ -20818,7 +20818,7 @@ webpackJsonp([4], [function(e, t, n) {
     var o = n(37),
         i = r(o),
         a = n(8),
-        s = n(887),
+        s = n(888),
         l = r(s);
     n(633);
     var c = a.ngUserProfileModule.controller("UserAchievementsController", ["$scope", "$state", "$log", "$mdDialog", "$q", "$filter", "cevoService", "eventAggregator", "telemetryService", "toastService", "PROFILE_EVENTS", "USER_PROFILE_DIALOG_NAMES", "USER_PROFILE_EVENTS", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_CRIMSON_EVENT_NAMES", function(e, t, n, r, o, a, s, c, u, d, f, m, p, g, v, h) {
@@ -20931,7 +20931,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUserAchievements = void 0;
     var o = n(8),
-        i = n(896),
+        i = n(897),
         a = r(i);
     n(646);
     var s = o.ngUserProfileModule.component("nvUserAchievements", {
@@ -21064,7 +21064,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUserActivityLog = void 0;
     var o = n(8),
-        i = n(897),
+        i = n(898),
         a = r(i);
     n(648), n(653);
     var s = o.ngUserProfileModule.component("nvUserActivityLog", {
@@ -21122,7 +21122,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.userGalleryDetails = void 0;
     var i = n(3),
         a = (o(i), n(8)),
-        s = n(898),
+        s = n(899),
         l = r(s);
     n(650);
     var c = a.ngUserProfileModule.component("nvUserGalleryDetails", {
@@ -21222,7 +21222,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserGallery = void 0;
     var o = n(8);
     n(652);
-    var i = n(899),
+    var i = n(900),
         a = r(i);
     n(655), n(371);
     var s = o.ngUserProfileModule.component("nvUserGallery", {
@@ -21268,7 +21268,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserGalleryTile = void 0;
     var o = n(8);
     n(654);
-    var i = n(900),
+    var i = n(901),
         a = r(i),
         s = o.ngUserProfileModule.component("nvUserGalleryTile", {
             bindings: {
@@ -21356,7 +21356,7 @@ webpackJsonp([4], [function(e, t, n) {
         value: !0
     }), t.nvUserMissions = void 0;
     var o = n(8),
-        i = n(901),
+        i = n(902),
         a = r(i);
     n(656), n(644);
     var s = o.ngUserProfileModule.component("nvUserMissions", {
@@ -21378,7 +21378,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.userProfileController = void 0;
     var o = n(8);
     n(119), n(303), n(31), n(302), n(634);
-    var i = n(888),
+    var i = n(889),
         a = r(i);
     n(306);
     var s = n(311),
@@ -21579,7 +21579,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserProfile = void 0;
     var o = n(8);
     n(658);
-    var i = n(902),
+    var i = n(903),
         a = r(i);
     n(663), n(661), n(636), n(665), n(649), n(657), n(647), n(667);
     var s = o.ngUserProfileModule.component("nvUserProfile", {
@@ -21603,7 +21603,7 @@ webpackJsonp([4], [function(e, t, n) {
         i = r(o),
         a = n(8);
     n(639);
-    var s = n(891),
+    var s = n(892),
         l = r(s);
     n(140);
     var c = a.ngUserProfileModule.controller("UserProfileStatusController", ["$scope", "$log", "$mdDialog", "cevoService", "eventAggregator", "telemetryService", "USER_PROFILE_EVENTS", "PROFILE_EVENTS", "SWEEPSTAKE_EVENTS", "LEVELS", "TELEMETRY_CRIMSON_EVENT_NAMES", "TELEMETRY_AFFINITY_ACTION", "TELEMETRY_AFFINITY_ELEMENT", "TELEMETRY_SCREENS", "TELEMETRY_STATUS", function(e, t, n, r, o, a, s, c, u, d, f, m, p, g, v) {
@@ -21712,7 +21712,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserProfileStatus = void 0;
     var o = n(8);
     n(660);
-    var i = n(903),
+    var i = n(904),
         a = r(i),
         s = o.ngUserProfileModule.component("nvUserProfileStatus", {
             controller: "UserProfileStatusController",
@@ -21760,7 +21760,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserProfileSummary = void 0;
     var o = n(8);
     n(662);
-    var i = n(904),
+    var i = n(905),
         a = r(i),
         s = o.ngUserProfileModule.component("nvUserProfileSummary", {
             controller: "UserProfileSummaryController",
@@ -21861,7 +21861,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvUserRig = void 0;
     var o = n(8);
     n(664);
-    var i = n(905),
+    var i = n(906),
         a = r(i);
     n(140);
     var s = o.ngUserProfileModule.component("nvUserRig", {
@@ -21898,7 +21898,7 @@ webpackJsonp([4], [function(e, t, n) {
     }), t.nvWinners = void 0;
     var o = n(8);
     n(666);
-    var i = n(906),
+    var i = n(907),
         a = r(i),
         s = o.ngUserProfileModule.component("nvWinners", {
             controller: "WinnersController",
@@ -21925,15 +21925,15 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t, n) {
     t = e.exports = n(6)(), t.push([e.id, "div.nv-custom-date-ctrl{padding-top:24px;padding-bottom:24px}div.nv-custom-date-ctrl h1{margin:0;padding-left:2px;font-size:12px;color:rgba(255,255,255,.45)!important}div.nv-custom-date-ctrl nv-date-field{padding-right:20px}div.nv-custom-date-ctrl nv-date-field input{border-bottom-color:#363636}div.nv-custom-date-ctrl input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;-moz-appearance:none;margin:0}div.nv-custom-date-ctrl nv-date-field md-select{width:auto;min-width:100px}div.nv-custom-date-ctrl .is-year-field{width:50px}div.nv-custom-date-ctrl .is-day-field{width:40px}div.nv-custom-date-ctrl nv-date-field label{text-transform:capitalize;color:rgba(255,255,255,.3)!important}div.nv-custom-date-ctrl nv-date-field md-select-value{text-transform:capitalize}div.nv-custom-date-ctrl nv-date-field .md-select-value{color:rgba(255,255,255,.45)}div.nv-custom-date-ctrl nv-date-field md-select.ng-valid .md-select-value,div.nv-custom-date-ctrl nv-date-field md-select.ng-valid.ng-pristine .md-select-value{color:#fff}div.nv-custom-date-ctrl nv-date-field md-select:not([disabled]):focus .md-select-value{border-bottom-color:#76b900!important}div.nv-custom-date-ctrl nv-date-field md-input-container.md-input-invalid .md-input:focus{border-bottom-color:#76b900}div.nv-custom-date-ctrl nv-date-field md-select.ng-invalid.ng-touched .md-select-value{border-color:#b5291c!important}div.nv-custom-date-ctrl nv-date-field md-select.ng-invalid .md-select-value,div.nv-custom-date-ctrl nv-date-field md-select.ng-invalid.ng-pristine .md-select-value{color:rgba(255,255,255,.3)!important}div.nv-custom-date-ctrl .error-message{color:#b5291c}md-option{color:#ccc!important}div.nv-custom-date-ctrl nv-date-field md-input-container{padding:0}", ""])
 }, function(e, t, n) {
-    t = e.exports = n(6)(), t.push([e.id, ".oobe-dialog,.oobe-oauth-login-pane{-webkit-backface-visibility:hidden;-webkit-user-drag:none}.oobe-dialog{width:790px;height:498px;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.oobe-dialog .title{padding-top:24px;position:relative}.oobe-dialog .title h1{margin:0 24px;font-family:Roboto-Light;font-size:24px;font-weight:300;-webkit-font-smoothing:antialiased;color:#fff;color:rgba(255,255,255,.9)}.oobe-dialog .subtitle{margin:8px 0 0 24px;font-size:10px;font-weight:400}.oobe-dialog form{position:relative}.oobe-dialog waiting-overlay{position:absolute;min-width:100%;min-height:100%;background-color:rgba(14,14,14,.7);z-index:5}.oobe-oauth-blocker-overlay{position:fixed;width:100%;height:100%;top:0;left:0;z-index:1000}.oobe-link-icon{position:relative}.oobe-link-icon .md-button{height:auto}.oobe-link-icon .md-button>img{position:absolute;right:12px;width:20px;height:auto;top:42px}.oobe-link-icon md-card{background-color:transparent;box-shadow:none;margin:5px auto auto;width:54px}.oobe-link-icon md-card:hover{box-shadow:none}.oobe-link-icon p{text-align:center;font-size:10px;margin:0}.oobe-dialog-scan .text-bottom-margin{margin-bottom:0}.oobe-dialog-scan .scan-top-margin{margin-top:8px}.oobe-loading-data{padding-top:60px}.oobe-loading-data>md-progress-circular{margin-top:38px}.oobe-login-pointer{cursor:pointer}.oobe-dialog-logo-margin{margin-top:150px;margin-left:190px;margin-bottom:40px;padding-left:0}.oobe-welcome-dialog{font-family:Roboto-Light!important;-webkit-font-smoothing:antialiased}.oobe-welcome-dialog-header{height:64px}.oobe-welcome-dialog-header p{color:rgba(255,255,255,.45);margin:3px 24px 0}.oobe-welcome-dialog .md-actions{margin-bottom:2px}.oobe-welcome-card-holder{width:263px;height:329px;position:relative}.oobe-welcome-card-holder img{height:100%;width:100%}.oobe-welcome-card-holder .oobe-welcome-overlay{position:absolute;height:80px;background-image:url(" + n(697) + ");width:100%;bottom:0}.oobe-welcome-overlay .overlay-grouper{width:60%;margin-left:20%;height:100%;line-height:80px;text-align:center}.oobe-welcome-overlay .overlay-text{font-size:12px;color:rgba(255,255,255,.9);display:inline-block;vertical-align:middle;line-height:normal}.oobe-login-left-side{width:320px;height:497px;background-image:url(" + n(695) + ");bottom:0}.oobe-blocked-message,.oobe-side-text{width:100%;height:165px;color:rgba(255,255,255,.75);font-family:Roboto!important;-webkit-font-smoothing:antialiased}.oobe-side-text{font-size:16px}.oobe-side-text p{padding-left:140px;padding-right:50px}.oobe-blocked-message{font-size:18px;text-align:center}.oobe-blocked-message p{padding-left:60px;padding-right:60px}.oobe-blocked-link{color:rgba(255,255,255,.75);font-family:Roboto!important;-webkit-font-smoothing:antialiased}.oobe-dialog-left-pane{width:320px;height:497px;overflow:hidden}.oobe-dialog-left-pane img{width:100%;height:100%}.oobe-dialog-right-pane .title h1{margin-top:0}.oobe-dialog-right-pane .title .title-logo{position:absolute;top:18px;left:24px;width:48px;height:48px;font-size:48px;line-height:48px}.oobe-dialog-right-pane .title .title-logo+h1{padding-left:64px}.oobe-dialog-right-pane .title button{width:auto;padding:0;margin:0}.oobe-dialog-right-pane .title .title-close{margin:12px 24px 0 0}.oobe-dialog-right-pane .title .button-close{width:auto;height:24px;font-size:24px}.oobe-dialog-right-pane .secondary-title{font-size:12px;margin:44px 0 16px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .secondary-title+.secondary-title{font-size:12px;margin:0 0 16px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .title.large{min-height:96px}.oobe-dialog-right-pane .title.blank{min-height:60px}.oobe-dialog-right-pane .content{margin:24px 0 0;padding:0 24px}.oobe-dialog-right-pane .login-content{margin:0;padding:0 24px}.oobe-dialog-right-pane .message-banner{margin-top:24px;height:50px;line-height:50px;background-color:#303030;padding-left:24px;padding-right:24px;box-shadow:inset 0 8px 8px -10px #000,inset 0 -8px 8px -10px #000}.oobe-dialog-right-pane .message-banner span{display:inline-block;vertical-align:middle;line-height:normal;font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .md-actions{position:relative;padding:20px 8px 8px}.oobe-dialog-right-pane .md-actions button{margin:0}.oobe-dialog-right-pane .md-actions .button-helper{position:absolute;top:0;left:24px;font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .input-helper{font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45);padding-left:2px;padding-top:4px}.oobe-dialog-right-pane .login-button{padding:4px 4px 2px;margin-bottom:4px;position:relative}.oobe-dialog-right-pane .login-button img{width:318px;height:62px}.oobe-dialog-right-pane .login-button[disabled]{cursor:default;-webkit-filter:grayscale(100%) opacity(30%)}.oobe-dialog-right-pane .login-text{left:60px;position:absolute;font-size:18px;top:50%;width:250px;-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);transform:translateY(-50%)}.oobe-dialog-right-pane .login-button:not([disabled]):hover{background-color:rgba(55,90,162,.5)}.oobe-dialog-right-pane .login-button:not([disabled]):focus{background-color:rgba(55,90,162,.5);outline:0}.oobe-dialog-progress-bar{height:8px;position:absolute;width:100%;z-index:101;color:#363636!important;background:#363636!important}.oobe-dialog-progress-bar .md-accent.foreground{color:#76b900!important}.oobe-dialog-progress-bar .md-accent.background{background-color:#76b900!important}.oobe-dialog-done-pane-content{margin-top:152px}.oobe-dialog-done-first-text-margin{margin-top:24px;margin-bottom:16px}.oobe-dialog-done-second-text-margin{margin-top:0;margin-bottom:5px}.oobe-dialog-done-third-text-margin{margin-top:0;margin-bottom:0}.oobe-dialog-done-nogames-icon{opacity:.45}.oobe-dialog-done-scan-text-margin{margin-top:10px;margin-bottom:16px}.oobe-dialog-right-pane md-input-container.md-icon-right .md-errors-spacer+md-icon{margin-top:18px!important;color:#a9a9a9;color:rgba(255,255,255,.75)}.oobe-dialog-right-pane md-input-container+md-input-container.md-icon-right .md-errors-spacer+md-icon{margin-top:32px!important;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane md-icon.icon-eye{line-height:20px;min-height:20px;min-width:20px}.oobe-dialog-right-pane md-checkbox.md-checked .md-icon:after{left:6.67px;top:2.22px}.oobe-dialog-right-pane md-input-container.md-input-invalid label{color:gray;color:rgba(255,255,255,.3)}.oobe-dialog-right-pane md-input-container+md-input-container{padding-top:18px}.oobe-dialog-right-pane nv-custom-date{padding-bottom:14px}.forgot-password{position:absolute;left:10px;padding-left:8px!important;padding-right:8px!important;margin-top:0!important}.oobe-dialog a.in-app-link{color:#76b900;text-decoration:none}.oobe-panel{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 13px 19px 2px rgba(0,0,0,.14),0 5px 24px 4px rgba(0,0,0,.12)}.shadow-top{box-shadow:0 -10px 30px -5px rgba(0,0,0,.75)}.oobe-share-text-list{margin-top:0!important;padding-left:0!important}.oobe-done-qr-code{width:200px;height:320px;position:absolute;right:0;top:0;left:0;bottom:0;margin:auto}.oobe-done-qr-code-description{font-size:10px;margin-bottom:10px}.oobe-done-qr-code-scan{padding:10px;margin:0 0 12px}.oobe-oauth-login-pane{width:424px;height:608px}.oobe-oauth-login-image{background-image:url(" + n(694) + ")}.oobe-oauth-login-text{font-size:16px;height:144px;width:100%;display:flex;padding-left:144px;padding-right:48px;align-items:center;margin-top:10px;color:rgba(255,255,255,.75)}.oobe-oauth-login-top-filler{height:94px}.oobe-oauth-login-scrim{position:absolute;top:104px;height:452px;width:424px;background-color:rgba(0,0,0,.6)}.oobe-oauth-message-banner{margin:0 24px;background-color:#2e2e2e;padding:24px}", ""])
+    t = e.exports = n(6)(), t.push([e.id, ".oobe-dialog,.oobe-oauth-login-pane{-webkit-backface-visibility:hidden;-webkit-user-drag:none}.oobe-dialog{width:790px;height:498px;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.oobe-dialog .title{padding-top:24px;position:relative}.oobe-dialog .title h1{margin:0 24px;font-family:Roboto-Light;font-size:24px;font-weight:300;-webkit-font-smoothing:antialiased;color:#fff;color:rgba(255,255,255,.9)}.oobe-dialog .subtitle{margin:8px 0 0 24px;font-size:10px;font-weight:400}.oobe-dialog form{position:relative}.oobe-dialog waiting-overlay{position:absolute;min-width:100%;min-height:100%;background-color:rgba(14,14,14,.7);z-index:5}.oobe-oauth-blocker-overlay{position:fixed;width:100%;height:100%;top:0;left:0;z-index:1000}.oobe-link-icon{position:relative}.oobe-link-icon .md-button{height:auto}.oobe-link-icon .md-button>img{position:absolute;right:12px;width:20px;height:auto;top:42px}.oobe-link-icon md-card{background-color:transparent;box-shadow:none;margin:5px auto auto;width:54px}.oobe-link-icon md-card:hover{box-shadow:none}.oobe-link-icon p{text-align:center;font-size:10px;margin:0}.oobe-dialog-scan .text-bottom-margin{margin-bottom:0}.oobe-dialog-scan .scan-top-margin{margin-top:8px}.oobe-loading-data{padding-top:60px}.oobe-loading-data>md-progress-circular{margin-top:38px}.oobe-login-pointer{cursor:pointer}.oobe-dialog-logo-margin{margin-top:150px;margin-left:190px;margin-bottom:40px;padding-left:0}.oobe-welcome-dialog{font-family:Roboto-Light!important;-webkit-font-smoothing:antialiased}.oobe-welcome-dialog-header{height:64px}.oobe-welcome-dialog-header p{color:rgba(255,255,255,.45);margin:3px 24px 0}.oobe-welcome-dialog .md-actions{margin-bottom:2px}.oobe-welcome-card-holder{width:263px;height:329px;position:relative}.oobe-welcome-card-holder img{height:100%;width:100%}.oobe-welcome-card-holder .oobe-welcome-overlay{position:absolute;height:80px;background-image:url(" + n(698) + ");width:100%;bottom:0}.oobe-welcome-overlay .overlay-grouper{width:60%;margin-left:20%;height:100%;line-height:80px;text-align:center}.oobe-welcome-overlay .overlay-text{font-size:12px;color:rgba(255,255,255,.9);display:inline-block;vertical-align:middle;line-height:normal}.oobe-login-left-side{width:320px;height:497px;background-image:url(" + n(696) + ");bottom:0}.oobe-blocked-message,.oobe-side-text{width:100%;height:165px;color:rgba(255,255,255,.75);font-family:Roboto!important;-webkit-font-smoothing:antialiased}.oobe-side-text{font-size:16px}.oobe-side-text p{padding-left:140px;padding-right:50px}.oobe-blocked-message{font-size:18px;text-align:center}.oobe-blocked-message p{padding-left:60px;padding-right:60px}.oobe-blocked-link{color:rgba(255,255,255,.75);font-family:Roboto!important;-webkit-font-smoothing:antialiased}.oobe-dialog-left-pane{width:320px;height:497px;overflow:hidden}.oobe-dialog-left-pane img{width:100%;height:100%}.oobe-dialog-right-pane .title h1{margin-top:0}.oobe-dialog-right-pane .title .title-logo{position:absolute;top:18px;left:24px;width:48px;height:48px;font-size:48px;line-height:48px}.oobe-dialog-right-pane .title .title-logo+h1{padding-left:64px}.oobe-dialog-right-pane .title button{width:auto;padding:0;margin:0}.oobe-dialog-right-pane .title .title-close{margin:12px 24px 0 0}.oobe-dialog-right-pane .title .button-close{width:auto;height:24px;font-size:24px}.oobe-dialog-right-pane .secondary-title{font-size:12px;margin:44px 0 16px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .secondary-title+.secondary-title{font-size:12px;margin:0 0 16px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .title.large{min-height:96px}.oobe-dialog-right-pane .title.blank{min-height:60px}.oobe-dialog-right-pane .content{margin:24px 0 0;padding:0 24px}.oobe-dialog-right-pane .login-content{margin:0;padding:0 24px}.oobe-dialog-right-pane .message-banner{margin-top:24px;height:50px;line-height:50px;background-color:#303030;padding-left:24px;padding-right:24px;box-shadow:inset 0 8px 8px -10px #000,inset 0 -8px 8px -10px #000}.oobe-dialog-right-pane .message-banner span{display:inline-block;vertical-align:middle;line-height:normal;font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .md-actions{position:relative;padding:20px 8px 8px}.oobe-dialog-right-pane .md-actions button{margin:0}.oobe-dialog-right-pane .md-actions .button-helper{position:absolute;top:0;left:24px;font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane .input-helper{font-size:11px;color:#a9a9a9;color:rgba(255,255,255,.45);padding-left:2px;padding-top:4px}.oobe-dialog-right-pane .login-button{padding:4px 4px 2px;margin-bottom:4px;position:relative}.oobe-dialog-right-pane .login-button img{width:318px;height:62px}.oobe-dialog-right-pane .login-button[disabled]{cursor:default;-webkit-filter:grayscale(100%) opacity(30%)}.oobe-dialog-right-pane .login-text{left:60px;position:absolute;font-size:18px;top:50%;width:250px;-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);transform:translateY(-50%)}.oobe-dialog-right-pane .login-button:not([disabled]):hover{background-color:rgba(55,90,162,.5)}.oobe-dialog-right-pane .login-button:not([disabled]):focus{background-color:rgba(55,90,162,.5);outline:0}.oobe-dialog-progress-bar{height:8px;position:absolute;width:100%;z-index:101;color:#363636!important;background:#363636!important}.oobe-dialog-progress-bar .md-accent.foreground{color:#76b900!important}.oobe-dialog-progress-bar .md-accent.background{background-color:#76b900!important}.oobe-dialog-done-pane-content{margin-top:152px}.oobe-dialog-done-first-text-margin{margin-top:24px;margin-bottom:16px}.oobe-dialog-done-second-text-margin{margin-top:0;margin-bottom:5px}.oobe-dialog-done-third-text-margin{margin-top:0;margin-bottom:0}.oobe-dialog-done-nogames-icon{opacity:.45}.oobe-dialog-done-scan-text-margin{margin-top:10px;margin-bottom:16px}.oobe-dialog-right-pane md-input-container.md-icon-right .md-errors-spacer+md-icon{margin-top:18px!important;color:#a9a9a9;color:rgba(255,255,255,.75)}.oobe-dialog-right-pane md-input-container+md-input-container.md-icon-right .md-errors-spacer+md-icon{margin-top:32px!important;color:#a9a9a9;color:rgba(255,255,255,.45)}.oobe-dialog-right-pane md-icon.icon-eye{line-height:20px;min-height:20px;min-width:20px}.oobe-dialog-right-pane md-checkbox.md-checked .md-icon:after{left:6.67px;top:2.22px}.oobe-dialog-right-pane md-input-container.md-input-invalid label{color:gray;color:rgba(255,255,255,.3)}.oobe-dialog-right-pane md-input-container+md-input-container{padding-top:18px}.oobe-dialog-right-pane nv-custom-date{padding-bottom:14px}.forgot-password{position:absolute;left:10px;padding-left:8px!important;padding-right:8px!important;margin-top:0!important}.oobe-dialog a.in-app-link{color:#76b900;text-decoration:none}.oobe-panel{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 13px 19px 2px rgba(0,0,0,.14),0 5px 24px 4px rgba(0,0,0,.12)}.shadow-top{box-shadow:0 -10px 30px -5px rgba(0,0,0,.75)}.oobe-share-text-list{margin-top:0!important;padding-left:0!important}.oobe-done-qr-code{width:200px;height:320px;position:absolute;right:0;top:0;left:0;bottom:0;margin:auto}.oobe-done-qr-code-description{font-size:10px;margin-bottom:10px}.oobe-done-qr-code-scan{padding:10px;margin:0 0 12px}.oobe-oauth-login-pane{width:424px;height:608px}.oobe-oauth-login-image{background-image:url(" + n(695) + ")}.oobe-oauth-login-text{font-size:16px;height:144px;width:100%;display:flex;padding-left:144px;padding-right:48px;align-items:center;margin-top:10px;color:rgba(255,255,255,.75)}.oobe-oauth-login-top-filler{height:94px}.oobe-oauth-login-scrim{position:absolute;top:104px;height:452px;width:424px;background-color:rgba(0,0,0,.6)}.oobe-oauth-message-banner{margin:0 24px;background-color:#2e2e2e;padding:24px}", ""])
 }, function(e, t, n) {
     t = e.exports = n(6)(), t.push([e.id, ".preferences-sidebar-container button,.preferences-sidebar-container md-list-item .md-no-style.md-button{min-height:48px}#overlay,.preferences-shield-edit-dialog .image-container,.preferences-shield-edit-dialog .image-container md-icon,md-switch .md-container{cursor:pointer}.preferences-sidebar-container{width:186px}.preferences-sidebar-container .md-button-selected{background-color:#191919}.preferences-sidebar-container md-list-item .md-list-item-inner{padding-left:20px}.preferences-items-container{padding:24px 12px 0}.preferences-preference-section{padding:10px 16px 16px;margin:0 12px 24px}.preferences-share-overlay{width:calc(100% - 24px);left:12px;height:calc(100% - 24px)}.preferences-preference-section .margin-zero,.preferences-preference-section h3{margin:0}.preferences-preference-section h3.feature-title{margin:0 0 0 32px;font-weight:400}.preferences-preference-section h4{margin:0;font-weight:400;text-transform:uppercase}.preferences-preference-section h5{margin-top:11px;margin-bottom:0;font-weight:400}.preferences-preference-section .md-list-item-text p{margin:4px 0 0 32px;font-weight:400}.preferences-preference-section .scan-location-content .md-list-item-text p{margin:0}.preferences-preference-section .md-3-line p{margin-top:8px;margin-bottom:8px;margin-left:8px;font-weight:400}.preferences-preference-section .md-3-line md-icon,.preferences-preference-section .md-3-line svg{margin:8px 0 8px 48px;line-height:16px;height:16px;width:16px}.preferences-preference-section .preferences-feature-header-section{margin:24px 0 24px 32px}.preferences-preference-section .preferences-feature-description-section{padding:0 0 24px;margin:0}.preferences-preference-section .preferences-feature-description-section .preferences-feature-requirement{padding-left:64px;padding-right:16px;margin-bottom:16px}.preferences-preference-section .preferences-feature-description-section .preferences-feature-requirement .md-16{min-height:16px;min-width:16px;height:16px;width:16px;line-height:16px;font-size:16px!important}.preferences-preference-section .preferences-feature-description-section .preferences-feature-requirement .requirement-recommendation-icon-container{min-width:16px;min-height:16px}.preferences-preference-section .preferences-feature-description-section .preferences-feature-requirement .requirement-recommendation-icon-container .recommendation-circle{width:10px;height:10px;background-color:rgba(255,255,255,.45);border-radius:50%}.preferences-preference-section .preferences-feature-description-section .preferences-feature-requirement .feature-driver-update-button{min-width:120px}.preferences-preference-section .requirement-link-container{padding:8px 0 0;margin:0}.preferences-preference-section .top-margin-checkboxes{margin-bottom:16px}.preferences-preference-section .margin-mid-checkbox{margin-bottom:16px;margin-top:0}.preferences-preference-section md-switch{float:right;margin-top:-8px;margin-right:-8px;padding:0}.preferences-preference-section md-switch .md-thumb{height:16px;width:16px}.preferences-preference-section md-switch .md-bar{height:12px;width:27px;left:2px;top:4px}.preferences-preference-section md-checkbox{line-height:normal;margin:0;padding:4pt 0}.preferences-preference-section md-icon.feature-notready-overlay{margin-top:16px;margin-left:16px}.preferences-preference-section .feature-readiness-content{margin-left:-16px;margin-right:-16px}.preferences-preference-section .preferences-section-content .feature-readiness-content a{margin-left:32px}.preferences-preference-section .language-section p{line-height:36px}.preferences-preference-section .language-section md-input-container{margin-bottom:8px}.preferences-preference-section .language-section .md-select-value{flex-grow:0}.preferences-preference-section .language-section .language-section-button{display:inline-block;text-align:right}.preferences-preference-section .about-section img{width:170px;height:40px}.preferences-preference-section .about-section .gfe-version-container p{margin-left:0;margin-bottom:0}.preferences-preference-section .about-section .gfe-version-container{margin:20px 0 0}.preferences-preference-section .download-progress p{margin-left:0}.preferences-preference-section .about-section .margin-between-links{margin-top:8px}.preferences-preference-section .about-section .links-top-margin{margin-top:16px}.preferences-preference-section .about-section md-divider{border-top-color:#111}.preferences-preference-section .about-section md-divider.color-black-hue-2{border-top-color:#3a3a3a}.preferences-preference-section .about-section .title-content-top-margin{margin-top:2px}.preferences-preference-section .preferences-section-header,.preferences-preference-section .preferences-section-header-button,.preferences-preference-section .preferences-section-header-description,.preferences-preference-section .preferences-section-header-description-switch,.preferences-preference-section .preferences-section-header-switch{margin:0 0 12px}.preferences-preference-section .preferences-section-content{padding:8px 0 12px}.preferences-preference-section .preferences-about-section-content{padding:12px 0}.preferences-preference-section .preferences-section-header-description p,.preferences-preference-section .preferences-section-header-description-switch p{margin-top:8px;line-height:10px}.preferences-preference-section .preferences-section-header-description md-switch,.preferences-preference-section .preferences-section-header-description-switch md-switch,.preferences-preference-section .preferences-section-header-switch md-switch{margin-bottom:0}.preferences-accounts-edit-avatar .avatar-image{min-height:110px}.preferences-accounts-edit-avatar .avatar-image-error{height:150px}.preferences-accounts-edit-avatar .avatar-image-error p{width:60%;text-align:center}.preferences-accounts-edit-avatar .avatar-list-item{float:left}.preferences-system-info{padding-bottom:4px}.preferences-preference-section .preferences-system-info .margin-between-links{margin-bottom:12px}.preferences-preference-section .preferences-system-info .span-align-vertical{display:inline-block;vertical-align:middle;margin-left:5px}.preferences-preference-section .preferences-system-info .subitem-margin{margin-top:5px;margin-left:26px}.preferences-preference-section .feature-readiness-container .state-info-content-height,.preferences-preference-section .preferences-system-info .state-info-content-height{height:300px}.preferences-preference-section .language-section md-icon,.preferences-preference-section .preferences-system-info md-icon{min-height:18px;min-width:18px;height:18px;width:18px;line-height:18px;font-size:18px}.range-slider-left md-slider,.range-slider-right md-slider{min-width:0}.preferences-preference-section .preferences-section-content .games-scan-container{height:112px;margin-top:24px;margin-bottom:32px}.preferences-preference-section .preferences-section-content .games-scan-container h4:first-child{padding-top:10px}.preferences-preference-section .preferences-section-content .games-scan-container h4:nth-child(2){padding:16px 0}.preferences-preference-section .preferences-section-content .games-scan-divider{display:inline-block;width:1px;height:100%}.preferences-preference-section .preferences-section-content .scan-location-section{max-height:98px;height:98px}.preferences-preference-section .scan-location-content md-list{padding:0;height:98px}.preferences-preference-section .scan-location-content md-list-item{min-height:24px;height:24px}.preferences-preference-section .scan-location-content .scan-location-md-list-item-button .md-button{height:24px;min-height:11px;line-height:24px;text-align:left}.preferences-preference-section .scan-location-content md-list-item .md-list-item-inner{margin-right:0;min-height:24px;height:24px;padding:0}.preferences-preference-section .scan-location-content md-list-item p{padding-left:8px;padding-right:8px}.preferences-preference-section .preferences-section-content .accounts-section-button,.preferences-preference-section .preferences-section-content .language-section-button,.preferences-preference-section .preferences-section-content .scan-location-content-margin,.preferences-preference-section .preferences-section-content .shield-section-button{margin-left:-16px;margin-right:-16px;margin-top:16px;height:36px}.preferences-preference-section .share-section-button{height:36px;margin-bottom:-28px;margin-left:-16px;margin-right:-16px}.preferences-preference-section .preferences-section-content .accounts-section-button md-button,.preferences-preference-section .preferences-section-content .language-section-button .md-button,.preferences-preference-section .preferences-section-content .scan-location-content-margin .md-button,.preferences-preference-section .preferences-section-content .shield-section-button .md-button,.preferences-preference-section .share-section-button .md-button{margin:8px}.preferences-preference-section .scan-location-section button.md-no-style{background:0 0}.preferences-preference-section .scan-location-content .scan-location-md-list-item-button .md-button:hover{background-color:rgba(91,91,91,.5);box-shadow:0 4px 5px -2px rgba(0,0,0,.75)}.preferences-preference-section .preferences-md-icon .md-container{height:16px;width:16px}.preferences-preference-section .download-progress .md-container{height:3px;width:100%}.preferences-preference-section .download-details-status-container p{margin-top:6px;margin-bottom:0;margin-left:0}.preferences-preference-section .preferences-md-icon md-checkbox div{line-height:1.64}.preferences-preference-section .preferences-md-icon md-checkbox{min-height:16px;line-height:1.64;padding:0}.preferences-preference-section .preferences-md-icon .md-icon,.preferences-preference-section .preferences-md-icon md-icon,.preferences-preference-section .preferences-section-header-button md-icon{height:16px;width:16px;line-height:16px;font-size:16px}.preferences-preference-section .preferences-section-header-button .md-icon-button{min-height:16px;height:16px;width:16px;line-height:0;font-size:16px;margin-top:-4px;margin-right:-2px}.preferences-preference-section .preferences-md-icon .md-label{margin-left:22px}.preferences-preference-section .preferences-md-icon .external-link-icon{font-size:10px}.preferences-accounts-section .accounts-section-personal-info .md-errors-spacer{min-height:0}.preferences-accounts-section .accounts-section-avatar img{width:80px;height:80px;margin:0 24px 24px}.preferences-accounts-section .accounts-section-avatar img+p{padding-bottom:16px}.preferences-accounts-section .accounts-section-personalInfo p{margin-bottom:8px}.preferences-accounts-section .accounts-section-personalInfo .header{min-height:36px}.preferences-accounts-section .accounts-section-personalInfo input:disabled{background-image:none}.preferences-accounts-section .accounts-section-personalInfo .details-spacing,.preferences-accounts-section .accounts-section-personalInfo md-input-container{margin-bottom:16px}.preferences-accounts-section .accounts-section-personalInfo md-input-container .md-input{margin-bottom:0;margin-top:0;padding:0 0 8px;max-height:22px;line-height:12px}.preferences-accounts-section .accounts-section-security p{margin-bottom:8px}.preferences-accounts-section .accounts-section-security md-checkbox{margin-top:8px}.preferences-accounts-section .preferences-accounts-devices button{margin:0}.preferences-accounts-section .accounts-section-newsletter md-progress-circular{margin:0 auto}.preferences-shield-tile{margin:0 8px 8px 0}.preferences-shield-tile md-card-content:focus,.preferences-shield-tile:focus{outline:-webkit-focus-ring-color auto 5px;outline-color:transparent!important}.preferences-shield-tile .item-container .shield-tile-content-outline:focus,.preferences-shield-tile.shield-tile-content-outline md-card,.preferences-shield-tile.shield-tile-content-outline:focus md-card{outline:-webkit-focus-ring-color auto 5px;outline-color:#76b900!important}.preferences-shield-tile md-card:focus md-card-content,.preferences-shield-tile md-card:hover md-card-content{background-color:#414141!important}.preferences-shield-tile.shield-tile-content-outline md-card-content{background-color:#2d2d2d!important}.preferences-preference-section .shield-section h4{margin-bottom:8px}.preferences-preference-section .shield-section md-content{padding:1px 0 0 1px}.preferences-preference-section .shield-section .appcollector-content-height{height:357px}.preferences-preference-section .shield-section .empty-app-list{height:348px;border-style:solid;border-width:1px;border-color:#3c3c3c;margin-bottom:8px;width:100%}.preferences-preference-section .button-text-padding .md-button:not(.md-icon-button){padding-left:16px;padding-right:16px}.preferences-shield-tile .item-container{width:94px;height:170px;display:block}.preferences-shield-tile .item-container img{width:94px;height:134px;display:block}.preferences-shield-tile .item-container .shield-tile-img-border{border:1px solid transparent}.preferences-shield-tile .item-container md-card-content{width:94px;height:36px;display:block;padding:0}.preferences-shield-tile .item-container p{font-size:10px;padding:5px}.preferences-preference-section .preferences-games-battery-boost .battery-boost-content-title,.preferences-preference-section .preferences-games-quiet-mode .quiet-mode-content-title{height:16px;line-height:16px}.preferences-shield-edit-dialog{width:425px;height:270px}.preferences-shield-edit-dialog img{width:94px;min-height:134px;display:block}.preferences-shield-edit-dialog .container{margin:24px}.preferences-shield-edit-dialog md-input-container{margin:0}.preferences-shield-edit-dialog .boxart{margin-left:16px}.preferences-shield-edit-dialog .custom-label-heading{font-size:10px;font-weight:400;text-shadow:none;bottom:inherit;color:rgba(255,255,255,.7);padding-left:3px}.preferences-shield-edit-dialog .custom-label-content{font-size:12px;font-weight:400;text-shadow:none;bottom:inherit;color:#fff;padding-left:3px;margin-top:8px;margin-bottom:8px}.preferences-shield-edit-dialog md-icon:focus{outline:0;border:none}.preferences-shield-edit-dialog .image-container>img{display:block;width:94px;height:134px}.preferences-shield-edit-dialog .image-container:hover{box-shadow:0 3px 15px 1px rgba(0,0,0,.75);color:rgba(0,0,0,.75);opacity:.75}.preferences-shield-edit-dialog .image-container:hover md-icon{color:#fff!important}.preferences-shield-edit-dialog .image-container md-icon[selected],.preferences-shield-edit-dialog .image-container:active,.preferences-shield-edit-dialog .image-container:focus{outline-color:transparent!important}.preferences-preference-section .share-section p{line-height:1.64;margin-top:8px;margin-bottom:-3.5px}.preferences-preference-section .share-section md-icon{margin:0}.preferences-preference-section .share-section .share-hotkey-info{padding-top:24px;padding-bottom:24px}.preferences-preference-section .share-section .share-hotkey-info p{margin-top:3px!important;margin-bottom:0!important;margin-left:6px;font-size:10px}.preferences-share-alert-icon{margin-left:5px!important;line-height:10px!important}.preferences-col-1,.preferences-col-2{float:left;width:90%}@media only screen and (min-width:900px){.preferences-col-1,.preferences-col-2{width:50%}.preferences-sidebar-container{width:236px}}.preference-gfeCheckForUpdate-container,.preferences-preference-section .download-details-container,.preferences-preference-section .download-progress{width:100%}.preferences-preference-section .preference-gfe-check-for-update-container .md-container{width:100%;height:3px}.preferences-preference-section .preference-gfe-check-for-update-container md-progress-linear{margin-left:0}.preferences-preference-section .about-section md-checkbox{margin-bottom:12px}.shield-troubleshooting-link{margin-top:12px}.preferences-functional-data-consent-dialog{min-height:445px;width:528px}.preferences-functional-data-consent-dialog .dialog-service-dialog-contents-footer{min-height:50px!important}.preferences-licence-agreement{min-height:445px;width:528px}.preferences-led .picker{float:left;border:0}.preferences-led .controls{float:right;margin:10px}.preferences-led .controls>div{padding:5px}.preferences-led .controls label{margin-right:10px}.preferences-led .preview,.preferences-led .secondPreview{cursor:pointer;height:30px;width:50px}preferences-led .cancel-apply-container{height:52px}preferences-led .cancel-apply-container button{margin-top:8px;margin-bottom:8px}.preferences-led .preferences-preference-section .preferences-led-switch md-switch{margin-top:7px;margin-bottom:0;margin-left:8px}.preferences-led .preferences-preference-section .led-input-container-position{width:150px;height:50px;margin-top:0;margin-bottom:50px}.preferences-led .preferences-preference-section .section-divider{display:inline-block;width:1px;height:auto;margin:10px}#overlay{display:block;z-index:0;position:absolute;width:100%;height:100%;background-color:transparent;opacity:.5;filter:alpha(opacity=0)}.range-slider-container{position:relative;width:100%;height:48px}.range-slider-left{position:absolute;top:0;width:100%}.range-slider-left md-slider .md-thumb-container{z-index:10}.range-slider-left md-slider .md-track{background-color:#76b900}.range-slider-left md-slider .md-track.md-track-fill,.range-slider-right md-slider .md-track-container .md-track{background-color:#9e9e9e}.range-slider-right{position:absolute;top:0;right:0}.range-slider-right md-slider .md-thumb-container{transition:-webkit-transform 0s linear;transition:transform 0s linear}.range-slider-right md-slider .md-track-container .md-track.md-track-fill{background-color:#76b900;transition:none}md-slider .md-slider-wrapper{width:100%}.common-window .optimized-slider-container.battery-boost{margin-top:-8px}.common-window .optimized-slider-container .optimal-button-container.battery-boost{margin-top:-23px}.performance-mode md-radio-button .md-off,.performance-mode md-radio-button .md-on{width:20px;height:20px}.performance-mode md-radio-button .md-container{top:12px;width:20px;height:20px}", ""]);
 }, function(e, t, n) {
     t = e.exports = n(6)(), t.push([e.id, ".rewards-dialog.rewards-external-page-container,.rewards-dialog.rewards-redeem-reward{background-image:none;min-height:497px;max-height:497px;min-width:789px;max-width:789px;position:relative;border-radius:0}.rewards-redeem-reward .rewards-dialog-image-container,.rewards-redeem-reward img{width:320px;height:497px}.rewards-redeem-reward .coupon-redemption-header{height:78px}.rewards-redeem-reward .coupon-redemption-header .md-subheader{margin:36px 24px 24px;font-size:18px;font-weight:300}.rewards-redeem-reward .coupon-redemption-header .md-subheader-inner{padding:0}.rewards-external-page-container .iframe-top-toolbar .close-button,.rewards-redeem-reward .coupon-redemption-header .close-button{position:absolute;left:auto;right:8px;top:8px;min-height:24px;max-height:24px}.rewards-redeem-reward .coupon-redemption-block-error-container{height:367px}.rewards-redeem-reward .coupon-redemption-block-error-container .block-error-base-icon{height:32px;line-height:32px;font-size:32px;width:32px}.rewards-redeem-reward .coupon-redemption-block-error-container nv-overlay{height:16px;width:16px;top:155px;left:235px;opacity:1}.rewards-redeem-reward .coupon-redemption-block-error-container .block-error-overlay-icon{height:16px;line-height:16px;width:16px;font-size:16px;opacity:1}.rewards-redeem-reward .coupon-redemption-block-error-container .block-error-message{margin-top:18px}.rewards-redeem-reward .coupon-redemption-block-error-container a{margin-top:12px}.rewards-redeem-reward .coupon-redemption-error-actions{height:52px}.rewards-external-page-container .iframe-top-toolbar{height:48px}.rewards-external-page-container .iframe-scrollbar-spacer{height:24px}.coupon-validation-container{height:56px;margin-top:30px;margin-bottom:10px}.coupon-validation-container .coupon-code-input,.coupon-validation-container .coupon-code-input:focus{height:36px;width:400px;outline:0;border:none}.coupon-validation-container .coupon-code-input::-webkit-input-placeholder{color:rgba(255,255,255,.3)}.coupon-validation-container .coupon-input-error-message{margin-top:8px;width:400px}.rewards-reward-card{width:376px;height:230px}.reward-card:focus,.rewards-feature-card:focus,.rewards-redeem-reward .redeem-details-container .math-answer-input,.rewards-redeem-reward .redeem-details-container .math-answer-input:focus,.rewards-reward-card:focus{outline:0;border:none}.rewards-reward-card .reward-card{width:360px;height:214px;margin:0 16px 16px 0}.rewards-reward-card .reward-card .reward-card-image-container,.rewards-reward-card .reward-card .reward-card-image-container img{width:100%;height:154px}.rewards-feature-card .reward-card .reward-card-image-container,.rewards-feature-card .reward-card .reward-card-image-container img{width:100%;height:240px}.rewards-reward-card .reward-card .reward-card-image-container .reward-card-overlay .reward-status-icon{font-size:16px;line-height:16px;height:16px;width:16px}.rewards-feature-card .reward-card .reward-card-details-container .reward-date,.rewards-feature-card .reward-card .reward-card-details-container .rewards-details-left-message,.rewards-reward-card .reward-card .reward-card-details-container .reward-date,.rewards-reward-card .reward-card .reward-card-details-container .rewards-details-left-message{margin-top:6px}.rewards-reward-card .reward-card .reward-card-details-container .rewards-details-left-message+.reward-date{margin-left:30px}.rewards-reward-card .reward-card.md-accent.background-on-hover:hover .reward-card-details-container .reward-date,.rewards-reward-card .reward-card.md-accent.background-on-hover:hover .reward-card-title{color:#fff!important}.rewards-feature-card .reward-card .reward-card-details-container .rewards-details-left-message+.reward-date{margin-left:70px}.rewards-reward-card .reward-card .rewards-feature-card{width:532px;height:332px}.rewards-feature-card .reward-card{width:500px;height:300px;margin:16px 0 16px 16px;background-color:#464646}.rewards-feature-card .reward-card md-card-content,.rewards-reward-card .reward-card md-card-content{height:60px}.rewards-reward-card .reward-card .new-item-icon-wrapper{position:absolute;z-index:1;width:0;height:0;border-style:solid;border-width:36px 36px 0 0;border-color:rgba(0,0,0,.85) transparent transparent;text-align:center;line-height:30px}.rewards-reward-card .reward-card .new-item-icon-wrapper md-icon{transform:translate(-1px,-41px)}.rewards-center-items-container .rewards-center-section-title{font-weight:400;margin:24px 24px 8px 0}.rewards-center-items-container .rewards-center-top-toolbar{height:56px}.rewards-center-items-container .rewards-center-top-toolbar .back-button{min-height:24px;margin:16px 12px 16px 36px!important}.rewards-center-items-container .rewards-center-top-toolbar .rewards-center-title{margin:22px 0}.rewards-center-items-container .rewards-center-top-toolbar nv-select-menu{margin-right:36px}.rewards-center-items-container .rewards-center-top-toolbar nv-select-menu .common-green-dot{bottom:9px;right:2px}.rewards-center-items-container .featured-reward-container .reward-tag-image{width:112px;height:187px}.rewards-center-items-container .featured-reward-container .featured-reward-details-container .featured-reward-details-description{margin-top:32px}.rewards-center-items-container .rewards-center-top-banner{min-height:150px;max-height:150px}.rewards-center-items-container .rewards-center-top-banner .reward-tag-image-sm{width:56px;height:94px}.rewards-center-items-container .rewards-center-top-banner .reward-banner-details-container .reward-banner-details-description{width:70%}.rewards-center-items-container .rewards-center-coupon-code-banner{height:132px;max-height:132px;transition:height .3s,max-height .3s}.rewards-center-items-container .section-separator-horizontal,.rewards-center-items-container .section-separator-horizontal-center{height:1px}.rewards-center-items-container .section-separator-vertical{width:1px;height:100%}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-header,.rewards-center-items-container .section-separator-horizontal{width:100%}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-header,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button{height:35px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button:hover{background-color:#303030!important;opacity:1}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button:active md-icon,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button:active p{color:rgba(255,255,255,.45)!important}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content{height:0;margin:0 auto;transition:height .3s}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .reward-cards-container{height:100%;clip-path:polygon(0 0,100% 0,100% 0,0 0);transition:clip-path .3s}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-bullet{width:4px;height:7px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-text-container{right:50%;clip-path:polygon(0 0,100% 0,100% 0,0 0);transition:clip-path .3s}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content img{top:132px;height:224px;clip-path:polygon(0 0,100% 0,100% 0,0 0);transition:clip-path .3s}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state .learn-more-expandable-content .learn-more-text-container,.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state .learn-more-expandable-content img{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state .learn-more-expandable-content .reward-cards-container{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);transition:clip-path .3s}.rewards-center-items-container .rewards-center-coupon-code-banner md-icon.toggle-icon{height:16px;width:16px;min-height:16px;min-width:16px}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state md-icon.toggle-icon{-moz-transform:rotateX(180deg);-o-transform:rotateX(180deg);-ms-transform:rotateX(180deg);-webkit-transform:rotateX(180deg);transform:rotateX(180deg)}.rewards-center-items-container .rewards-center-coupon-code-banner h2,.rewards-center-items-container .rewards-center-coupon-code-banner h2:hover{height:56px;line-height:36px;cursor:default;margin-top:48px;margin-bottom:28px}.rewards-center-items-container .reward-cards-container{margin:0 auto}.rewards-redeem-reward .redeem-details-container{height:366px}.rewards-redeem-reward .redeem-details-container .math-answer-input{height:36px;width:200px}.rewards-redeem-reward .redeem-details-container .math-incorrect-answer-placeholder{height:20px}@media (min-width:1200px){.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content img,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button,.rewards-center-items-container.user-profile-disabled .reward-cards-container{width:1128px}.rewards-center-items-container .section-separator-horizontal-center{width:1130px}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state{height:356px;max-height:356px}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state .learn-more-expandable-content{height:224px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-text-container{top:180px;margin-right:-500px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-text-container .learn-more-message{width:450px}}@media (min-width:1528px){.rewards-center-items-container .reward-cards-container{width:1128px}}@media (max-width:1199px){.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content img,.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-header-button,.rewards-center-items-container.user-profile-disabled .reward-cards-container{width:752px}.rewards-center-items-container .section-separator-horizontal-center{width:754px}.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state{height:282px;max-height:282px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content img,.rewards-center-items-container .rewards-center-coupon-code-banner.expanded-state .learn-more-expandable-content{height:150px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-text-container{top:164px;margin-right:-350px}.rewards-center-items-container .rewards-center-coupon-code-banner .learn-more-expandable-content .learn-more-text-container .learn-more-message{width:300px}}@media (max-width:1523px){.rewards-center-items-container .reward-cards-container{width:752px}}.rewards-center-items-container .filtered-list-separator{height:44px}", ""])
 }, function(e, t, n) {
-    t = e.exports = n(6)(), t.push([e.id, ".updates-updates-driver nv-accordion-pane-content,.updates-updates-driver nv-accordion-pane-header-wrapper{min-width:768px}.driver-type-selection-container{width:296px}.driver-type-selection-container md-radio-button:focus{outline:0;border:0}.driver-type-selection-container md-radio-button .md-label{margin-left:39px}.driver-type-selection-container md-radio-button .md-off,.driver-type-selection-container md-radio-button .md-on{width:24px;height:24px}.driver-type-selection-container md-radio-button .md-container{top:27%;width:24px;height:24px}.driver-type-selection-container md-menu-item{height:100%}.driver-type-selection-container .driver-type-title{opacity:.9!important;color:#fff;line-height:24px}.driver-type-selection-container .driver-type-heading2{opacity:.45!important;color:#fff}.driver-type-selection-container .driver-type-heading1{opacity:.75!important;color:#fff;line-height:20px}.updates-updates-driver-item{margin:0}.updates-updates-driver md-icon{margin-right:16px}.updates-updates-driver-item md-icon{font-size:32px;line-height:32px;height:32px}.updates-updates-driver .md-button{margin:0}.updates-updates-driver-item h3{margin-bottom:6px;margin-top:0;line-height:normal;text-transform:none;text-align:left;font-weight:400}.updates-updates-driver-item p{margin:0;line-height:normal;color:#9f9f9f;text-transform:none;text-align:left}.updates-updates-driver nv-accordion-pane{margin-bottom:1px}.updates-updates-driver nv-accordion-pane-header{height:80px}.updates-reinstall-driver{min-width:184px}.updates-reinstall-driver .updates-reinstall-driver-icon{margin:auto 16px auto 0!important;width:16px!important;height:16px;line-height:16px;min-height:16px;min-width:16px}.updates-updates-notification-md-menu-content .progress-container p{margin:0;line-height:normal;font-size:10px;color:#9f9f9f}.updates-updates-notification-md-menu-content .progress-container{margin-left:10px;margin-bottom:15px;margin-right:10px;line-height:normal}.updates-updates-notification-md-menu-content .notification-header{margin:10px 0 3px 15px;font-size:9px}.updates-updates-notification-md-menu-content .md-button{margin:0;padding:0;width:100%;height:inherit}.updates-updates-notification-md-menu-content md-list-item.md-2-line button.md-button{padding:0;margin:0}.updates-updates-notification-md-menu-content{padding:0;margin-top:-8px;margin-bottom:-8px;max-height:none}.updates-updates-details .highlight-container{height:406px}.updates-updates-notification-md-menu-content .checkforupdate-container{min-height:49px}.updates-updates-notification-md-menu-content .checkforupdate-container p{text-align:center}.updates-updates-details .highlight-container md-list-item{background-color:rgba(51,51,51,.5);margin-bottom:1px;padding:0;height:80px}.updates-updates-details{margin:24px 16px 10px}.updates-updates-container h4{margin-top:24px;margin-bottom:8px;font-weight:400}.updates-updates-details md-list-item img{margin-right:10px}.updates-updates-container md-list-item.md-2-line .md-list-item-text h3{line-height:normal;margin:0}.updates-updates-details md-list-item.md-2-line .md-list-item-text{padding:0}.updates-updates-container .updates-updates-driver-container{width:100%;max-width:100%}.updates-updates-container .updates-updates-driver-container .checkforupdate-button{margin-top:14px;margin-bottom:-36px}.updates-updates-details .highlight-container md-list-item img{width:60px;height:60px}.updates-updates-details .highlight-container md-list{padding:0;margin:0}.updates-updates-details .highlight-container md-list-item{margin:10px}.updates-updates-container md-list md-list-item.md-2-line .md-list-item-text p,.updates-updates-container p,md-list md-list-item.md-3-line .md-list-item-text p{color:#9f9f9f}.download-progress md-progress-linear{margin-top:6px}.download-install-controls{margin-right:32px}.updates-updates-driver .download-install-controls .expressInstall{margin-right:10px}.updates-updates-installer-dialog{width:790px;height:442px;background-image:url(" + n(715) + ")}.updates-updates-installer-dialog md-dialog-content{padding:0;overflow:hidden}.updates-updates-intstallation-progress iframe{width:790px;height:376px;border:0}.updates-updates-intstallation-progress .updates-installlation-progress-fallbackImage{width:790px}.updates-updates-intstallation-progress .progress-status-container{margin:10px 15px 5px}.updates-updates-intstallation-progress p{margin:4px 0 0;line-height:10px}.updates-updates-intstallation-progress h4{margin:0 0 4px}.updates-updates-installer-dialog h4{line-height:17px;font-weight:400;margin-top:0}.updates-updates-installer-dialog .updates-updates-installer-dialog-title{margin-bottom:8px}.updates-installer-dialog-installation-complete md-icon{width:48px;height:48px;line-height:normal;font-size:48px;font-weight:700}.updates-installer-dialog-installation-complete div{margin-top:100px}.updates-installer-dialog-installation-error div{margin-left:20px;margin-right:20px}.updates-installer-dialog-installation-error a{margin-top:14px;margin-left:5px;text-decoration:none;height:12px}.updates-installation-custom-container .package-group-table{margin-left:4px;margin-right:4px;height:234px}.updates-installation-custom-container .package-group-header{height:28px;padding-left:20px;margin:0}.updates-installation-custom-container .md-divider{border-top-width:1px;border-bottom-width:1px;border-top-color:#000;border-bottom-color:#1e1e1e}.updates-installation-custom-container md-checkbox,.updates-installation-custom-container p{line-height:normal;margin:0}.updates-installation-custom-container md-divider+div{margin-left:24px;margin-top:16px}.updates-installation-custom-container .warning-clean-install{margin-left:30px}.updates-updates-installer-dialog .updates-installer-dialog-header{margin:24px}.updates-updates-installer-dialog md-icon{margin:0 4px 0 0}.updates-installer-dialog-header:first-child md-icon+p{margin-top:5px}.updates-installer-dialog-header:first-child p{margin:0}.updates-updates-installation-reboot h4,.updates-updates-installation-reboot p{margin:6px 0 0}.updates-updates-installation-reboot div{margin-top:100px}.updates-game-list{padding-left:20px}.updates-game-list .updates-tile-repeater{min-height:232px;max-height:232px}.updates-highlight-tile{width:360px;height:250px;margin:0 16px 16px 0}@media only screen and (min-width:1196px){.updates-highlight-tile:nth-child(3n+0){margin-right:0}}@media only screen and (max-width:1195px){.updates-highlight-tile:nth-child(2n+0){margin-right:0}}.updates-highlight-tile .image-container>img{width:360px;height:154px;display:block}.updates-highlight-tile .image-container .optimal-settings-icon-overlay{width:24px;height:24px;background-color:transparent;top:16px;left:312px}.updates-highlight-tile md-card,.updates-highlight-tile md-card-content{margin:0}.updates-highlight-tile md-card-content>p:last-child{margin-top:4px;margin-bottom:0}.updates-highlight-tile p{line-height:normal;margin:0}.updates-highlight-tile md-card-content .opsTitle{margin-top:3px}.updates-highlight-tile .common-container-gradient{margin:0 16px}.updates-highlight-tile:hover .color-black-hue-1{background-color:#76b900!important}.updates-highlight-tile:hover .color-white-hue-3,.updates-highlight-tile:hover .color-white-hue-4{color:#fff!important}.updates-highlight-tile:hover .common-container-gradient{opacity:0}.updates-updates-details-overlay{margin:0;height:56px;opacity:.45;top:auto;bottom:-10px;position:absolute;width:100%}.updates-updates-details-overlay p{margin:16px}.updates-highlight-tile md-card-content{height:72px;padding-top:12px;padding-bottom:12px}.updates-updates-driver{max-width:1196px;margin:auto;padding-left:26px;padding-right:26px}.updates-updates-details-releaseAbstract{margin-bottom:24px;color:rgba(255,255,255,.75);line-height:1.67}.updates-highlight-tile .highlight-tile-overlay .md-button.md-icon-button{width:50px;height:50px}.updates-highlight-tile .highlight-tile-overlay .md-button.md-icon-button md-icon{width:auto;height:auto;font-size:50px;line-height:50px;margin:0}", ""])
+    t = e.exports = n(6)(), t.push([e.id, ".updates-updates-driver nv-accordion-pane-content,.updates-updates-driver nv-accordion-pane-header-wrapper{min-width:768px}.driver-type-selection-container{width:296px}.driver-type-selection-container md-radio-button:focus{outline:0;border:0}.driver-type-selection-container md-radio-button .md-label{margin-left:39px}.driver-type-selection-container md-radio-button .md-off,.driver-type-selection-container md-radio-button .md-on{width:24px;height:24px}.driver-type-selection-container md-radio-button .md-container{top:27%;width:24px;height:24px}.driver-type-selection-container md-menu-item{height:100%}.driver-type-selection-container .driver-type-title{opacity:.9!important;color:#fff;line-height:24px}.driver-type-selection-container .driver-type-heading2{opacity:.45!important;color:#fff}.driver-type-selection-container .driver-type-heading1{opacity:.75!important;color:#fff;line-height:20px}.updates-updates-driver-item{margin:0}.updates-updates-driver md-icon{margin-right:16px}.updates-updates-driver-item md-icon{font-size:32px;line-height:32px;height:32px}.updates-updates-driver .md-button{margin:0}.updates-updates-driver-item h3{margin-bottom:6px;margin-top:0;line-height:normal;text-transform:none;text-align:left;font-weight:400}.updates-updates-driver-item p{margin:0;line-height:normal;color:#9f9f9f;text-transform:none;text-align:left}.updates-updates-driver nv-accordion-pane{margin-bottom:1px}.updates-updates-driver nv-accordion-pane-header{height:80px}.updates-reinstall-driver{min-width:184px}.updates-reinstall-driver .updates-reinstall-driver-icon{margin:auto 16px auto 0!important;width:16px!important;height:16px;line-height:16px;min-height:16px;min-width:16px}.updates-updates-notification-md-menu-content .progress-container p{margin:0;line-height:normal;font-size:10px;color:#9f9f9f}.updates-updates-notification-md-menu-content .progress-container{margin-left:10px;margin-bottom:15px;margin-right:10px;line-height:normal}.updates-updates-notification-md-menu-content .notification-header{margin:10px 0 3px 15px;font-size:9px}.updates-updates-notification-md-menu-content .md-button{margin:0;padding:0;width:100%;height:inherit}.updates-updates-notification-md-menu-content md-list-item.md-2-line button.md-button{padding:0;margin:0}.updates-updates-notification-md-menu-content{padding:0;margin-top:-8px;margin-bottom:-8px;max-height:none}.updates-updates-details .highlight-container{height:406px}.updates-updates-notification-md-menu-content .checkforupdate-container{min-height:49px}.updates-updates-notification-md-menu-content .checkforupdate-container p{text-align:center}.updates-updates-details .highlight-container md-list-item{background-color:rgba(51,51,51,.5);margin-bottom:1px;padding:0;height:80px}.updates-updates-details{margin:24px 16px 10px}.updates-updates-container h4{margin-top:24px;margin-bottom:8px;font-weight:400}.updates-updates-details md-list-item img{margin-right:10px}.updates-updates-container md-list-item.md-2-line .md-list-item-text h3{line-height:normal;margin:0}.updates-updates-details md-list-item.md-2-line .md-list-item-text{padding:0}.updates-updates-container .updates-updates-driver-container{width:100%;max-width:100%}.updates-updates-container .updates-updates-driver-container .checkforupdate-button{margin-top:14px;margin-bottom:-36px}.updates-updates-details .highlight-container md-list-item img{width:60px;height:60px}.updates-updates-details .highlight-container md-list{padding:0;margin:0}.updates-updates-details .highlight-container md-list-item{margin:10px}.updates-updates-container md-list md-list-item.md-2-line .md-list-item-text p,.updates-updates-container p,md-list md-list-item.md-3-line .md-list-item-text p{color:#9f9f9f}.download-progress md-progress-linear{margin-top:6px}.download-install-controls{margin-right:32px}.updates-updates-driver .download-install-controls .expressInstall{margin-right:10px}.updates-updates-installer-dialog{width:790px;height:442px;background-image:url(" + n(716) + ")}.updates-updates-installer-dialog md-dialog-content{padding:0;overflow:hidden}.updates-updates-intstallation-progress iframe{width:790px;height:376px;border:0}.updates-updates-intstallation-progress .updates-installlation-progress-fallbackImage{width:790px}.updates-updates-intstallation-progress .progress-status-container{margin:10px 15px 5px}.updates-updates-intstallation-progress p{margin:4px 0 0;line-height:10px}.updates-updates-intstallation-progress h4{margin:0 0 4px}.updates-updates-installer-dialog h4{line-height:17px;font-weight:400;margin-top:0}.updates-updates-installer-dialog .updates-updates-installer-dialog-title{margin-bottom:8px}.updates-installer-dialog-installation-complete md-icon{width:48px;height:48px;line-height:normal;font-size:48px;font-weight:700}.updates-installer-dialog-installation-complete div{margin-top:100px}.updates-installer-dialog-installation-error div{margin-left:20px;margin-right:20px}.updates-installer-dialog-installation-error a{margin-top:14px;margin-left:5px;text-decoration:none;height:12px}.updates-installation-custom-container .package-group-table{margin-left:4px;margin-right:4px;height:234px}.updates-installation-custom-container .package-group-header{height:28px;padding-left:20px;margin:0}.updates-installation-custom-container .md-divider{border-top-width:1px;border-bottom-width:1px;border-top-color:#000;border-bottom-color:#1e1e1e}.updates-installation-custom-container md-checkbox,.updates-installation-custom-container p{line-height:normal;margin:0}.updates-installation-custom-container md-divider+div{margin-left:24px;margin-top:16px}.updates-installation-custom-container .warning-clean-install{margin-left:30px}.updates-updates-installer-dialog .updates-installer-dialog-header{margin:24px}.updates-updates-installer-dialog md-icon{margin:0 4px 0 0}.updates-installer-dialog-header:first-child md-icon+p{margin-top:5px}.updates-installer-dialog-header:first-child p{margin:0}.updates-updates-installation-reboot h4,.updates-updates-installation-reboot p{margin:6px 0 0}.updates-updates-installation-reboot div{margin-top:100px}.updates-game-list{padding-left:20px}.updates-game-list .updates-tile-repeater{min-height:232px;max-height:232px}.updates-highlight-tile{width:360px;height:250px;margin:0 16px 16px 0}@media only screen and (min-width:1196px){.updates-highlight-tile:nth-child(3n+0){margin-right:0}}@media only screen and (max-width:1195px){.updates-highlight-tile:nth-child(2n+0){margin-right:0}}.updates-highlight-tile .image-container>img{width:360px;height:154px;display:block}.updates-highlight-tile .image-container .optimal-settings-icon-overlay{width:24px;height:24px;background-color:transparent;top:16px;left:312px}.updates-highlight-tile md-card,.updates-highlight-tile md-card-content{margin:0}.updates-highlight-tile md-card-content>p:last-child{margin-top:4px;margin-bottom:0}.updates-highlight-tile p{line-height:normal;margin:0}.updates-highlight-tile md-card-content .opsTitle{margin-top:3px}.updates-highlight-tile .common-container-gradient{margin:0 16px}.updates-highlight-tile:hover .color-black-hue-1{background-color:#76b900!important}.updates-highlight-tile:hover .color-white-hue-3,.updates-highlight-tile:hover .color-white-hue-4{color:#fff!important}.updates-highlight-tile:hover .common-container-gradient{opacity:0}.updates-updates-details-overlay{margin:0;height:56px;opacity:.45;top:auto;bottom:-10px;position:absolute;width:100%}.updates-updates-details-overlay p{margin:16px}.updates-highlight-tile md-card-content{height:72px;padding-top:12px;padding-bottom:12px}.updates-updates-driver{max-width:1196px;margin:auto;padding-left:26px;padding-right:26px}.updates-updates-details-releaseAbstract{margin-bottom:24px;color:rgba(255,255,255,.75);line-height:1.67}.updates-highlight-tile .highlight-tile-overlay .md-button.md-icon-button{width:50px;height:50px}.updates-highlight-tile .highlight-tile-overlay .md-button.md-icon-button md-icon{width:auto;height:auto;font-size:50px;line-height:50px;margin:0}", ""])
 }, function(e, t, n) {
-    t = e.exports = n(6)(), t.push([e.id, "nv-user-profile .md-dialog-container{padding:0!important}nv-user-profile .help-tooltip{width:320px;margin-left:-20px;pointer-events:auto;cursor:default}nv-user-profile .help-tooltip .tooltip-arrow-up{position:absolute;margin-left:24px;z-index:4;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid #272727}nv-user-profile .help-tooltip .help-tooltip-container{position:absolute;z-index:3;top:8px;box-shadow:2px 2px 20px #0c0c0c}nv-user-profile .help-tooltip .help-tooltip-container img{width:24px;height:24px}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-table-header{margin-bottom:6px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.2)}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-level-column span{min-width:60px}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-value-column span{padding-left:16px}nv-user-profile .material-icons.md-11{width:11px;height:11px;line-height:11px;font-size:11px}nv-user-profile .material-icons.md-36{width:36px;height:36px;line-height:36px}nv-user-profile .material-icons.md-48{width:48px;height:48px;line-height:48px}.user-profile-container{max-width:2560px;margin:0 auto}.user-profile{position:relative;z-index:1;padding:0 36px}.user-profile .user-profile-content .md-tab.md-active{color:rgba(255,255,255,.9)}.user-profile .user-profile-content md-tabs{background-color:#242424}.user-profile .user-profile-content md-tabs md-tabs-wrapper{background-color:#191919}.user-profile .link-disabled{opacity:.45;pointer-events:none}.user-profile .profile-section-header{margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.2)}.level-icon-gradient.icon-ranking-silver{background:-moz-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-webkit-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-o-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-ms-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:linear-gradient(to bottom,top,#dce6f0 33.33%,#b8c2ce 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.level-icon-gradient.icon-ranking-gold{background:-moz-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-webkit-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-o-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-ms-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:linear-gradient(to bottom,#fff5b5 33.33%,#ffc142 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.level-icon-gradient.icon-ranking-titanium{background:-moz-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-webkit-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-o-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-ms-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:linear-gradient(to bottom,#cee6eb 33.33%,#75a7b8 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.sweepstakes-dialog{min-height:498px;max-height:498px;min-width:790px;max-width:790px;border-radius:0}.sweepstakes-dialog .input-error-container{margin-left:78px;line-height:1em}.sweepstakes-dialog .line-height-18{line-height:18px}.sweepstakes-dialog .line-height-26{line-height:26px}.sweepstakes-dialog .md-32{width:32px;height:32px;line-height:32px}.sweepstakes-dialog .md-48{width:48px;height:48px;line-height:48px;font-size:48px}.sweepstakes-dialog .md-62{width:62px;height:62px;line-height:62px;font-size:62px}.sweepstakes-dialog .md-button.md-fab-24{padding:0!important;width:24px!important;min-width:24px!important;height:24px!important;min-height:24px!important;line-height:24px!important;border-radius:50%!important}.sweepstakes-dialog .width-100{width:100%}.sweepstakes-dialog .message-banner-container{margin-top:20px;height:40px}.sweepstakes-dialog .message-banner-container .message-banner{position:absolute;left:0;width:100%;height:40px;line-height:40px;background-color:#303030;padding-left:24px;padding-right:24px}.sweepstakes-dialog .message-banner-container .message-banner span{line-height:normal;color:rgba(255,255,255,.45)}.sweepstakes-dialog .animate-show-hide.ng-hide{opacity:0}.sweepstakes-dialog .animate-show-hide.ng-hide-add,.sweepstakes-dialog .animate-show-hide.ng-hide-remove{transition:all ease-in-out .2s}.sweepstakes-dialog .md-icon-button.close-button{position:absolute;top:12px;right:12px;z-index:3}.sweepstakes-dialog .giveaway-subview{position:relative;padding:24px 8px 12px 24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-header{min-height:24px;margin-bottom:24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-header .md-button{min-height:24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-content{padding-right:32px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-content-overlay{height:48px;margin:0 24px 12px;background:linear-gradient(transparent,rgba(25,25,25,.9))}.sweepstakes-dialog .giveaway-rules-container p{margin:0}.sweepstakes-dialog .giveaway-rules-container .header{margin:12px 0}.sweepstakes-dialog .message-overlay{position:absolute;opacity:1;z-index:2;background:rgba(0,0,0,.85)}.sweepstakes-dialog .giveaway-details-container .giveaway-info-section{max-height:180px}.sweepstakes-dialog .giveaway-details-container .giveaway-details-description{margin-bottom:24px;margin-top:22px}.sweepstakes-dialog .giveaway-details-container .giveaway-tokens-section{padding:24px 0;border-top:1px solid #5e5e5e;border-bottom:1px solid #5e5e5e}.sweepstakes-dialog .giveaway-details-container .giveaway-box-art{width:352px}.sweepstakes-dialog .giveaway-details-container .giveaway-box-art img{width:100%;height:auto}.sweepstakes-dialog .giveaway-details-container .giveaway-form input[type=number]::-webkit-inner-spin-button,.sweepstakes-dialog .giveaway-details-container .giveaway-form input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.sweepstakes-dialog .giveaway-details-container .giveaway-form .tokens-input-container{width:48px}.sweepstakes-dialog .giveaway-details-container .giveaway-form .tokens-input-container input{font-size:14px!important;color:rgba(255,255,255,.45)}.mission-details-dialog{width:790px;height:501px;border-radius:0}.mission-details-dialog .close-button{position:absolute;top:12px;right:12px;z-index:2}.mission-details-dialog .slideshow-container{height:444px;width:790px;z-index:1}.mission-details-dialog .gradient-overlay{z-index:1}.mission-details-dialog .gradient-overlay .left{top:0;left:0;width:80px;height:444px;background-image:url(" + n(708) + ");background-repeat:repeat-y}.mission-details-dialog .gradient-overlay .right{top:0;right:0;width:80px;height:444px;background-image:url(" + n(709) + ");background-repeat:repeat-y}.mission-details-dialog .gradient-overlay .top{top:0;left:0;width:100%;height:36px;background-image:url(" + n(710) + ");background-repeat:repeat-x}.mission-details-dialog .details-container{bottom:0;z-index:2;width:100%}.mission-details-dialog .details-container .toggle-button{position:absolute;top:-12px;left:50%;transform:translateX(-50%);width:36px;background-color:#191919!important}.mission-details-dialog .details-container .title-container{height:176px;padding-left:24px;padding-right:34px;padding-bottom:12px;background-image:url(" + n(707) + ");background-repeat:repeat-x}.mission-details-dialog .details-container .collapsable-container{padding:20px 34px 12px 24px;background-color:#191919}.mission-details-dialog .details-container .collapsable-container .collapse-icon{transform:rotate(0)}.mission-details-dialog .details-container .collapsable-container .collapse-icon.rotate{transform:rotate(-180deg)}.mission-details-dialog .details-container .collapsable-container .subtitle{margin-bottom:8px}.mission-details-dialog .details-container .collapsable-container .content{overflow:hidden;-webkit-transition:max-height .4s;-moz-transition:max-height .4s;-ms-transition:max-height .4s;-o-transition:max-height .4s;transition:max-height .4s;max-height:501px}.mission-details-dialog .details-container .collapsable-container .content.collapsed{max-height:0}.featured-reward{min-height:440px}.featured-reward .title-container{height:38px;margin:10px 0}.featured-reward .artwork-container{height:185px;margin-bottom:20px}.featured-reward .artwork-container .drawdate-overlay{position:absolute;background:rgba(0,0,0,.75);z-index:2;padding:16px}.user-profile-cover-container{position:absolute;overflow:hidden;z-index:0;padding-bottom:31.25%;width:100%}.user-profile-cover-container .cover-gradient{position:absolute;z-index:3;background:-moz-linear-gradient(top,transparent 96px,#141414 95%);background:-webkit-linear-gradient(top,transparent 96px,#141414 95%);background:linear-gradient(to bottom,transparent 96px,#141414 95%)}.user-profile-cover-container .cover-dark-overlay{background:rgba(0,0,0,.4);z-index:2}.user-profile-cover-container img{position:absolute;top:0;left:0;width:100%;object-fit:cover;z-index:1}.croppie-dialog{max-width:705px;min-width:408px;overflow-x:hidden;border-radius:0}.croppie-dialog .md-32{width:32px;height:32px;line-height:32px}.croppie-dialog .title{font-size:20px;margin:24px 0 0 24px}.croppie-dialog .subtitle{margin:8px 0 0 24px}.croppie-dialog .gallery-tile-container{max-height:134px}.croppie-dialog .gallery-tile{float:left;padding:0 8px 8px 0}.croppie-dialog .gallery-tile img{width:208px}.croppie-dialog .cover-image-preview p{width:60%;text-align:center}.croppie-dialog.edit-profile-cover-container{max-height:620px}.croppie-dialog.edit-profile-cover-container .cover-image-preview{overflow:hidden;min-height:248px;max-height:248px}.croppie-dialog.edit-rig-image-container{max-height:615px}.croppie-dialog.edit-rig-image-container .cover-image-preview{overflow:hidden;min-height:448px;max-height:448px}.user-profile-bio-container{margin-top:-72px;z-index:2;padding-bottom:31.25%;width:100%}.user-profile-bio-container .user-profile-bio{top:0;left:0;right:0;bottom:0}.user-profile-bio-container .cover-edit-button{top:96px;z-index:2}.user-profile-bio-container .more-options{top:96px;z-index:2;right:20px}.user-profile-bio-container .user-profile-avatar-container{position:relative;width:312px;height:200px;margin-right:24px;top:48px}.user-profile-bio-container .user-profile-avatar-container .avatar-edit-button{right:0;top:0;z-index:2}.user-profile-bio-container .user-profile-avatar-container .profile-avatar-overlay{position:absolute;padding:6px 12px}.user-profile-bio-container .user-profile-avatar-container .md-avatar{height:200px;width:200px;border-radius:50%;box-shadow:2px 2px 6px rgba(25,25,25,.75)}.user-profile-bio-container .user-profile-details{max-width:70%}.user-profile-bio-container .user-profile-details .desc-edit-button{right:0;z-index:2}.edit-user-description-container{width:500px}.edit-user-description-container .buttons-container,.edit-user-description-container .description-input-container{width:100%}.user-profile-widgets-container{width:312px;margin-right:24px}.user-profile-widgets-container .profile-status-placeholder{margin-top:80px}.user-profile-widget{width:100%;margin-bottom:12px;background-color:#242424}.user-profile-widget .user-profile-widget-title{padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.2)}.user-profile-widget .winners-widget{margin:12px 24px}.user-profile-status{padding-top:62px}.user-profile-status .margin-top-7{margin-top:7px}.user-profile-status .margin-right-10{margin-right:10px}.user-profile-status .level-badge{right:64px;top:4px;z-index:2;width:56px}.user-profile-status .level-badge .icon-level-bg{z-index:1;top:0;color:#000;transform:scale(1.11)}.user-profile-status .level-badge .nv-custom-icons.level-icon-gradient{z-index:2}.user-profile-status .xp-container{max-width:160px}.user-profile-status .xp-container .current-xp{color:rgba(255,255,255,.75)}.user-profile-status .xp-container .xp-progress{width:120px;margin:5px 0!important}.user-profile-status .xp-container .xp-progress .md-container.md-mode-determinate{background-color:rgba(255,255,255,.3);height:5px}.user-profile-status .tokens-container{max-width:80px}.user-profile-status .empty-state{min-height:106px}.user-profile-giveaway p{margin:0}.user-profile-games-summary{margin-bottom:16px;padding:16px}.user-profile-games-summary .games-summary-item{margin-top:16px;margin-bottom:16px}.user-profile-games-summary .games-summary-item.first{margin-top:0!important}.user-profile-games-summary .games-summary-item.last{margin-bottom:0!important}.user-profile-games-summary .games-summary-value{font-size:24px;color:#76b900!important;margin-right:8px}.user-missions{min-height:600px}.user-missions .profile-section-header .countdown{color:rgba(255,255,255,.8)}.user-missions .mission-tile{background-color:#1a1a1a}.user-missions .mission-tile .mission-title{margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #4d4d4d}.user-missions .mission-tile .artwork-container{width:116px;height:164px}.user-missions .mission-tile .details-container{padding-top:24px;padding-left:16px;padding-bottom:16px}.user-missions .mission-tile .mission-progress-container{padding:18px 20px}.user-missions .mission-tile-margin{margin-bottom:16px}.user-missions .mission-tile-margin:last-child{margin-bottom:0!important}.mission-progress-container .md-30{width:30px;height:30px;font-size:30px;line-height:30px}.mission-progress-container .title{color:rgba(255,255,255,.6)}.mission-progress-container .progress-capsule{width:54px;text-align:center;border:1px solid;border-radius:10px;color:rgba(255,255,255,.45)}.mission-progress-container.completed .nv-custom-icons,.mission-progress-container.completed .title{color:#76b900!important}.mission-progress-container.completed .progress-capsule{color:#76b900;border-color:#76b900}.mission-progress-container .mission-value-container{margin-bottom:6px}.activity-log-empty-state-separator{border-top:1px solid rgba(255,255,255,.2)}.activity-log-empty-state{height:360px}.activity-log-container .activity-log-group{margin-top:30px}.activity-log-container .activity-log-group:first-child{margin-top:6px}.activity-log-container .activity-log{margin-bottom:24px;background-color:#1a1a1a}.activity-log-container .activity-log .activity-log-thumbnail{width:160px;height:90px}.activity-log-container .activity-log .activity-log-details{margin:12px;height:66px}.activity-log-container .activity-log .nv-custom-icons{margin-left:6px}.activity-log-container .activity-log em{color:#fff;font-style:normal;font-weight:700}.activity-log-container .activity-log:last-child{margin-bottom:0}.user-gallery-container{min-height:200px}.user-gallery-container .gallery-carousel{width:100%}.user-gallery-tile{margin:0 12px 0 0}.user-gallery-tile .gallery-video-div{position:relative;width:240px;height:135px}.user-gallery-tile .gallery-video-div-mta{filter:grayscale(100%)}.user-gallery-tile .gallery-text-mta{color:#919191!important}.user-gallery-tile .gallery-text-footer-mta{color:#919191}.user-gallery-tile .gallery-video-duration{box-sizing:border-box;position:absolute;display:block;bottom:0;right:0;padding:0 4px;font-size:10px;margin:0;color:#fff;background-color:#000}.user-gallery-tile .gallery-video-overlay-play-button{box-sizing:border-box;position:absolute;top:0;left:0;height:100%;width:100%;display:flex;align-items:center;justify-content:center}.user-gallery-tile .gallery-video-overlay-play-button-icon{width:33px;height:33px;font-size:33px;margin:0;opacity:.95}.user-gallery-tile .gallery-card-footer{color:#fff;font-size:12px;margin:0;padding:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}nv-user-gallery-details{height:100%;width:100%}.user-gallery-details-controller .gallery-detail-image,.user-gallery-details-controller .gallery-detail-video{object-fit:contain;width:100%;height:100%}.user-rig-info-container .user-rig-image-container img{width:100%;max-width:800px}.user-rig-info-container .user-rig-info-list .user-rig-info-item{padding:12px;min-width:100px;max-width:200px;text-align:center}nv-user-achievements .achievements-container{min-height:16px}nv-user-achievements .achievements-loading-container{min-height:24px}nv-user-achievements .achievements-loading-container .loading-icon{height:12px;width:12px;border-radius:50%;background-color:rgba(255,255,255,.2)}.cevo-icons{font-family:Nvidia;width:auto!important}.edit-badges-dialog{width:720px;height:640px;background-color:#2e2e2e;border-radius:0}.edit-badges-dialog .edit-badges-container{padding:24px 24px 0}.edit-badges-dialog .width-100{width:100%}.edit-badges-dialog .md-56{width:56px;height:56px;line-height:56px;font-size:56px}.edit-badges-dialog .checkbox-16{width:16px;height:16px;min-width:16px;min-height:16px}.edit-badges-dialog .checkbox-16 .md-container{width:16px;height:16px}.edit-badges-dialog .checkbox-16 .md-icon{width:16px;height:16px;line-height:16px}.edit-badges-dialog .showcase-section{min-height:144px}.edit-badges-dialog .badge-tile-container{background-color:#212121}.edit-badges-dialog .badge-tile-container .action-elements-container{left:0;top:0;z-index:2}.edit-badges-dialog .showcase-badge-tile{width:120px;height:144px;margin-right:16px}.edit-badges-dialog .showcase-badge-tile .action-elements-container{top:4px;left:4px}.edit-badges-dialog .showcase-badge-tile .title-toggle-button{width:24px;height:24px;min-height:24px}.edit-badges-dialog .showcase-badge-tile .tile-content{padding:24px 10px 10px;background-color:#212121}.edit-badges-dialog .showcase-badge-tile:last-child{margin-right:0!important}.edit-badges-dialog .showcase-badge-tile.dragging .tile-content{background-color:#76b900}.edit-badges-dialog .showcase-badge-tile.dragging .badge-icon-container{background-color:transparent}.edit-badges-dialog .showcase-badge-tile.dropping .tile-content{box-shadow:inset 0 0 0 2px #76b900}.edit-badges-dialog .badge-tile{width:322px;height:114px;margin-right:16px;margin-top:16px}.edit-badges-dialog .badge-tile .tile-content{padding-left:16px}.edit-badges-dialog .badge-tile .badge-icon-container{min-width:80px;max-width:80px}.edit-badges-dialog .badge-tile .action-elements-container{top:8px;left:8px}.edit-badges-dialog .badge-tile:nth-child(2n){margin-right:0!important}.edit-badges-dialog .badge-tile:nth-child(-n+2){margin-top:0!important}.levels-dialog{width:827px;max-width:827px;max-height:606px;border-radius:0;background-color:#252525}.levels-dialog .font-size-18{font-size:18px}.levels-dialog .md-8{width:8px;height:8px;min-width:8px;min-height:8px;line-height:20px}.levels-dialog .md-42{width:42px;height:42px;line-height:42px;font-size:42px}.levels-dialog .md-64{width:64px;height:64px;line-height:64px;font-size:64px}.levels-dialog .margin-right-15{margin-right:15px}.levels-dialog .margin-top-6{margin-top:6px}.levels-dialog .margin-top-18{margin-top:18px}.levels-dialog .margin-top-20{margin-top:20px}.levels-dialog .line-height-20{line-height:20px}.levels-dialog .width-200{width:200px}.levels-dialog .close-button{right:16px;top:16px;z-index:2}.levels-dialog .profile-status{min-height:160px;background-color:#343434}.levels-dialog .profile-status .polygon-clip{width:260px;background-color:#1a1a1a;-webkit-clip-path:polygon(0 0,100% 0,70% 100%,0 100%);clip-path:polygon(0 0,100% 0,70% 100%,0 100%)}.levels-dialog .profile-status .progress-bar-container{margin-right:80px}.levels-dialog .profile-status .level-badge-container{width:182px}.levels-dialog .profile-status .xp-progress-container{min-width:198px}.levels-dialog .profile-status .xp-progress{width:198px;margin-top:10px;height:7px}.levels-dialog .profile-status .xp-progress .md-container{background-color:#252525;height:7px}.levels-dialog .profile-status .xp-progress .md-container .md-bar{height:7px}.levels-dialog .nv-level-details{margin-right:35px}.levels-dialog .nv-level-details:last-child{margin-right:0}.levels-dialog .nv-level-details .perk-item{margin-left:33px}", ""]);
+    t = e.exports = n(6)(), t.push([e.id, "nv-user-profile .md-dialog-container{padding:0!important}nv-user-profile .help-tooltip{width:320px;margin-left:-20px;pointer-events:auto;cursor:default}nv-user-profile .help-tooltip .tooltip-arrow-up{position:absolute;margin-left:24px;z-index:4;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid #272727}nv-user-profile .help-tooltip .help-tooltip-container{position:absolute;z-index:3;top:8px;box-shadow:2px 2px 20px #0c0c0c}nv-user-profile .help-tooltip .help-tooltip-container img{width:24px;height:24px}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-table-header{margin-bottom:6px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.2)}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-level-column span{min-width:60px}nv-user-profile .help-tooltip .help-tooltip-container .tokens-table .tokens-value-column span{padding-left:16px}nv-user-profile .material-icons.md-11{width:11px;height:11px;line-height:11px;font-size:11px}nv-user-profile .material-icons.md-36{width:36px;height:36px;line-height:36px}nv-user-profile .material-icons.md-48{width:48px;height:48px;line-height:48px}.user-profile-container{max-width:2560px;margin:0 auto}.user-profile{position:relative;z-index:1;padding:0 36px}.user-profile .user-profile-content .md-tab.md-active{color:rgba(255,255,255,.9)}.user-profile .user-profile-content md-tabs{background-color:#242424}.user-profile .user-profile-content md-tabs md-tabs-wrapper{background-color:#191919}.user-profile .link-disabled{opacity:.45;pointer-events:none}.user-profile .profile-section-header{margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.2)}.level-icon-gradient.icon-ranking-silver{background:-moz-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-webkit-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-o-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:-ms-linear-gradient(top,#dce6f0 33.33%,#b8c2ce 58.33%);background:linear-gradient(to bottom,top,#dce6f0 33.33%,#b8c2ce 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.level-icon-gradient.icon-ranking-gold{background:-moz-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-webkit-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-o-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:-ms-linear-gradient(top,#fff5b5 33.33%,#ffc142 58.33%);background:linear-gradient(to bottom,#fff5b5 33.33%,#ffc142 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.level-icon-gradient.icon-ranking-titanium{background:-moz-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-webkit-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-o-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:-ms-linear-gradient(top,#cee6eb 33.33%,#75a7b8 58.33%);background:linear-gradient(to bottom,#cee6eb 33.33%,#75a7b8 58.33%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial}.sweepstakes-dialog{min-height:498px;max-height:498px;min-width:790px;max-width:790px;border-radius:0}.sweepstakes-dialog .input-error-container{margin-left:78px;line-height:1em}.sweepstakes-dialog .line-height-18{line-height:18px}.sweepstakes-dialog .line-height-26{line-height:26px}.sweepstakes-dialog .md-32{width:32px;height:32px;line-height:32px}.sweepstakes-dialog .md-48{width:48px;height:48px;line-height:48px;font-size:48px}.sweepstakes-dialog .md-62{width:62px;height:62px;line-height:62px;font-size:62px}.sweepstakes-dialog .md-button.md-fab-24{padding:0!important;width:24px!important;min-width:24px!important;height:24px!important;min-height:24px!important;line-height:24px!important;border-radius:50%!important}.sweepstakes-dialog .width-100{width:100%}.sweepstakes-dialog .message-banner-container{margin-top:20px;height:40px}.sweepstakes-dialog .message-banner-container .message-banner{position:absolute;left:0;width:100%;height:40px;line-height:40px;background-color:#303030;padding-left:24px;padding-right:24px}.sweepstakes-dialog .message-banner-container .message-banner span{line-height:normal;color:rgba(255,255,255,.45)}.sweepstakes-dialog .animate-show-hide.ng-hide{opacity:0}.sweepstakes-dialog .animate-show-hide.ng-hide-add,.sweepstakes-dialog .animate-show-hide.ng-hide-remove{transition:all ease-in-out .2s}.sweepstakes-dialog .md-icon-button.close-button{position:absolute;top:12px;right:12px;z-index:3}.sweepstakes-dialog .giveaway-subview{position:relative;padding:24px 8px 12px 24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-header{min-height:24px;margin-bottom:24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-header .md-button{min-height:24px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-content{padding-right:32px}.sweepstakes-dialog .giveaway-subview .giveaway-subview-content-overlay{height:48px;margin:0 24px 12px;background:linear-gradient(transparent,rgba(25,25,25,.9))}.sweepstakes-dialog .giveaway-rules-container p{margin:0}.sweepstakes-dialog .giveaway-rules-container .header{margin:12px 0}.sweepstakes-dialog .message-overlay{position:absolute;opacity:1;z-index:2;background:rgba(0,0,0,.85)}.sweepstakes-dialog .giveaway-details-container .giveaway-info-section{max-height:180px}.sweepstakes-dialog .giveaway-details-container .giveaway-details-description{margin-bottom:24px;margin-top:22px}.sweepstakes-dialog .giveaway-details-container .giveaway-tokens-section{padding:24px 0;border-top:1px solid #5e5e5e;border-bottom:1px solid #5e5e5e}.sweepstakes-dialog .giveaway-details-container .giveaway-box-art{width:352px}.sweepstakes-dialog .giveaway-details-container .giveaway-box-art img{width:100%;height:auto}.sweepstakes-dialog .giveaway-details-container .giveaway-form input[type=number]::-webkit-inner-spin-button,.sweepstakes-dialog .giveaway-details-container .giveaway-form input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.sweepstakes-dialog .giveaway-details-container .giveaway-form .tokens-input-container{width:48px}.sweepstakes-dialog .giveaway-details-container .giveaway-form .tokens-input-container input{font-size:14px!important;color:rgba(255,255,255,.45)}.mission-details-dialog{width:790px;height:501px;border-radius:0}.mission-details-dialog .close-button{position:absolute;top:12px;right:12px;z-index:2}.mission-details-dialog .slideshow-container{height:444px;width:790px;z-index:1}.mission-details-dialog .gradient-overlay{z-index:1}.mission-details-dialog .gradient-overlay .left{top:0;left:0;width:80px;height:444px;background-image:url(" + n(709) + ");background-repeat:repeat-y}.mission-details-dialog .gradient-overlay .right{top:0;right:0;width:80px;height:444px;background-image:url(" + n(710) + ");background-repeat:repeat-y}.mission-details-dialog .gradient-overlay .top{top:0;left:0;width:100%;height:36px;background-image:url(" + n(711) + ");background-repeat:repeat-x}.mission-details-dialog .details-container{bottom:0;z-index:2;width:100%}.mission-details-dialog .details-container .toggle-button{position:absolute;top:-12px;left:50%;transform:translateX(-50%);width:36px;background-color:#191919!important}.mission-details-dialog .details-container .title-container{height:176px;padding-left:24px;padding-right:34px;padding-bottom:12px;background-image:url(" + n(708) + ");background-repeat:repeat-x}.mission-details-dialog .details-container .collapsable-container{padding:20px 34px 12px 24px;background-color:#191919}.mission-details-dialog .details-container .collapsable-container .collapse-icon{transform:rotate(0)}.mission-details-dialog .details-container .collapsable-container .collapse-icon.rotate{transform:rotate(-180deg)}.mission-details-dialog .details-container .collapsable-container .subtitle{margin-bottom:8px}.mission-details-dialog .details-container .collapsable-container .content{overflow:hidden;-webkit-transition:max-height .4s;-moz-transition:max-height .4s;-ms-transition:max-height .4s;-o-transition:max-height .4s;transition:max-height .4s;max-height:501px}.mission-details-dialog .details-container .collapsable-container .content.collapsed{max-height:0}.featured-reward{min-height:440px}.featured-reward .title-container{height:38px;margin:10px 0}.featured-reward .artwork-container{height:185px;margin-bottom:20px}.featured-reward .artwork-container .drawdate-overlay{position:absolute;background:rgba(0,0,0,.75);z-index:2;padding:16px}.user-profile-cover-container{position:absolute;overflow:hidden;z-index:0;padding-bottom:31.25%;width:100%}.user-profile-cover-container .cover-gradient{position:absolute;z-index:3;background:-moz-linear-gradient(top,transparent 96px,#141414 95%);background:-webkit-linear-gradient(top,transparent 96px,#141414 95%);background:linear-gradient(to bottom,transparent 96px,#141414 95%)}.user-profile-cover-container .cover-dark-overlay{background:rgba(0,0,0,.4);z-index:2}.user-profile-cover-container img{position:absolute;top:0;left:0;width:100%;object-fit:cover;z-index:1}.croppie-dialog{max-width:705px;min-width:408px;overflow-x:hidden;border-radius:0}.croppie-dialog .md-32{width:32px;height:32px;line-height:32px}.croppie-dialog .title{font-size:20px;margin:24px 0 0 24px}.croppie-dialog .subtitle{margin:8px 0 0 24px}.croppie-dialog .gallery-tile-container{max-height:134px}.croppie-dialog .gallery-tile{float:left;padding:0 8px 8px 0}.croppie-dialog .gallery-tile img{width:208px}.croppie-dialog .cover-image-preview p{width:60%;text-align:center}.croppie-dialog.edit-profile-cover-container{max-height:620px}.croppie-dialog.edit-profile-cover-container .cover-image-preview{overflow:hidden;min-height:248px;max-height:248px}.croppie-dialog.edit-rig-image-container{max-height:615px}.croppie-dialog.edit-rig-image-container .cover-image-preview{overflow:hidden;min-height:448px;max-height:448px}.user-profile-bio-container{margin-top:-72px;z-index:2;padding-bottom:31.25%;width:100%}.user-profile-bio-container .user-profile-bio{top:0;left:0;right:0;bottom:0}.user-profile-bio-container .cover-edit-button{top:96px;z-index:2}.user-profile-bio-container .more-options{top:96px;z-index:2;right:20px}.user-profile-bio-container .user-profile-avatar-container{position:relative;width:312px;height:200px;margin-right:24px;top:48px}.user-profile-bio-container .user-profile-avatar-container .avatar-edit-button{right:0;top:0;z-index:2}.user-profile-bio-container .user-profile-avatar-container .profile-avatar-overlay{position:absolute;padding:6px 12px}.user-profile-bio-container .user-profile-avatar-container .md-avatar{height:200px;width:200px;border-radius:50%;box-shadow:2px 2px 6px rgba(25,25,25,.75)}.user-profile-bio-container .user-profile-details{max-width:70%}.user-profile-bio-container .user-profile-details .desc-edit-button{right:0;z-index:2}.edit-user-description-container{width:500px}.edit-user-description-container .buttons-container,.edit-user-description-container .description-input-container{width:100%}.user-profile-widgets-container{width:312px;margin-right:24px}.user-profile-widgets-container .profile-status-placeholder{margin-top:80px}.user-profile-widget{width:100%;margin-bottom:12px;background-color:#242424}.user-profile-widget .user-profile-widget-title{padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.2)}.user-profile-widget .winners-widget{margin:12px 24px}.user-profile-status{padding-top:62px}.user-profile-status .margin-top-7{margin-top:7px}.user-profile-status .margin-right-10{margin-right:10px}.user-profile-status .level-badge{right:64px;top:4px;z-index:2;width:56px}.user-profile-status .level-badge .icon-level-bg{z-index:1;top:0;color:#000;transform:scale(1.11)}.user-profile-status .level-badge .nv-custom-icons.level-icon-gradient{z-index:2}.user-profile-status .xp-container{max-width:160px}.user-profile-status .xp-container .current-xp{color:rgba(255,255,255,.75)}.user-profile-status .xp-container .xp-progress{width:120px;margin:5px 0!important}.user-profile-status .xp-container .xp-progress .md-container.md-mode-determinate{background-color:rgba(255,255,255,.3);height:5px}.user-profile-status .tokens-container{max-width:80px}.user-profile-status .empty-state{min-height:106px}.user-profile-giveaway p{margin:0}.user-profile-games-summary{margin-bottom:16px;padding:16px}.user-profile-games-summary .games-summary-item{margin-top:16px;margin-bottom:16px}.user-profile-games-summary .games-summary-item.first{margin-top:0!important}.user-profile-games-summary .games-summary-item.last{margin-bottom:0!important}.user-profile-games-summary .games-summary-value{font-size:24px;color:#76b900!important;margin-right:8px}.user-missions{min-height:600px}.user-missions .profile-section-header .countdown{color:rgba(255,255,255,.8)}.user-missions .mission-tile{background-color:#1a1a1a}.user-missions .mission-tile .mission-title{margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #4d4d4d}.user-missions .mission-tile .artwork-container{width:116px;height:164px}.user-missions .mission-tile .details-container{padding-top:24px;padding-left:16px;padding-bottom:16px}.user-missions .mission-tile .mission-progress-container{padding:18px 20px}.user-missions .mission-tile-margin{margin-bottom:16px}.user-missions .mission-tile-margin:last-child{margin-bottom:0!important}.mission-progress-container .md-30{width:30px;height:30px;font-size:30px;line-height:30px}.mission-progress-container .title{color:rgba(255,255,255,.6)}.mission-progress-container .progress-capsule{width:54px;text-align:center;border:1px solid;border-radius:10px;color:rgba(255,255,255,.45)}.mission-progress-container.completed .nv-custom-icons,.mission-progress-container.completed .title{color:#76b900!important}.mission-progress-container.completed .progress-capsule{color:#76b900;border-color:#76b900}.mission-progress-container .mission-value-container{margin-bottom:6px}.activity-log-empty-state-separator{border-top:1px solid rgba(255,255,255,.2)}.activity-log-empty-state{height:360px}.activity-log-container .activity-log-group{margin-top:30px}.activity-log-container .activity-log-group:first-child{margin-top:6px}.activity-log-container .activity-log{margin-bottom:24px;background-color:#1a1a1a}.activity-log-container .activity-log .activity-log-thumbnail{width:160px;height:90px}.activity-log-container .activity-log .activity-log-details{margin:12px;height:66px}.activity-log-container .activity-log .nv-custom-icons{margin-left:6px}.activity-log-container .activity-log em{color:#fff;font-style:normal;font-weight:700}.activity-log-container .activity-log:last-child{margin-bottom:0}.user-gallery-container{min-height:200px}.user-gallery-container .gallery-carousel{width:100%}.user-gallery-tile{margin:0 12px 0 0}.user-gallery-tile .gallery-video-div{position:relative;width:240px;height:135px}.user-gallery-tile .gallery-video-div-mta{filter:grayscale(100%)}.user-gallery-tile .gallery-text-mta{color:#919191!important}.user-gallery-tile .gallery-text-footer-mta{color:#919191}.user-gallery-tile .gallery-video-duration{box-sizing:border-box;position:absolute;display:block;bottom:0;right:0;padding:0 4px;font-size:10px;margin:0;color:#fff;background-color:#000}.user-gallery-tile .gallery-video-overlay-play-button{box-sizing:border-box;position:absolute;top:0;left:0;height:100%;width:100%;display:flex;align-items:center;justify-content:center}.user-gallery-tile .gallery-video-overlay-play-button-icon{width:33px;height:33px;font-size:33px;margin:0;opacity:.95}.user-gallery-tile .gallery-card-footer{color:#fff;font-size:12px;margin:0;padding:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}nv-user-gallery-details{height:100%;width:100%}.user-gallery-details-controller .gallery-detail-image,.user-gallery-details-controller .gallery-detail-video{object-fit:contain;width:100%;height:100%}.user-rig-info-container .user-rig-image-container img{width:100%;max-width:800px}.user-rig-info-container .user-rig-info-list .user-rig-info-item{padding:12px;min-width:100px;max-width:200px;text-align:center}nv-user-achievements .achievements-container{min-height:16px}nv-user-achievements .achievements-loading-container{min-height:24px}nv-user-achievements .achievements-loading-container .loading-icon{height:12px;width:12px;border-radius:50%;background-color:rgba(255,255,255,.2)}.cevo-icons{font-family:Nvidia;width:auto!important}.edit-badges-dialog{width:720px;height:640px;background-color:#2e2e2e;border-radius:0}.edit-badges-dialog .edit-badges-container{padding:24px 24px 0}.edit-badges-dialog .width-100{width:100%}.edit-badges-dialog .md-56{width:56px;height:56px;line-height:56px;font-size:56px}.edit-badges-dialog .checkbox-16{width:16px;height:16px;min-width:16px;min-height:16px}.edit-badges-dialog .checkbox-16 .md-container{width:16px;height:16px}.edit-badges-dialog .checkbox-16 .md-icon{width:16px;height:16px;line-height:16px}.edit-badges-dialog .showcase-section{min-height:144px}.edit-badges-dialog .badge-tile-container{background-color:#212121}.edit-badges-dialog .badge-tile-container .action-elements-container{left:0;top:0;z-index:2}.edit-badges-dialog .showcase-badge-tile{width:120px;height:144px;margin-right:16px}.edit-badges-dialog .showcase-badge-tile .action-elements-container{top:4px;left:4px}.edit-badges-dialog .showcase-badge-tile .title-toggle-button{width:24px;height:24px;min-height:24px}.edit-badges-dialog .showcase-badge-tile .tile-content{padding:24px 10px 10px;background-color:#212121}.edit-badges-dialog .showcase-badge-tile:last-child{margin-right:0!important}.edit-badges-dialog .showcase-badge-tile.dragging .tile-content{background-color:#76b900}.edit-badges-dialog .showcase-badge-tile.dragging .badge-icon-container{background-color:transparent}.edit-badges-dialog .showcase-badge-tile.dropping .tile-content{box-shadow:inset 0 0 0 2px #76b900}.edit-badges-dialog .badge-tile{width:322px;height:114px;margin-right:16px;margin-top:16px}.edit-badges-dialog .badge-tile .tile-content{padding-left:16px}.edit-badges-dialog .badge-tile .badge-icon-container{min-width:80px;max-width:80px}.edit-badges-dialog .badge-tile .action-elements-container{top:8px;left:8px}.edit-badges-dialog .badge-tile:nth-child(2n){margin-right:0!important}.edit-badges-dialog .badge-tile:nth-child(-n+2){margin-top:0!important}.levels-dialog{width:827px;max-width:827px;max-height:606px;border-radius:0;background-color:#252525}.levels-dialog .font-size-18{font-size:18px}.levels-dialog .md-8{width:8px;height:8px;min-width:8px;min-height:8px;line-height:20px}.levels-dialog .md-42{width:42px;height:42px;line-height:42px;font-size:42px}.levels-dialog .md-64{width:64px;height:64px;line-height:64px;font-size:64px}.levels-dialog .margin-right-15{margin-right:15px}.levels-dialog .margin-top-6{margin-top:6px}.levels-dialog .margin-top-18{margin-top:18px}.levels-dialog .margin-top-20{margin-top:20px}.levels-dialog .line-height-20{line-height:20px}.levels-dialog .width-200{width:200px}.levels-dialog .close-button{right:16px;top:16px;z-index:2}.levels-dialog .profile-status{min-height:160px;background-color:#343434}.levels-dialog .profile-status .polygon-clip{width:260px;background-color:#1a1a1a;-webkit-clip-path:polygon(0 0,100% 0,70% 100%,0 100%);clip-path:polygon(0 0,100% 0,70% 100%,0 100%)}.levels-dialog .profile-status .progress-bar-container{margin-right:80px}.levels-dialog .profile-status .level-badge-container{width:182px}.levels-dialog .profile-status .xp-progress-container{min-width:198px}.levels-dialog .profile-status .xp-progress{width:198px;margin-top:10px;height:7px}.levels-dialog .profile-status .xp-progress .md-container{background-color:#252525;height:7px}.levels-dialog .profile-status .xp-progress .md-container .md-bar{height:7px}.levels-dialog .nv-level-details{margin-right:35px}.levels-dialog .nv-level-details:last-child{margin-right:0}.levels-dialog .nv-level-details .perk-item{margin-left:33px}", ""]);
 }, function(e, t, n) {
     e.exports = n.p + "defaultRig.jpg"
 }, function(e, t, n) {
@@ -21942,7 +21942,7 @@ webpackJsonp([4], [function(e, t, n) {
     e.exports = n.p + "gray.svg"
 }, function(e, t, n) {
     e.exports = n.p + "DefaultGameArt.png"
-}, , function(e, t, n) {
+}, , , function(e, t, n) {
     e.exports = n.p + "nvidia-gf-experience-logo.svg"
 }, function(e, t, n) {
     e.exports = n.p + "lineBeak.png"
@@ -22078,7 +22078,7 @@ webpackJsonp([4], [function(e, t, n) {
     e.exports = '<md-card ng-mouseenter=galleryShowcaseTile.mouseHover(true) ng-mouseleave=galleryShowcaseTile.mouseHover(false) ng-click=galleryShowcaseTile.previewMedia($event) tabindex=-1> <div class=constants-position-relative> <img ng-src={{galleryShowcaseTile.showcaseItem.snippet.thumbnails.default.url}} class=md-card-image alt={{galleryShowcaseTile.showcaseItem.snippet.title}}> <nv-overlay layout-fill ng-class=galleryShowcaseTile.showOverlay() class=common-overlay> <div layout=column layout-fill> <div layout=row> <span flex></span> <div ng-class=galleryShowcaseTile.showButtons()> <md-button class="md-icon-button more-button" ng-click=""> <md-tooltip> {{\'l10n.share\' | translate}} </md-tooltip> <md-icon md-font-set=material-icons class="material-icons color-white">share</md-icon> </md-button> </div> </div> <div layout=column layout-align="center center" flex> <md-button class="md-icon-button video-play-btn"> <md-tooltip> {{\'l10n.play\' | translate}} </md-tooltip> <md-icon md-font-set=material-icons class=material-icons>play_circle_outline</md-icon> </md-button> </div> </div> </nv-overlay> </div> <md-card-content> <div layout=column layout-align="center start" class=showcase-item-info-block> <div nv-ellipsis-lines=1 class="color-light-gray showcase-item-title">{{galleryShowcaseTile.showcaseItem.snippet.title}}</div> <div class="color-dark-gray showcase-item-detail"> {{\'l10n.\' + galleryShowcaseTile.showcaseItem.origin | translate}} &middot; {{\'l10n.viewCount\' | translate:{num:galleryShowcaseTile.showcaseItem.statistics.viewCount} }} &middot; {{galleryShowcaseTile.showcaseItem.snippet.publishedAt | date:\'shortDate\'}} </div> </div> </md-card-content> </md-card> '
 }, function(e, t) {
     e.exports = '<md-card ng-mouseenter=galleryTile.mouseHover(true) ng-mouseleave=galleryTile.mouseHover(false) ng-click=galleryTile.previewMedia($event) tabindex=-1> <div class=constants-position-relative> <img ng-src={{galleryTile.galleryFile.fileThumbnail}} class=md-card-image alt={{galleryTile.galleryFile.fileType}}> <nv-overlay layout-fill ng-class=galleryTile.showOverlay() class=common-overlay> <div layout=column layout-fill> <div layout=row> <span flex></span> <div ng-class=galleryTile.showButtons()> <md-button class="md-icon-button edit-button" ng-click=galleryTile.editMedia($event)> <md-tooltip> {{\'l10n.edit\' | translate}} </md-tooltip> <md-icon md-font-set=material-icons class="material-icons color-white">create</md-icon> </md-button> <md-button class="md-icon-button more-button" ng-click=galleryTile.editMedia($event)> <md-tooltip> {{\'l10n.moreDots\' | translate}} </md-tooltip> <md-icon md-font-set=material-icons class="material-icons color-white">more_horiz</md-icon> </md-button> </div> </div> <div ng-if=galleryTile.isVideo(galleryTile.galleryFile.fileType) layout=column layout-align="center center" flex> <md-button class="md-icon-button video-play-btn"> <md-tooltip> {{\'l10n.play\' | translate}} </md-tooltip> <md-icon md-font-set=material-icons>play_circle_outline</md-icon> </md-button> </div> <div ng-if=galleryTile.isVideo(galleryTile.galleryFile.fileType) layout-align="end center" layout=row> <span class="video-length-label color-light-gray bg-dark-hv-hue-1">{{ galleryTile.galleryFile.videoLength | convertSecondsToHHMMSS}}</span> </div> </div> </nv-overlay> </div> <md-card-content> <div layout=row layout-align="space-between center"> <div nv-ellipsis-lines=1 class=color-light-gray> {{galleryTile.galleryFile.creationTime | date:\'MM/dd/yyyy h:mma\'}} </div> <md-icon ng-show=galleryTile.isVideo(galleryTile.galleryFile.fileType) class=color-light-gray md-font-set=material-icons class=md-18> videocam </md-icon> <md-icon ng-show=galleryTile.isImage(galleryTile.galleryFile.fileType) class=color-light-gray md-font-set=material-icons class=md-18> image </md-icon> </div> </md-card-content> </md-card> '
-}, 784, function(e, t) {
+}, 785, function(e, t) {
     e.exports = "<md-button class=md-icon-button> <md-icon class=material-icons>edit</md-icon> <md-tooltip> {{'l10n.edit' | translate }} </md-tooltip> </md-button> <md-button class=md-icon-button> <md-icon class=material-icons>share</md-icon> <md-tooltip> {{'l10n.share' | translate }} </md-tooltip> </md-button> <md-button class=md-icon-button> <md-icon class=material-icons>more_horiz</md-icon> <md-tooltip> {{'l10n.more' | translate }} </md-tooltip> </md-button> "
 }, function(e, t) {
     e.exports = '<md-toolbar> <div class="md-toolbar-tools font-size-xl classic-game-list-top-toolbar-tools" layout=row layout-align="space-between center"> <h4 class="color-white-hue-3 font-size-sm" translate=l10n.games></h4> <div layout=row> <md-button class=md-icon-button ng-click=games.changeView(false) nv-telemetry=\'{"tarconID":{{$root.telemetryEventNames.HOME_TOGGLE_TO_GAMES_LIST_VIEW}}}\'> <md-tooltip><span translate=l10n.tileView></span></md-tooltip> <md-icon md-font-set=nv-custom-icons md-font-icon=icon-view-module class="nv-custom-icons color-white-hue-2"></md-icon> </md-button> <nv-select-menu nv-md-icon=filter_list nv-label=l10n.filter class=constants-position-relative nv-filtered="!games.matchFilter(\'all\')"> <nv-select-menu-item ng-disabled="games.buttonDisabled(\'all\')" nv-action="games.setFilter(\'all\')" nv-selected-test="games.matchFilter(\'all\')" nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_FILTER_NONE}}}\'> <div translate=l10n.allNumber translate-value-number={{games.getGamesCount()}}></div> </nv-select-menu-item> <nv-select-menu-item ng-disabled="games.buttonDisabled(\'favorite\')" nv-action="games.setFilter(\'favorite\')" nv-selected-test="games.matchFilter(\'favorite\')" nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_FILTER_FAVORITES}}}\'> <span translate=l10n.favoritesNumber translate-value-number={{games.getFavoriteGamesCount()}}></span> </nv-select-menu-item> <nv-select-menu-item ng-disabled="games.buttonDisabled(\'optimized\')" nv-action="games.setFilter(\'optimized\')" nv-selected-test="games.matchFilter(\'optimized\')" nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_FILTER_OPTIMIZED}}}\'> <span translate=l10n.optimizedNumber translate-value-number={{games.getOptimizedGamesCount()}}></span> </nv-select-menu-item> <nv-select-menu-item ng-if=games.isAnselFeatureAvailable ng-disabled="games.buttonDisabled(\'anselReady\')" nv-action="games.setFilter(\'anselReady\')" nv-selected-test="games.matchFilter(\'anselReady\')" nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_FILTER_ANSELREADY}}}\'> <span translate=l10n.anselReadyNumber translate-value-number={{games.getAnselReadyGamesCount()}}></span> </nv-select-menu-item> <nv-select-menu-item ng-if=games.isFreestyleFeatureAvailable ng-disabled="games.buttonDisabled(\'freestyleReady\')" nv-action="games.setFilter(\'freestyleReady\')" nv-selected-test="games.matchFilter(\'freestyleReady\')" nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_FILTER_FREESTYLEREADY}}}\'> <span translate=l10n.freestyleReadyNumber translate-value-number={{games.getFreestyleReadyGamesCount()}}></span> </nv-select-menu-item> <md-divider></md-divider> <nv-select-menu-item ng-disabled="games.buttonDisabled(\'hidden\')" nv-action="games.setFilter(\'hidden\')" nv-selected-test="games.matchFilter(\'hidden\')"> <span translate=l10n.hiddenNumber translate-value-number={{games.getHiddenGamesCount()}}></span> </nv-select-menu-item> </nv-select-menu> <nv-select-menu nv-md-icon=more_vert nv-label=l10n.moreDots> <nv-select-menu-item ng-disabled="games.buttonDisabled(\'scanGames\')" nv-action=games.scanGames() nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_MORE_SCANGAMES}}}\'> <span translate={{games.scanText}}></span> </nv-select-menu-item> <nv-select-menu-item ng-show=games.isGameOpsSupported ng-disabled="games.buttonDisabled(\'optimizeAll\')" nv-action=games.optimizeGames() nv-telemetry=\'{ "tarconID":{{::$root.telemetryEventNames.GAMETOOLBAR_MORE_OPTIMIZE_ALL}}}\'> <span translate={{games.optimizeText}}></span> </nv-select-menu-item> </nv-select-menu> </div> </div> </md-toolbar> <div layout=row flex layout-fill> <div layout=column class="bg-grey-im-hue-3 games-classic-game-list-container constants-position-relative"> <div class="games-classic-game-list-items-container common-container-overflow" flex layout=column ng-onload={{games.onLoad()}}> <nv-overlay class="common-overlay classic-game-list-top-gradient margin-zero"></nv-overlay> <nv-no-content-fallback ng-if=games.showNoGameFallbackMessage() nv-tip=l10n.gamesYouPlay class=no-game-container flex layout-fill> <button ng-click=games.findAWayToPlay() class="font-size-sm md-button md-accent empty-state" translate=l10n.viewSupportedGames nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.HOME_FIND_A_WAY_TO_PLAY}},"url":"{{::games.findPlayUrl}}"}\'></button> </nv-no-content-fallback> <nv-no-content-fallback ng-show=games.showFallbackMessage() nv-tip={{games.fallbackMessage()}} nv-image-src={{games.fallbackImage()}} class=no-game-container flex layout-fill> <button ng-click=games.setFallbackFilter() class="font-size-sm md-button md-accent empty-state" translate={{games.fallbackButtonText()}}></button> </nv-no-content-fallback> <md-virtual-repeat-container flex layout-fill md-top-index=games.topIndex md-auto-shrink=false ng-show=games.gameListReady()> <div md-virtual-repeat="game in games.filteredGameList | limitTo: games.listLimitTo"> <div> <md-list-item ng-click=games.setSelectedGameId(game.id) nv-telemetry=\'{"tarconID":{{::$root.telemetryEventNames.HOME_VIEW_GAME_INFO}},"url":"{{game.systemGame.shortName}}"}\' ng-class="{\'bg-black-hv-hue-2 md-accent foreground\': games.isSelected(game.id)}" aria-label=classicViewGame class="margin-zero padding-zero"> <div class=game-icon-container> <img ng-src={{games.getGameIconImage(game)}} alt={{::game.systemGame.displayName}} nv-image-fallback=nv-no-loading-indicator /> <nv-overlay layout-fill class="common-overlay no-background mouse-event-passthrough" ng-if=games.isGameOpsSupported> <div class="game-not-optimized-icon-wrapper bg-black-hv"> <nv-optimized-icon nv-system-game=game.systemGame class="color-white-hue-1 game-not-optimized-icon"></nv-optimized-icon> </div> </nv-overlay> </div> <div class=game-name-container> <p id="{{\'classic-game-displayname\' + $index}}" class="font-size-sm display-name-game-classic" nv-ellipsis-lines=1 ng-class="{\'color-white-hue-3\': !games.isSelected(game.id)}">{{game.systemGame.displayName}}</p> </div> </md-list-item> <md-tooltip ng-if="games.showTooltip($index,\'classic-game-displayname\')" md-autohide>{{game.systemGame.displayName}}</md-tooltip> </div> </div> </md-virtual-repeat-container> </div> <nv-overlay class="common-overlay classic-game-list-bottom-gradient" nv-position=bottom></nv-overlay> </div> <div flex layout=column> <nv-game-details nv-selected-game-id=games.selectedGameId nv-classic-view-enabled={{true}} flex layout=column ng-if=games.gameListReady()></nv-game-details> </div> </div> '
@@ -22111,7 +22111,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = "<md-content flex class=md-padding> <md-tabs flex md-border-bottom md-dynamic-height md-selected=gfn.pageNo> <md-tab label=\"{{'l10n.feature' | translate | uppercase }}\"> <nv-gfn-feature></nv-gfn-feature> </md-tab> <md-tab label=\"{{'l10n.freeForMembers' | translate}}\"> <nv-game-store nv-game-type=freeForMember></nv-game-store> </md-tab> <md-tab label=\"{{'l10n.buyAndPlay' | translate}}\"> <nv-game-store nv-game-type=buyAndPlay></nv-game-store> </md-tab> <md-tab label=\"{{'l10n.mostPopular' | translate}}\"> <nv-game-store nv-game-type=mostPopular></nv-game-store> </md-tab> <md-tab label={{gfn.labels.gameSeries1}}> <nv-game-store nv-game-type=gameSeries1></nv-game-store> </md-tab> <md-tab label={{gfn.labels.gameSeries2}}> <nv-game-store nv-game-type=gameSeries2></nv-game-store> </md-tab> <md-tab label=\"{{'l10n.genres' | translate}}\"> <nv-gfn-genres></nv-gfn-genres> </md-tab> </md-tabs> </md-content> "
 }, function(e, t, n) {
-    e.exports = "<div flex layout=row> <div layout=column> <div class=gfn-gfn-feature> <img src=" + n(717) + " alt=\"{{'l10n.alt.background' | translate}}\" layout-fill=\"\" class=ng-scope /> <h1>{{ gfnFeature.bannerTexts.bannerPlayGame1 | uppercase}}</h1> <h1>{{ gfnFeature.bannerTexts.bannerPlayGame2| uppercase}}</h1> <h3 class=gfn-gfn-feature-subscribe> <a href=#>{{ gfnFeature.bannerTexts.bannerSubscribe }}</a> </h3> <div class=gfn-gfn-feature-pane> <h3>{{'l10n.news' | translate | uppercase}}</h3> <div flex> <nv-news nv-news-source=gfn></nv-news> </div> </div> </div> </div> <div flex layout=column class=gfn-gfn-feature-pane> <h3 class=md-flex>{{'l10n.latestGames' | translate | uppercase}}</h3> <div flex> <nv-latest-games></nv-latest-games> </div> </div> </div> "
+    e.exports = "<div flex layout=row> <div layout=column> <div class=gfn-gfn-feature> <img src=" + n(718) + " alt=\"{{'l10n.alt.background' | translate}}\" layout-fill=\"\" class=ng-scope /> <h1>{{ gfnFeature.bannerTexts.bannerPlayGame1 | uppercase}}</h1> <h1>{{ gfnFeature.bannerTexts.bannerPlayGame2| uppercase}}</h1> <h3 class=gfn-gfn-feature-subscribe> <a href=#>{{ gfnFeature.bannerTexts.bannerSubscribe }}</a> </h3> <div class=gfn-gfn-feature-pane> <h3>{{'l10n.news' | translate | uppercase}}</h3> <div flex> <nv-news nv-news-source=gfn></nv-news> </div> </div> </div> </div> <div flex layout=column class=gfn-gfn-feature-pane> <h3 class=md-flex>{{'l10n.latestGames' | translate | uppercase}}</h3> <div flex> <nv-latest-games></nv-latest-games> </div> </div> </div> "
 }, function(e, t) {
     e.exports = ' <md-list-item layout=column layout-align="start start"> <md_button layout-align="start start" class=gfn-store-button ng-click=gameItem.onClickedGameItem()> <img ng-src={{gameItem.nvGame.infoImage}} alt=gameitem /> <div layout=column layout-align="start start" class=md-list-item-text> <p>{{gameItem.nvGame.displayName}}</p> <p ng-if=gameItem.nvGame.storeInfo.isPurchased> {{\'l10n.purchased\' | translate}} </p> <p ng-if=gameItem.isNeedPurchase()> ${{gameItem.nvGame.storeInfo.price}} </p> </div> </md_button> </md-list-item> ';
 }, function(e, t) {
@@ -22129,7 +22129,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = "<html> <head> <style>body{background-color:#1a1a1a;font-family:Roboto,sans-serif}.centered{position:absolute;top:50%;left:50%;margin-right:50%;transform:translate(-50%,-50%)}p{color:rgba(255,255,255,.3);width:410px;text-align:center}a{color:#76b900;text-transform:capitalize;text-decoration:none}</style> <script> function sendErrorMessage() {\r\n            let errorMessage = {\r\n                error: {\r\n                    errorCode: '?ERROR_CODE',\r\n                    errorText: '?ERROR_TEXT',\r\n                    failedUrl: '?FAILED_URL'\r\n                }\r\n            };\r\n            window.opener.postMessage(errorMessage, \"*\")\r\n        } </script> </head> <body onload=sendErrorMessage()> <div class=centered> <p aria-hidden=true> <img src=\"data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNWE1YTVhIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMSAxNWgtMnYtNmgydjZ6bTAtOGgtMlY3aDJ2MnoiLz48L3N2Zz4=\"> </p> <p> {{errorMessage}} </p> <p> <a href=.>{{retry}}</a> </p> </div> </body> </html> "
 }, function(e, t, n) {
-    e.exports = '<md-menu md-offset="210 25" md-position-mode="target-right target" data-ng-init=notifications.onInit($mdOpenMenu);> <div class=constants-position-relative> <div class="notification-badge-container text-align-center constants-position-absolute"> <div ng-hide=notifications.nvDisabled nv-badge={{notifications.getNotificationBadgeNumber()}}></div> </div> <md-button class="md-icon-button notification-menu-button" ng-click=notifications.showNotifications($mdMenu)> <md-tooltip><span translate=l10n.notifications></span></md-tooltip> <md-icon md-font-set=material-icons class=md-18>notifications</md-icon> </md-button> </div> <md-menu-content md-menu-align-target md-menu-origin class="notifications-md-menu-content margin-zero padding-zero bg-dark-vh-hue-4 common-overflow-auto padding-bottom-3"> <img class="notification-direction notifications-menu-width constants-position-absolute" ng-src=' + n(693) + ' /> <md-list class="notifications-md-list margin-zero padding-zero"> <md-list-item class="no-focus-outline cursor-pointer-on-hover clickable-element notification-item padding-zero-important" ng-repeat="notification in notifications.notificationList"> <div class="no-focus-outline margin-left-4" ng-click=notifications.onNotificationClicked(notification); layout=column flex layout-fill> <div layout=column flex layout-fill ng-if="!notifications.showBigNotification($index, notification)"> <md-divider class="top-zero constants-position-relative"></md-divider> <div layout=row flex layout-fill> <div class="notification-color-bar-width small-notification-height bg-green-hv constants-position-absolute left-1"></div> <div class="small-notification-image-width small-notification-height"> <img ng-src={{notification.artWork}} flex=none layout-fill alt={{::notification.artWork}} nv-image-fallback=nv-no-loading-indicator /> </div> <div flex layout=column class="small-notification-height notifications-menu-width margin-left-36 margin-right-12 margin-top-zero"> <span class="color-white-hue-5 font-size-xxs line-height-12 constants-position-absolute right-12 top-8">{{ notification.readableTime }}</span> <div layout=column flex layout-align="center start"> <div class=small-notification-header> <p id="{{ \'small-notification-heading\' + $index }}" class="font-size-sm margin-zero padding-zero small-notification-details" nv-ellipsis-lines=1 translate={{notification.heading.text}} translate-values={{notification.heading.values}}></p> <md-tooltip ng-if="notifications.showTooltip($index,\'small-notification-heading\')" md-z-index=300 md-autohide><span translate={{notification.heading.text}} translate-values={{notification.heading.values}}></span></md-tooltip> </div> <p class="color-green font-size-xxs margin-zero padding-zero margin-top-4 notifications-ellipsis small-notification-details" translate={{notification.description.text}} translate-values={{notification.description.values}}></p> </div> </div> </div> </div> <div layout=row flex layout-fill ng-if="notifications.showBigNotification($index, notification)"> <div class="notification-color-bar-width bg-green-hv constants-position-absolute left-1 large-notification-height"></div> <div layout=column flex layout-fill> <div class="notifications-menu-width large-notification-image-height"> <img ng-src={{notification.artWorkHighRes}} flex=none layout-fill alt={{::notification.artWork}} nv-image-fallback=nv-no-loading-indicator /> </div> <div layout=column class="small-notification-height margin-top-8"> <span class="color-white-hue-5 font-size-xxs line-height-12 constants-position-absolute right-12">{{ notification.readableTime }}</span> <div layout=column flex layout-align="center center" class="margin-right-36 margin-left-36"> <div class=big-notification-header> <p id="{{ \'big-notification-heading\' + $index }}" class="font-size-xl1 margin-zero padding-zero" nv-ellipsis-lines=1 translate={{notification.heading.text}} translate-values={{notification.heading.values}}></p> <md-tooltip ng-if="notifications.showTooltip($index,\'big-notification-heading\')" md-z-index=300 md-autohide><span translate={{notification.heading.text}} translate-values={{notification.heading.values}}></span></md-tooltip> </div> <p class="color-green font-size-xl margin-zero padding-zero margin-top-4 notifications-ellipsis" translate={{notification.description.text}} translate-values={{notification.description.values}}></p> </div> </div> </div> </div> </div> </md-list-item> <md-list-item ng-if=!notifications.notificationList.length> <div layout=row flex layout-fill layout-align="center center" class="notifications-menu-width notifications-menu-height"> <div layout=column> <md-icon md-font-set=material-icons class=md-18>notifications</md-icon> <p translate=l10n.noNotifications></p> </div> </div> </md-list-item> </md-list> <div class="notifications-menu-left-outline-width constants-position-absolute bg-dark-eh left-zero top-zero" layout-fill></div> </md-menu-content> </md-menu> '
+    e.exports = '<md-menu md-offset="210 25" md-position-mode="target-right target" data-ng-init=notifications.onInit($mdOpenMenu);> <div class=constants-position-relative> <div class="notification-badge-container text-align-center constants-position-absolute"> <div ng-hide=notifications.nvDisabled nv-badge={{notifications.getNotificationBadgeNumber()}}></div> </div> <md-button class="md-icon-button notification-menu-button" ng-click=notifications.showNotifications($mdMenu)> <md-tooltip><span translate=l10n.notifications></span></md-tooltip> <md-icon md-font-set=material-icons class=md-18>notifications</md-icon> </md-button> </div> <md-menu-content md-menu-align-target md-menu-origin class="notifications-md-menu-content margin-zero padding-zero bg-dark-vh-hue-4 common-overflow-auto padding-bottom-3"> <img class="notification-direction notifications-menu-width constants-position-absolute" ng-src=' + n(694) + ' /> <md-list class="notifications-md-list margin-zero padding-zero"> <md-list-item class="no-focus-outline cursor-pointer-on-hover clickable-element notification-item padding-zero-important" ng-repeat="notification in notifications.notificationList"> <div class="no-focus-outline margin-left-4" ng-click=notifications.onNotificationClicked(notification); layout=column flex layout-fill> <div layout=column flex layout-fill ng-if="!notifications.showBigNotification($index, notification)"> <md-divider class="top-zero constants-position-relative"></md-divider> <div layout=row flex layout-fill> <div class="notification-color-bar-width small-notification-height bg-green-hv constants-position-absolute left-1"></div> <div class="small-notification-image-width small-notification-height"> <img ng-src={{notification.artWork}} flex=none layout-fill alt={{::notification.artWork}} nv-image-fallback=nv-no-loading-indicator /> </div> <div flex layout=column class="small-notification-height notifications-menu-width margin-left-36 margin-right-12 margin-top-zero"> <span class="color-white-hue-5 font-size-xxs line-height-12 constants-position-absolute right-12 top-8">{{ notification.readableTime }}</span> <div layout=column flex layout-align="center start"> <div class=small-notification-header> <p id="{{ \'small-notification-heading\' + $index }}" class="font-size-sm margin-zero padding-zero small-notification-details" nv-ellipsis-lines=1 translate={{notification.heading.text}} translate-values={{notification.heading.values}}></p> <md-tooltip ng-if="notifications.showTooltip($index,\'small-notification-heading\')" md-z-index=300 md-autohide><span translate={{notification.heading.text}} translate-values={{notification.heading.values}}></span></md-tooltip> </div> <p class="color-green font-size-xxs margin-zero padding-zero margin-top-4 notifications-ellipsis small-notification-details" translate={{notification.description.text}} translate-values={{notification.description.values}}></p> </div> </div> </div> </div> <div layout=row flex layout-fill ng-if="notifications.showBigNotification($index, notification)"> <div class="notification-color-bar-width bg-green-hv constants-position-absolute left-1 large-notification-height"></div> <div layout=column flex layout-fill> <div class="notifications-menu-width large-notification-image-height"> <img ng-src={{notification.artWorkHighRes}} flex=none layout-fill alt={{::notification.artWork}} nv-image-fallback=nv-no-loading-indicator /> </div> <div layout=column class="small-notification-height margin-top-8"> <span class="color-white-hue-5 font-size-xxs line-height-12 constants-position-absolute right-12">{{ notification.readableTime }}</span> <div layout=column flex layout-align="center center" class="margin-right-36 margin-left-36"> <div class=big-notification-header> <p id="{{ \'big-notification-heading\' + $index }}" class="font-size-xl1 margin-zero padding-zero" nv-ellipsis-lines=1 translate={{notification.heading.text}} translate-values={{notification.heading.values}}></p> <md-tooltip ng-if="notifications.showTooltip($index,\'big-notification-heading\')" md-z-index=300 md-autohide><span translate={{notification.heading.text}} translate-values={{notification.heading.values}}></span></md-tooltip> </div> <p class="color-green font-size-xl margin-zero padding-zero margin-top-4 notifications-ellipsis" translate={{notification.description.text}} translate-values={{notification.description.values}}></p> </div> </div> </div> </div> </div> </md-list-item> <md-list-item ng-if=!notifications.notificationList.length> <div layout=row flex layout-fill layout-align="center center" class="notifications-menu-width notifications-menu-height"> <div layout=column> <md-icon md-font-set=material-icons class=md-18>notifications</md-icon> <p translate=l10n.noNotifications></p> </div> </div> </md-list-item> </md-list> <div class="notifications-menu-left-outline-width constants-position-absolute bg-dark-eh left-zero top-zero" layout-fill></div> </md-menu-content> </md-menu> '
 }, function(e, t) {
     e.exports = '<div class=oobe-dialog-right-pane ng-class="{\'oobe-oauth-login-image\': !oobeAuthChooseCtrl.showLoadingIndicator }" layout=column layout-fill> <div ng-if=oobeAuthChooseCtrl.showLoadingIndicator layout=row layout-align="center center" flex> <md-progress-circular class=md-accent md-diameter=30 md-mode=indeterminate> </md-progress-circular> </div> <div ng-if=!oobeAuthChooseCtrl.showLoadingIndicator flex layout=column layout-align="start center" ng-show=oobeAuthChooseCtrl.showNvLogin> <div class=oobe-oauth-login-top-filler></div> <div class=oobe-oauth-login-scrim ng-if=oobeAuthChooseCtrl.messageBanner() layout=column layout-align=center> <div class=oobe-oauth-message-banner layout=row layout-align="start center"> <md-icon md-font-set=nv-custom-icons md-font-icon=icon-alert-circle_reg class="nv-custom-icons margin-zero md-32"></md-icon> <div class="color-white-hue-4 font-size-lg margin-left-16"> <span translate={{oobeAuthChooseCtrl.messageBanner()}}></span> </div> </div> </div> <div class=oobe-oauth-login-text> <span translate=l10n.gameMaxPerformance></span> </div> <div class=oobe-oauth-login-text> <span translate=l10n.gameReadyDrivers></span> </div> <div class=oobe-oauth-login-text> <span translate=l10n.shareGameMoments></span> </div> <div flex layout=row layout-align="end center" layout-fill> <md-button class="md-accent color-white md-raised" ng-click=oobeAuthChooseCtrl.initLoginWithJarvisOAuth() ng-disabled=!oobeAuthChooseCtrl.onlineState.online translate=l10n.logIn> </md-button> </div> </div> </div> '
 }, function(e, t) {
@@ -22205,7 +22205,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = '<div flex> <div class=preferences-section-header> <h4 class="color-white-hue-3 font-size-lg" translate=l10n.gameScan></h4> </div> <div class=preferences-section-content> <div layout=row class=games-scan-container layout-align=space-around> <div layout=column layout-align="center center"> <h4 class="color-white-hue-4 font-size-sm line-height-sm1" translate=l10n.gamesFound></h4> <h4 class="color-white-hue-3 font-size-xxxl line-height-lg1">{{preferencesGamesScan.totalGames}}</h4> <a ng-click=preferencesGamesScan.onLaunchUrl() class="color-lighter-gray md-default-theme font-size-sm" translate=l10n.viewSupportedGames flex> </a> </div> <div class="games-scan-divider bg-grey-im"></div> <div class=button-text-padding layout=column layout-align="center center"> <h4 class="color-white-hue-4 font-size-sm line-height-sm1" translate=l10n.lastChecked></h4> <h4 class="color-white-hue-3 font-size-xl1 line-height-sm1">{{preferencesGamesScan.lastRereshTime | convertUTCToTimeAgo}}</h4> <md-button class="md-raised md-secondary" ng-click=preferencesGamesScan.scanGames() ng-disabled=preferencesGamesScan.scanInProgress>{{preferencesGamesScan.scanStatus}}</md-button> </div> </div> </div> </div> '
 }, function(e, t, n) {
-    e.exports = '<div class="preferences-preference-section md-primary md-hue-3 background"> <div class=preferences-section-header> <h4 class="color-white-hue-3 font-size-lg">{{\'l10n.about\' | translate |uppercase}}</h4> </div> <div class="preferences-about-section-content about-section"> <div layout=column> <img src=' + n(692) + '> <div flex class="gfe-version-container preferences-md-icon"> <p class="color-white-hue-3 font-size-lg margin-top-zero" translate=l10n.nvidiaGeforceExperience></p> <p class="color-white-hue-4 font-size-lg title-content-top-margin"><span translate=l10n.version></span>&nbsp;<span>{{preferencesGeneralAbout.version}}&nbsp;{{preferencesGeneralAbout.beta}}</span></p> <p class="color-white-hue-4 font-size-xxs data-container-lastrow title-content-top-margin" nv-ellipsis-lines=1 translate=l10n.nvidiaRightReserved></p> </div> </div> <div class="preferences-md-icon links-top-margin font-size-xxs"> <md-checkbox ng-disabled=!preferencesGeneralAbout.clientBetaUpdateCheckboxEnabled class="font-size-sm preferences-md-icon checkbox-16 margin-bottom-12" ng-change=preferencesGeneralAbout.setClientBetaUpdateEnabled() ng-model=preferencesGeneralAbout.clientBetaUpdateEnabled> <span translate=l10n.clientBetaUpdate></span> </md-checkbox> <div class="preference-gfe-check-for-update-container margin-bottom-8 margin-left-zero" ng-show=preferencesGeneralAbout.showCheckingForUpdate() flex> <p class="color-white-hue-4 font-size-xxs margin-top-zero margin-left-zero margin-bottom-10" translate=l10n.checkingforUpdates></p> <md-progress-linear class=md-accent flex md-mode=indeterminate></md-progress-linear> </div> <div class="preference-gfe-check-for-update-container margin-bottom-8 margin-left-zero" ng-show="preferencesGeneralAbout.showPreparingForInstall(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status, preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete)" flex> <p class="color-white-hue-4 font-size-xxs margin-left-zero margin-bottom-10" translate=l10n.preparingForInstallation></p> <md-progress-linear class=md-accent flex md-mode=indeterminate></md-progress-linear> </div> <div ng-hide="preferencesGeneralAbout.showPreparingForInstall(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status, preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete)" class="download-install-controls layout-fill" flex> <div class=margin-bottom-2 ng-if=preferencesGeneralAbout.showDownloadButton(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <p class="color-white-hue-4 font-size-xxs" translate=l10n.updateIsAvailable></p> <div layout=row layout-align="end end"> <md-button class="margin-right-zero md-raised md-accent color-white-important" ng-show=preferencesGeneralAbout.showDownloadButton(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status) ng-click=preferencesGeneralAbout.startDownload(preferencesGeneralAbout.gfeBetaUpdate) translate=l10n.download></md-button> </div> </div> <div class="download-container margin-bottom-8" layout=row ng-if=preferencesGeneralAbout.isDownloadStarted(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <div layout=column class=download-details-container> <nv-update-download-progress nv-message={{preferencesGeneralAbout.getDownloadStatusMessage(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)}} nv-value={{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete}}></nv-update-download-progress> <div layout=row flex layout-align="space-between start" class=download-details-status-container> <p flex=50% class="font-size-xxs color-white-hue-4">{{preferencesGeneralAbout.getProgressString(preferencesGeneralAbout.gfeBetaUpdate)}}</p> <div layout=row flex=50% layout-align="space-between start"> <p class="font-size-xxs color-white-hue-4 download-speed margin-right-16">{{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.downloadSpeed | convertBytesToKBMBGB}}/Sec</p> <p class="font-size-xxs color-white-hue-4">{{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.timeRemaining | convertSecondsToTime:true}}</p> </div> </div> </div> </div> <div class=margin-bottom-2 ng-if=preferencesGeneralAbout.showRestartGfeMessage(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <p class="margin-zero color-white-hue-4 font-size-xxs" translate=l10n.downloadCompleteRestartGfe></p> <div layout=row layout-align="end end"> <md-button class="margin-right-zero md-raised md-accent color-white-important" ng-click=preferencesGeneralAbout.restartNow() translate=l10n.restartNow></md-button> </div> </div> </div> <md-divider></md-divider> <md-divider class=color-black-hue-2></md-divider> <div layout-align="start start" class=margin-top-12> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onShowReleaseHighlight() translate=l10n.releaseHighlights> </a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onShowLicense() translate=l10n.licenseAggrement> </a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onLaunchPrivacyPolicy() translate=l10n.privacyPolicy></a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onLaunchFaq() translate=l10n.faq> </a> </div> </div> </div> </div> ';
+    e.exports = '<div class="preferences-preference-section md-primary md-hue-3 background"> <div class=preferences-section-header> <h4 class="color-white-hue-3 font-size-lg">{{\'l10n.about\' | translate |uppercase}}</h4> </div> <div class="preferences-about-section-content about-section"> <div layout=column> <img src=' + n(693) + '> <div flex class="gfe-version-container preferences-md-icon"> <p class="color-white-hue-3 font-size-lg margin-top-zero" translate=l10n.nvidiaGeforceExperience></p> <p class="color-white-hue-4 font-size-lg title-content-top-margin"><span translate=l10n.version></span>&nbsp;<span>{{preferencesGeneralAbout.version}}&nbsp;{{preferencesGeneralAbout.beta}}</span></p> <p class="color-white-hue-4 font-size-xxs data-container-lastrow title-content-top-margin" nv-ellipsis-lines=1 translate=l10n.nvidiaRightReserved></p> </div> </div> <div class="preferences-md-icon links-top-margin font-size-xxs"> <md-checkbox ng-disabled=!preferencesGeneralAbout.clientBetaUpdateCheckboxEnabled class="font-size-sm preferences-md-icon checkbox-16 margin-bottom-12" ng-change=preferencesGeneralAbout.setClientBetaUpdateEnabled() ng-model=preferencesGeneralAbout.clientBetaUpdateEnabled> <span translate=l10n.clientBetaUpdate></span> </md-checkbox> <div class="preference-gfe-check-for-update-container margin-bottom-8 margin-left-zero" ng-show=preferencesGeneralAbout.showCheckingForUpdate() flex> <p class="color-white-hue-4 font-size-xxs margin-top-zero margin-left-zero margin-bottom-10" translate=l10n.checkingforUpdates></p> <md-progress-linear class=md-accent flex md-mode=indeterminate></md-progress-linear> </div> <div class="preference-gfe-check-for-update-container margin-bottom-8 margin-left-zero" ng-show="preferencesGeneralAbout.showPreparingForInstall(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status, preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete)" flex> <p class="color-white-hue-4 font-size-xxs margin-left-zero margin-bottom-10" translate=l10n.preparingForInstallation></p> <md-progress-linear class=md-accent flex md-mode=indeterminate></md-progress-linear> </div> <div ng-hide="preferencesGeneralAbout.showPreparingForInstall(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status, preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete)" class="download-install-controls layout-fill" flex> <div class=margin-bottom-2 ng-if=preferencesGeneralAbout.showDownloadButton(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <p class="color-white-hue-4 font-size-xxs" translate=l10n.updateIsAvailable></p> <div layout=row layout-align="end end"> <md-button class="margin-right-zero md-raised md-accent color-white-important" ng-show=preferencesGeneralAbout.showDownloadButton(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status) ng-click=preferencesGeneralAbout.startDownload(preferencesGeneralAbout.gfeBetaUpdate) translate=l10n.download></md-button> </div> </div> <div class="download-container margin-bottom-8" layout=row ng-if=preferencesGeneralAbout.isDownloadStarted(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <div layout=column class=download-details-container> <nv-update-download-progress nv-message={{preferencesGeneralAbout.getDownloadStatusMessage(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)}} nv-value={{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.percentComplete}}></nv-update-download-progress> <div layout=row flex layout-align="space-between start" class=download-details-status-container> <p flex=50% class="font-size-xxs color-white-hue-4">{{preferencesGeneralAbout.getProgressString(preferencesGeneralAbout.gfeBetaUpdate)}}</p> <div layout=row flex=50% layout-align="space-between start"> <p class="font-size-xxs color-white-hue-4 download-speed margin-right-16">{{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.downloadSpeed | convertBytesToKBMBGB}}/Sec</p> <p class="font-size-xxs color-white-hue-4">{{preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.timeRemaining | convertSecondsToTime:true}}</p> </div> </div> </div> </div> <div class=margin-bottom-2 ng-if=preferencesGeneralAbout.showRestartGfeMessage(preferencesGeneralAbout.gfeBetaUpdate.downloadStatus.status)> <p class="margin-zero color-white-hue-4 font-size-xxs" translate=l10n.downloadCompleteRestartGfe></p> <div layout=row layout-align="end end"> <md-button class="margin-right-zero md-raised md-accent color-white-important" ng-click=preferencesGeneralAbout.restartNow() translate=l10n.restartNow></md-button> </div> </div> </div> <md-divider></md-divider> <md-divider class=color-black-hue-2></md-divider> <div layout-align="start start" class=margin-top-12> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onShowReleaseHighlight() translate=l10n.releaseHighlights> </a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onShowLicense() translate=l10n.licenseAggrement> </a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onLaunchPrivacyPolicy() translate=l10n.privacyPolicy></a> </div> <div layout-align="start start" class=margin-between-links> <a class="md-default-theme font-size-sm" ng-click=preferencesGeneralAbout.onLaunchFaq() translate=l10n.faq> </a> </div> </div> </div> </div> ';
 }, function(e, t) {
     e.exports = '<div layout-align="space-between top"> <div class=preferences-col-1> <nv-preference-general-about></nv-preference-general-about> <nv-preference-general-language></nv-preference-general-language> <nv-preference-general-share></nv-preference-general-share> <nv-preference-general-notifications></nv-preference-general-notifications> <nv-preference-general-downloads></nv-preference-general-downloads> </div> <div class=preferences-col-2> <nv-preferences-system-info></nv-preferences-system-info> <nv-preferences-feature-readiness></nv-preferences-feature-readiness> </div> </div> '
 }, function(e, t) {
@@ -22233,13 +22233,13 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = '<md-card class=reward-card ng-mouseenter=rewardCard.onMouseEnter() ng-mouseleave=rewardCard.onMouseLeave() ng-class="{\'md-accent background-on-hover clickable-element\': rewardCard.isRewardAvailable(), \'clickable-element\': rewardCard.isRewardRedeemed() || rewardCard.isRewardLocked()}" ng-click=rewardCard.redeemReward($event)> <div class=new-item-icon-wrapper ng-if=rewardCard.isPushedReward()> <md-icon md-font-set=material-icons class="color-green md-16">new_releases</md-icon> </div> <div class="reward-card-image-container constants-position-relative"> <img flex layout-fill ng-src={{::rewardCard.rewardImageUrl}} nv-image-fallback=nv-no-loading-indicator nv-image-format alt=reward_card_image /> <nv-overlay flex layout-fill class="common-overlay light-background background-animated reward-card-overlay" layout=column layout-align="center center" ng-if=rewardCard.showOverlay> <div flex layout-fill layout=column layout-align="center center" class=padding-16> <md-button class="md-raised md-accent" ng-if=rewardCard.isRewardAvailable()> <span class=color-white-important translate=l10n.redeem></span> </md-button> <div flex layout=row layout-align="start start" layout-fill ng-if=rewardCard.isRewardRedeemedOrExpired()> <md-icon class="color-white-hue-1 material-icons reward-status-icon margin-zero">{{::rewardCard.rewardStatusIcon}}</md-icon> <span class="margin-left-8 color-white-important font-uppercase line-height-16">{{::rewardCard.rewardStatusMessage}}</span> </div> <div flex layout=column class=constants-position-absolute layout-align="center center" layout-fill ng-if=rewardCard.isDetailsButtonVisible()> <md-button class="md-raised md-secondary color-white-important"> <span translate=l10n.details></span> </md-button> </div> <div flex layout=column layout-fill ng-if=rewardCard.isRewardLocked()> <md-icon class="color-white-hue-1 material-icons md-24">lock</md-icon> </div> </div> </nv-overlay> </div> <md-card-content> <h4 class="reward-card-title margin-zero font-size-xxs line-height-sm1 font-style-normal color-white-hue-3" nv-ellipsis-lines=1>{{::rewardCard.cardTitle}}</h4> <div class=reward-card-details-container layout=row> <p class="reward-date margin-zero color-white-hue-4 font-size-xxs line-height-sm1" nv-ellipsis-lines=1>{{::rewardCard.rewardDate}}</p> <p class="reward-date margin-zero color-white-hue-4 font-size-xxs line-height-sm1" nv-ellipsis-lines=1 ng-if=rewardCard.isRewardLocked()>{{::rewardCard.perkLevel}}</p> </div> </md-card-content> </md-card> '
 }, function(e, t, n) {
-    e.exports = ' <div layout=column layout-fill class="rewards-center-items-container constants-position-relative" ng-class="{\'user-profile-disabled\': !rewardsCenter.userProfileEnabled}"> <md-toolbar flex=none layout=row class=rewards-center-top-toolbar layout-align="space-between center"> <div layout=row> <md-button class="back-button padding-zero md-icon-button" ng-click=rewardsCenter.backToPreviousState() ng-if=!rewardsCenter.userProfileEnabled> <md-icon md-font-set=material-icons class="md-24 color-white-hue-1">arrow_back</md-icon> <md-tooltip><span translate=l10n.back></span></md-tooltip> </md-button> <h4 class="color-white-hue-1 margin-zero font-size-sm rewards-center-title line-height-sm1 font-uppercase" translate=l10n.redeem ng-if=!rewardsCenter.userProfileEnabled></h4> </div> <nv-select-menu nv-md-icon=filter_list nv-label=l10n.filter class=constants-position-relative nv-filtered="!rewardsCenter.matchFilter(\'all\')"> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'all\')" nv-selected-test="rewardsCenter.matchFilter(\'all\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'all\')"> <div translate=l10n.allNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'all\')}}"></div> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'available\')" nv-selected-test="rewardsCenter.matchFilter(\'available\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'available\')"> <span translate=l10n.availableNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'available\')}}"></span> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'redeemed\')" nv-selected-test="rewardsCenter.matchFilter(\'redeemed\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'redeemed\')"> <span translate=l10n.redeemedNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'redeemed\')}}"></span> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'expired\')" nv-selected-test="rewardsCenter.matchFilter(\'expired\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'expired\')"> <span translate=l10n.expiredNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'expired\')}}"></span> </nv-select-menu-item> </nv-select-menu> </md-toolbar> <md-content flex layout-fill ng-class="{\'overflow-y-hidden-important\': rewardsCenter.userProfileEnabled}"> <div layout=column layout-align="start center" flex=auto class="rewards-center-coupon-code-banner constants-position-relative" ng-class="{\'expanded-state\': rewardsCenter.couponBannerExpanded}"> <div flex layout-fill layout=column layout-align="start center" class=bg-grey-lt-hue-1> <nv-coupon-input nv-input-placeholder=rewardsCenter.translatedInputPlaceholder nv-button=rewardsCenter.nvCouponInputButton nv-error-message=l10n.checkCodeAndTryAgain></nv-coupon-input> </div> <div layout=row layout-align="center center" class=section-separator-horizontal> <div flex layout-fill class=bg-grey-lt-hue-1></div> <div class=section-separator-horizontal-center></div> <div flex layout-fill class=bg-grey-lt-hue-1></div> </div> <div layout=row class="no-focus-outline learn-more-expandable-header" ng-click=rewardsCenter.toggleCouponBannerExpansionState() layout-align="space-between center"> <div flex layout-fill class=bg-grey-lt-hue-1></div> <div class=section-separator-vertical></div> <div layout=row layout-align="center center" class="learn-more-header-button bg-grey-lt-hue-1 clickable-element"> <p class="margin-zero color-white-hue-5 line-height-16" translate=l10n.whereToFindCoupons></p> <md-icon class="material-icons margin-zero md-16 line-height-16 color-white-hue-5 toggle-icon margin-left-4">expand_more</md-icon> </div> <div class=section-separator-vertical></div> <div flex layout-fill class=bg-grey-lt-hue-1></div> </div> <div class=learn-more-expandable-content layout=row layout-align="center center"> <img src=' + n(712) + ' alt=learn_more class=constants-position-absolute /> <div class="learn-more-text-container constants-position-absolute"> <div layout=row layout-align="start center" ng-repeat="message in rewardsCenter.couponsLearnMoreMessages" class=margin-bottom-10> <img src=' + n(711) + ' alt=learn_more_bullet class="learn-more-bullet margin-bottom-1"/> <p class="margin-zero margin-left-8 learn-more-message color-white-hue-5" translate={{message}}></p> </div> </div> </div> </div> <div flex=none class=filtered-list-separator ng-if="!rewardsCenter.matchFilter(\'all\')"></div> <div flex class=reward-cards-container ng-if=rewardsCenter.unRedeemedItemsExist()> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.available class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase" ng-if=!rewardsCenter.userProfileEnabled></h4> <h4 translate=l10n.readyToRedeem class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase" ng-if=rewardsCenter.userProfileEnabled></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if=rewardsCenter.showAvailableCards()> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.filteredUnRedeemedList | limitTo: rewardsCenter.unRedeemedListLimitTo track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> </div> <div flex class=reward-cards-container ng-if=rewardsCenter.showPerksSection()> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.levelUpToUnlock class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase margin-top-16"></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if="!rewardsCenter.matchFilter(\'available\')"> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.lockedPerksList track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> </div> <div flex class=reward-cards-container> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.redeemedAndExpired class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase margin-top-16"></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if="!rewardsCenter.matchFilter(\'available\')"> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.filteredRedeemedOrExpiredList | limitTo: rewardsCenter.redeemedOrExpiredListLimitTo track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> <p class="color-white-hue-4 margin-zero no-items-message" translate=l10n.noRewardsRedeemedYet ng-if=rewardsCenter.showNoRedeemedItemsMessage()></p> </div> </md-content> </div> <nv-overlay class="common-overlay light-background constants-z-layers-two" flex layout-fill ng-if=rewardsCenter.requestInProgress> <span layout-fill layout-align="center center" layout=column> <md-progress-circular id=progressIndicator class=md-accent md-diameter=25 md-mode=indeterminate></md-progress-circular> </span> </nv-overlay> '
+    e.exports = ' <div layout=column layout-fill class="rewards-center-items-container constants-position-relative" ng-class="{\'user-profile-disabled\': !rewardsCenter.userProfileEnabled}"> <md-toolbar flex=none layout=row class=rewards-center-top-toolbar layout-align="space-between center"> <div layout=row> <md-button class="back-button padding-zero md-icon-button" ng-click=rewardsCenter.backToPreviousState() ng-if=!rewardsCenter.userProfileEnabled> <md-icon md-font-set=material-icons class="md-24 color-white-hue-1">arrow_back</md-icon> <md-tooltip><span translate=l10n.back></span></md-tooltip> </md-button> <h4 class="color-white-hue-1 margin-zero font-size-sm rewards-center-title line-height-sm1 font-uppercase" translate=l10n.redeem ng-if=!rewardsCenter.userProfileEnabled></h4> </div> <nv-select-menu nv-md-icon=filter_list nv-label=l10n.filter class=constants-position-relative nv-filtered="!rewardsCenter.matchFilter(\'all\')"> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'all\')" nv-selected-test="rewardsCenter.matchFilter(\'all\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'all\')"> <div translate=l10n.allNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'all\')}}"></div> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'available\')" nv-selected-test="rewardsCenter.matchFilter(\'available\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'available\')"> <span translate=l10n.availableNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'available\')}}"></span> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'redeemed\')" nv-selected-test="rewardsCenter.matchFilter(\'redeemed\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'redeemed\')"> <span translate=l10n.redeemedNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'redeemed\')}}"></span> </nv-select-menu-item> <nv-select-menu-item nv-action="rewardsCenter.setFilter(\'expired\')" nv-selected-test="rewardsCenter.matchFilter(\'expired\')" ng-disabled="rewardsCenter.isFilterButtonDisabled(\'expired\')"> <span translate=l10n.expiredNumber translate-value-number="{{rewardsCenter.getRewardsCount(\'expired\')}}"></span> </nv-select-menu-item> </nv-select-menu> </md-toolbar> <md-content flex layout-fill ng-class="{\'overflow-y-hidden-important\': rewardsCenter.userProfileEnabled}"> <div layout=column layout-align="start center" flex=auto class="rewards-center-coupon-code-banner constants-position-relative" ng-class="{\'expanded-state\': rewardsCenter.couponBannerExpanded}"> <div flex layout-fill layout=column layout-align="start center" class=bg-grey-lt-hue-1> <nv-coupon-input nv-input-placeholder=rewardsCenter.translatedInputPlaceholder nv-button=rewardsCenter.nvCouponInputButton nv-error-message=l10n.checkCodeAndTryAgain></nv-coupon-input> </div> <div layout=row layout-align="center center" class=section-separator-horizontal> <div flex layout-fill class=bg-grey-lt-hue-1></div> <div class=section-separator-horizontal-center></div> <div flex layout-fill class=bg-grey-lt-hue-1></div> </div> <div layout=row class="no-focus-outline learn-more-expandable-header" ng-click=rewardsCenter.toggleCouponBannerExpansionState() layout-align="space-between center"> <div flex layout-fill class=bg-grey-lt-hue-1></div> <div class=section-separator-vertical></div> <div layout=row layout-align="center center" class="learn-more-header-button bg-grey-lt-hue-1 clickable-element"> <p class="margin-zero color-white-hue-5 line-height-16" translate=l10n.whereToFindCoupons></p> <md-icon class="material-icons margin-zero md-16 line-height-16 color-white-hue-5 toggle-icon margin-left-4">expand_more</md-icon> </div> <div class=section-separator-vertical></div> <div flex layout-fill class=bg-grey-lt-hue-1></div> </div> <div class=learn-more-expandable-content layout=row layout-align="center center"> <img src=' + n(713) + ' alt=learn_more class=constants-position-absolute /> <div class="learn-more-text-container constants-position-absolute"> <div layout=row layout-align="start center" ng-repeat="message in rewardsCenter.couponsLearnMoreMessages" class=margin-bottom-10> <img src=' + n(712) + ' alt=learn_more_bullet class="learn-more-bullet margin-bottom-1"/> <p class="margin-zero margin-left-8 learn-more-message color-white-hue-5" translate={{message}}></p> </div> </div> </div> </div> <div flex=none class=filtered-list-separator ng-if="!rewardsCenter.matchFilter(\'all\')"></div> <div flex class=reward-cards-container ng-if=rewardsCenter.unRedeemedItemsExist()> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.available class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase" ng-if=!rewardsCenter.userProfileEnabled></h4> <h4 translate=l10n.readyToRedeem class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase" ng-if=rewardsCenter.userProfileEnabled></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if=rewardsCenter.showAvailableCards()> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.filteredUnRedeemedList | limitTo: rewardsCenter.unRedeemedListLimitTo track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> </div> <div flex class=reward-cards-container ng-if=rewardsCenter.showPerksSection()> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.levelUpToUnlock class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase margin-top-16"></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if="!rewardsCenter.matchFilter(\'available\')"> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.lockedPerksList track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> </div> <div flex class=reward-cards-container> <md-toolbar layout=row ng-if="rewardsCenter.matchFilter(\'all\')"> <h4 translate=l10n.redeemedAndExpired class="rewards-center-section-title color-white-hue-3 font-size-sm line-height-sm1 font-uppercase margin-top-16"></h4> </md-toolbar> <div layout=row class=reward-cards-container layout-align="start start" layout-wrap flex layout-fill ng-if="!rewardsCenter.matchFilter(\'available\')"> <nv-reward-card class=rewards-reward-card ng-repeat="reward in rewardsCenter.filteredRedeemedOrExpiredList | limitTo: rewardsCenter.redeemedOrExpiredListLimitTo track by rewardsCenter.rewardsTrackBy(reward)" nv-reward=reward></nv-reward-card> </div> <p class="color-white-hue-4 margin-zero no-items-message" translate=l10n.noRewardsRedeemedYet ng-if=rewardsCenter.showNoRedeemedItemsMessage()></p> </div> </md-content> </div> <nv-overlay class="common-overlay light-background constants-z-layers-two" flex layout-fill ng-if=rewardsCenter.requestInProgress> <span layout-fill layout-align="center center" layout=column> <md-progress-circular id=progressIndicator class=md-accent md-diameter=25 md-mode=indeterminate></md-progress-circular> </span> </nv-overlay> '
 }, function(e, t) {
     e.exports = '<div class=search-container> <div class=search-input-wrapper> <div layout=row> <md-input-container ng-class="{\'visible\': searchCtrl.searchInputVisble, \'hidden\': !searchCtrl.searchInputVisble}" md-no-float class="md-block search-input-container"> <md-icon md-font-set=material-icons class="md-18 search-icon" ng-if=!searchCtrl.resultsShouldBeVisible()>search</md-icon> <md-icon md-font-set=material-icons class="md-18 active-search-icon" ng-if=searchCtrl.resultsShouldBeVisible()>search</md-icon> <input class=search-input maxlength=40 type=text ng-model=searchCtrl.query ng-focus=searchCtrl.showRecentSearches() ng-blur="searchCtrl.searchInputFocused = false" placeholder="{{ \'l10n.search\' | translate }}" ng-change=searchCtrl.performSearch(searchCtrl.query) autocomplete=off ng-keydown=searchCtrl.keydownevt($event)> <md-button class="md-icon-button clear-icon-button" ng-click=searchCtrl.toggleSearchInput()> <md-icon md-font-set=material-icons class=md-18>clear</md-icon> </md-button> </md-input-container> <md-button class="search-input-toggle-button md-icon-button margin-right-16" ng-if=!searchCtrl.searchInputVisble ng-click=searchCtrl.toggleSearchInput()> <md-tooltip><span translate=l10n.search></span></md-tooltip> <md-icon md-font-set=material-icons class=md-18>search</md-icon> </md-button> </div> </div> <div class=search-result-container ng-class="{\'hidden\': (!searchCtrl.recentSearchesCache.length  && searchCtrl.searchResult === \'\') }" ng-show=searchCtrl.resultsShouldBeVisible()> <div ng-switch on=searchCtrl.searchResult> <md-content class=search-result-scroll-content ng-switch-when=recentQueries> <div class=search-category-title> <h4 class="font-size-sm color-white-hue-5 font-uppercase" translate=l10n.recentSearches></h4> </div> <md-list> <div ng-repeat="result in searchCtrl.recentSearchesCache track by $index"> <md-list-item tabindex=0 class=recent-search-item ng-click=searchCtrl.addQuery(result) ng-class="{ \'selected-search-item\' : searchCtrl.selectedRecentSearchIndex === $index}"> <div layout=row layout-fill layout-align="space-around center" class=search-result-height> <div ng-if=result.hasThumbnail class=search-item-thumbnail> <img ng-src="{{ result.thumbnail }}" nv-image-fallback=nv-default-game-art /> </div> <div ng-if=result.hasIcon layout=row layout-align="center center" class=search-item-icon> <md-icon md-font-set=material-icons class=md-primary>{{result.icon}}</md-icon> </div> <p id="{{ \'recent-searches\' + $index }}" flex class="search-title single-line-ellipsis" translate={{result.title}}></p> </div> </md-list-item> <md-tooltip ng-if="searchCtrl.showTooltip($index, \'recent-searches\')"><span translate={{result.title}}></span></md-tooltip> </div> </md-list> </md-content> <md-content id=search-result-list class=search-result-scroll-content ng-switch-when=resultAvailable> <div ng-repeat="(category, results) in searchCtrl.categorizedResult" ng-show="results.length > 0"> <div class=search-category-title> <h4 class="font-size-sm color-white-hue-5">{{ searchCtrl.searchCategories[category] | translate | uppercase}}</h4> </div> <md-list> <div ng-repeat="result in results track by $index"> <div> <md-list-item tabindex=0 class=search-result-item ng-click=searchCtrl.redirect(result) ng-class="{ \'selected-search-item\' : searchCtrl.isSearchItemSelected($index,category) }"> <div layout=row layout-fill flex layout-align="space-around center" class=search-result-height> <div ng-if=result.hasThumbnail class=search-item-thumbnail> <img ng-src="{{ result.thumbnail }}" nv-image-fallback=nv-default-game-art /> </div> <div ng-if=result.hasIcon layout=row layout-align="center center" class=search-item-icon> <md-icon md-font-set=material-icons class=md-primary>{{result.icon}}</md-icon> </div> <div layout=column flex> <p id="{{ \'new-searches-\' + category.split(\'.\').join(\'-\') + $index  }}" class="single-line-ellipsis search-title" translate={{result.title}}></p> <span class=search-preview>{{ result.preview }}</span> </div> </div> </md-list-item> <md-tooltip ng-if="searchCtrl.showTooltip($index, \'new-searches-\' + category.split(\'.\').join(\'-\') )"><span translate={{result.title}}></span></md-tooltip> </div> </div> </md-list> <div class=search-category-divider></div> </div> </md-content> <div class=search-result-fallback ng-switch-when=resultNotAvailable> <div class=search-result-not-found layout=column layout-align="center center" flex layout-fill> <md-icon md-font-set=material-icons class="search-error-icon md-32">error</md-icon> <p class=search-error-header translate=l10n.noResults></p> <p class=search-error-message translate=l10n.noResultsSearchMessage></p> </div> </div> </div> <nv-overlay class="common-overlay search-container-bottom-gradient" nv-position=bottom></nv-overlay> </div> </div> ';
 }, , , , function(e, t) {
     e.exports = '<div layout-fill layout=column flex class=constants-position-relative> <md-card class="updates-highlight-tile bg-black-hv" layout=column ng-click=highlightTile.showDetails($event) nv-telemetry=\'{"tarconID":{{highlightTile.getTelemetryEventName()}},"url":{{highlightTile.getTelemetryEventInfo()}}}\'> <div class="constants-position-relative image-container"> <img ng-src={{nvContent.coverImage}} class=md-card-image alt={{nvContent.name}} nv-image-fallback=nv-no-loading-indicator layout-fill> <nv-overlay class="common-overlay optimal-settings-icon-overlay" ng-if=highlightTile.isContentGame()> <md-icon md-font-set=nv-custom-icons md-font-icon=icon-optimized_reg class="nv-custom-icons md-accent md-24"></md-icon> <md-tooltip><span translate=l10n.optimalSettingsAvailable></span></md-tooltip> </nv-overlay> <nv-overlay layout-fill class="common-overlay no-background highlight-tile-overlay" ng-if=highlightTile.isVideoAvailable(nvContent)> <div layout=column layout-align="center center" flex> <md-button class=md-icon-button> <md-icon md-font-set=material-icons class="md-18 color-white-hue-1">play_circle_outline</md-icon> </md-button> </div> </nv-overlay> </div> <md-card-content class=color-black-hue-1> <p class="font-size-lg color-white-hue-3" nv-ellipsis-lines=2>{{nvContent.name}}</p> <p ng-if=nvContent.id class="font-size-sm color-white-hue-4" nv-ellipsis-lines=2>{{nvContent.description}}</p> <p ng-if=nvContent.featureId class="font-size-sm color-white-hue-4" nv-ellipsis-lines=3>{{nvContent.description}}</p> <p ng-if=nvContent.overviewContent class="font-size-sm color-white-hue-4" nv-ellipsis-lines=3>{{nvContent.description}}</p> </md-card-content> </md-card> <nv-overlay class="common-overlay common-container-gradient" nv-position=bottom></nv-overlay> </div> '
 }, function(e, t, n) {
-    e.exports = '<div class="constants-position-relative updates-updates-details-highlights-banner-container bg-dark-vh23" ng-if=updateDetails.showDefaultBanner() layout=row layout-align="center center"> <img ng-src=' + n(714) + ' alt=default-banner /> </div> <nv-no-content-fallback ng-if=updateDetails.showDefaultContentImage() nv-tip=l10n.noInformationAvailable class=updates-updates-details-highlights-banner-container flex> </nv-no-content-fallback> <div layout=column ng-if=updateDetails.driverInformation> <div class="constants-position-relative updates-updates-details-highlights-banner-container bg-dark-vh23" ng-if=updateDetails.driverInformation.bannerGfeNg> <nv-updates-highlights-banner nv-driver-banner=updateDetails.driverInformation.bannerGfeNg nv-driver-type=updateDetails.driverType nv-driver-version={{updateDetails.driverVersion}} flex></nv-updates-highlights-banner> </div> <div class=updates-updates-details ng-if=updateDetails.showHighLights()> <div class=updates-updates-details-releaseAbstract ng-bind-html=updateDetails.driverInformation.ReleaseNotesAbstract></div> <nv-updates-driver-highlights nv-driver-highlight=updateDetails.driverInformation.highlightGfeNg nv-driver-type=updateDetails.driverType nv-driver-version={{updateDetails.driverVersion}}></nv-updates-driver-highlights> </div> </div> <div class=updates-updates-details-highlights-banner-container ng-if=updateDetails.showLoadingIndicator layout=row layout-align="center center" flex> <md-progress-circular class=md-accent md-diameter=30 md-mode=indeterminate> </md-progress-circular> </div> '
+    e.exports = '<div class="constants-position-relative updates-updates-details-highlights-banner-container bg-dark-vh23" ng-if=updateDetails.showDefaultBanner() layout=row layout-align="center center"> <img ng-src=' + n(715) + ' alt=default-banner /> </div> <nv-no-content-fallback ng-if=updateDetails.showDefaultContentImage() nv-tip=l10n.noInformationAvailable class=updates-updates-details-highlights-banner-container flex> </nv-no-content-fallback> <div layout=column ng-if=updateDetails.driverInformation> <div class="constants-position-relative updates-updates-details-highlights-banner-container bg-dark-vh23" ng-if=updateDetails.driverInformation.bannerGfeNg> <nv-updates-highlights-banner nv-driver-banner=updateDetails.driverInformation.bannerGfeNg nv-driver-type=updateDetails.driverType nv-driver-version={{updateDetails.driverVersion}} flex></nv-updates-highlights-banner> </div> <div class=updates-updates-details ng-if=updateDetails.showHighLights()> <div class=updates-updates-details-releaseAbstract ng-bind-html=updateDetails.driverInformation.ReleaseNotesAbstract></div> <nv-updates-driver-highlights nv-driver-highlight=updateDetails.driverInformation.highlightGfeNg nv-driver-type=updateDetails.driverType nv-driver-version={{updateDetails.driverVersion}}></nv-updates-driver-highlights> </div> </div> <div class=updates-updates-details-highlights-banner-container ng-if=updateDetails.showLoadingIndicator layout=row layout-align="center center" flex> <md-progress-circular class=md-accent md-diameter=30 md-mode=indeterminate> </md-progress-circular> </div> '
 }, function(e, t) {
     e.exports = "<nv-updates-driver flex layout=column class=updates-updates-container></nv-updates-driver> "
 }, function(e, t) {
@@ -22253,7 +22253,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t) {
     e.exports = '<div ng-if=updatesInstallationCustom.showPackageSelectionUI layout=column> <div class=package-group-table> <div layout-align="start center" layout=row class="md-primary md-hue-5 background package-group-header"> <p class="font-size-xxs color-white-hue-3" flex=50>{{\'l10n.component\' | translate | uppercase}}</p> <p class="font-size-xxs color-white-hue-3" flex=30>{{\'l10n.newVersion\' | translate | uppercase}}</p> <p class="font-size-xxs color-white-hue-3" flex>{{\'l10n.currentVersion\' | translate | uppercase}}</p> </div> <div layout-align="start center" class=package-group-header layout=row ng-class="{\'md-primary md-hue-6 background\': $odd}" ng-repeat="installablePackage in updatesInstallationCustom.packages"> <md-checkbox class="font-size-xxs color-white-hue-4 checkbox-20" flex=50 ng-disabled=installablePackage.critical ng-model=installablePackage.selectedForInstall>{{installablePackage.title}}</md-checkbox> <p class="font-size-xxs color-white-hue-4" flex=30>{{installablePackage.version}}</p> <p class="font-size-xxs color-white-hue-4" flex ng-if=installablePackage.currentVersion.length>{{installablePackage.currentVersion}}</p> <p class="font-size-xxs color-white-hue-4" flex ng-if=!installablePackage.currentVersion.length>-</p> </div> </div> <md-divider></md-divider> <div layout=column layout-align="start start"> <md-checkbox class="font-size-xxs color-white-hue-4" ng-model=updatesInstallationCustom.cleanInstall>{{ \'l10n.performCleanInstallation\' | translate }} </md-checkbox> <div layout=row layout-align="start center" class=warning-clean-install> <p class="font-size-xxs color-white-hue-5">{{\'l10n.cleanInstallMessage\' | translate}}</p> </div> </div> </div> <div ng-if=!updatesInstallationCustom.showPackageSelectionUI> <div class=package-group-table> <div layout-align="start center" layout=row class="md-primary md-hue-5 background package-group-header"> <p class="font-size-xxs color-white-hue-3" flex=50>{{\'l10n.component\' | translate | uppercase}}</p> <p class="font-size-xxs color-white-hue-3" flex=30>{{\'l10n.version\' | translate | uppercase}}</p> <p class="font-size-xxs color-white-hue-3" flex>{{\'l10n.status\' | translate | uppercase}}</p> </div> <div layout-align="start center" class=package-group-header layout=row ng-class="{\'md-primary md-hue-6 background\': $odd}" ng-repeat="installablePackage in updatesInstallationCustom.packages"> <p class="font-size-xxs color-white-hue-4" flex=50>{{installablePackage.title}}</p> <p class="font-size-xxs color-white-hue-4" flex=30>{{installablePackage.version}}</p> <p class="font-size-xxs color-white-hue-4" flex ng-if=installablePackage.resultCode>{{updatesInstallationCustom.getStatusText(installablePackage.resultText)}}</p> <p class="font-size-xxs color-white-hue-4" flex ng-if=!installablePackage.resultCode>{{ \'l10n.installed\' | translate }}</p> </div> </div> <md-divider></md-divider> </div> '
 }, function(e, t, n) {
-    e.exports = "<iframe ng-if=!updateInstallationProgress.showFallbackImage ng-src={{updateInstallationProgress.getBillboardUrl()}}></iframe> <img ng-if=updateInstallationProgress.showFallbackImage class=updates-installlation-progress-fallbackImage ng-src=" + n(716) + ' alt=default-banner /> <div layout=column layout-align="space-around start" class=progress-status-container> <h4 class="font-size-sm color-white-hue-1">{{updateInstallationProgress.model.details()}}</h4> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.isPreparingInstall flex md-mode=indeterminate></md-progress-linear> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.canShowUninstallProgress() flex md-mode=determinate value={{updateInstallationProgress.progressValue}}></md-progress-linear> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.canShowInstallProgress() flex md-mode=determinate value={{updateInstallationProgress.progressValue}}></md-progress-linear> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.canShowUninstallProgress() translate=l10n.unInstalling translate-values={{updateInstallationProgress}}></p> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.canShowInstallProgress() translate=l10n.installing translate-values={{updateInstallationProgress}}></p> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.isPreparingInstall translate=l10n.preparingForInstallation></p> </div> '
+    e.exports = "<iframe ng-if=!updateInstallationProgress.showFallbackImage ng-src={{updateInstallationProgress.getBillboardUrl()}}></iframe> <img ng-if=updateInstallationProgress.showFallbackImage class=updates-installlation-progress-fallbackImage ng-src=" + n(717) + ' alt=default-banner /> <div layout=column layout-align="space-around start" class=progress-status-container> <h4 class="font-size-sm color-white-hue-1">{{updateInstallationProgress.model.details()}}</h4> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.isPreparingInstall flex md-mode=indeterminate></md-progress-linear> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.canShowUninstallProgress() flex md-mode=determinate value={{updateInstallationProgress.progressValue}}></md-progress-linear> <md-progress-linear class=md-accent ng-if=updateInstallationProgress.canShowInstallProgress() flex md-mode=determinate value={{updateInstallationProgress.progressValue}}></md-progress-linear> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.canShowUninstallProgress() translate=l10n.unInstalling translate-values={{updateInstallationProgress}}></p> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.canShowInstallProgress() translate=l10n.installing translate-values={{updateInstallationProgress}}></p> <p class="font-size-xxs color-white-hue-4" ng-show=updateInstallationProgress.isPreparingInstall translate=l10n.preparingForInstallation></p> </div> '
 }, function(e, t) {
     e.exports = '<div layout-align="center center" layout-padding layout=column> <md-icon md-font-library=material-icons class="material-icons md-accent">track_changes</md-icon> <h4 class="font-size-sm color-white-hue-3">{{\'l10n.restartingInSecond\' | translate:{num:updatesInstallationReboot.interval} }}</h4> <p class="font-size-xxs color-white-hue-4">{{\'l10n.afterRestartInstallation\' | translate}}</p> </div> '
 }, function(e, t) {
@@ -22334,12 +22334,12 @@ webpackJsonp([4], [function(e, t, n) {
     }]
 }, function(e, t, n) {
     e.exports = {
-        default: n(913),
+        default: n(914),
         __esModule: !0
     }
 }, function(e, t, n) {
     e.exports = {
-        default: n(916),
+        default: n(917),
         __esModule: !0
     }
 }, function(e, t, n) {
@@ -22351,9 +22351,9 @@ webpackJsonp([4], [function(e, t, n) {
         }
     }
     t.__esModule = !0;
-    var o = n(909),
+    var o = n(910),
         i = r(o),
-        a = n(908),
+        a = n(909),
         s = r(a),
         l = n(99),
         c = r(l);
@@ -22384,15 +22384,15 @@ webpackJsonp([4], [function(e, t, n) {
         return !t || "object" !== ("undefined" == typeof t ? "undefined" : (0, i.default)(t)) && "function" != typeof t ? e : t
     }
 }, , function(e, t, n) {
-    n(921);
+    n(922);
     var r = n(18).Object;
     e.exports = function(e, t) {
         return r.create(e, t)
     }
 }, , function(e, t, n) {
-    n(923), e.exports = n(18).Object.getPrototypeOf
+    n(924), e.exports = n(18).Object.getPrototypeOf
 }, function(e, t, n) {
-    n(924), e.exports = n(18).Object.setPrototypeOf
+    n(925), e.exports = n(18).Object.setPrototypeOf
 }, , function(e, t, n) {
     var r = n(43),
         o = n(48),
@@ -22428,7 +22428,7 @@ webpackJsonp([4], [function(e, t, n) {
 }, function(e, t, n) {
     var r = n(42);
     r(r.S, "Object", {
-        setPrototypeOf: n(918).set
+        setPrototypeOf: n(919).set
     })
 }, function(e, t, n) {
     var r, o;
@@ -40951,7 +40951,7 @@ webpackJsonp([4], [function(e, t, n) {
     n(7)(r, {});
     r.locals && (e.exports = r.locals)
 }, function(module, exports, __webpack_require__) {
-    var _ = __webpack_require__(927);
+    var _ = __webpack_require__(928);
     module.exports = function(obj) {
         var __t, __p = "",
             __j = Array.prototype.join,
