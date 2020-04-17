@@ -1,5 +1,5 @@
 # BaiGfe
-Remove Mandatory Login of Geforce Experience - [support: v3.14.x to v3.19.x(current)]
+Remove Mandatory Login of Geforce Experience - [support: v3.14.x to v3.20.x(current)]
 # How to Remove Mandatory Login  
 
 make a backup of every files you edit !
@@ -47,7 +47,7 @@ use [http://jsbeautifier.org/](http://jsbeautifier.org/) on app.js found in :
 
 \- replace by :  
 
-    if (e.domains.list.indexOf(n) > -1) return w.handleLoggedIn(e), !0
+    if (e.domains.list.indexOf(n) > -1) return y.handleLoggedIn(e), !0
 
 Now let's add some fake infos, find :  
 
@@ -56,7 +56,7 @@ Now let's add some fake infos, find :
 
 After "b()" add a new line and copy/paste this : 
 
-                w.handleLoggedIn({
+                y.handleLoggedIn({
                     sessionToken: "dummySessionToken",
                     userToken: "dummyUserToken",
                     user: {
@@ -73,11 +73,11 @@ After "b()" add a new line and copy/paste this :
 
 \-  find and replace
 
-    K.isShareSupported = !1, K.isShareButtonClicked = !1
+    X.isShareSupported = !1, X.isShareButtonClicked = !1
 
 by
 
-    K.isShareSupported = !0, K.isShareButtonClicked = !0
+    X.isShareSupported = !0, X.isShareButtonClicked = !0
 
 To make the shadowplay & share buttons show on the main GFE screen
 
@@ -92,32 +92,38 @@ Step 1 - Open the hosts file in a text editor (notepad++) :
 (copy-paste the file on your desktop to edit, copy back to "etc" folder if you have permission errors)
 
 Step 2 - Add at the end of the file (CHOOSE ONE OR THE OTHER LIST, NOT BOTH) :
-- FULL BLOCKLIST :
+- FULL BLOCKLIST : (as of 04/17/2020 - GFE 3.20.3.63)  
 
 `0.0.0.0 telemetry.gfe.nvidia.com`  
 `0.0.0.0 gfe.nvidia.com`  
 `0.0.0.0 gfwsl.geforce.com`  
 `0.0.0.0 services.gfe.nvidia.com`  
 `0.0.0.0 accounts.nvgs.nvidia.com`  
+`0.0.0.0 accounts.nvgs.nvidia.cn`  
 `0.0.0.0 events.gfe.nvidia.com`  
 `0.0.0.0 img.nvidiagrid.net`  
 `0.0.0.0 images.nvidiagrid.net`  
 `0.0.0.0 images.nvidia.com`  
 `0.0.0.0 ls.dtrace.nvidia.com`  
 `0.0.0.0 ota.nvidia.com`  
+`0.0.0.0 ota-downloads.nvidia.com`  
 `0.0.0.0 rds-assets.nvidia.com`  
 `0.0.0.0 assets.nvidiagrid.net`  
 `0.0.0.0 nvidia.tt.omtrdc.net`  
 `0.0.0.0 api.commune.ly`  
+`0.0.0.0 login.nvgs.nvidia.com`  
 `0.0.0.0 login.nvgs.nvidia.cn`  
 
-- LITE BLOCKLIST (keep Game Optimizations / Drivers Update working) :  
+
+- LITE BLOCKLIST (keep Game Optimizations / Drivers Update working) : (as of 04/17/2020 - GFE 3.20.3.63)  
 
 `0.0.0.0 ls.dtrace.nvidia.com`  
 `0.0.0.0 telemetry.gfe.nvidia.com`  
 `0.0.0.0 accounts.nvgs.nvidia.com`  
+`0.0.0.0 accounts.nvgs.nvidia.cn`  
 `0.0.0.0 nvidia.tt.omtrdc.net`  
 `0.0.0.0 api.commune.ly`  
+`0.0.0.0 login.nvgs.nvidia.com`  
 `0.0.0.0 login.nvgs.nvidia.cn`  
 
 ("[0.0.0.0](https://0.0.0.0)" is preferred to "[127.0.0.1](https://127.0.0.1)" but both works)  
