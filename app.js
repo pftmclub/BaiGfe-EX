@@ -13567,7 +13567,7 @@ webpackJsonp([4], [function(e, t, n) {
                 return e.then(function(e) {
                     e.user.core.primaryEmailVerified ? (E.debug("email verified - start session"), u.endActionAsync(r, "SUCCESS"), y.handleLoggedIn(e)) : t.skipEmailVerification(e, y.loginType, y.provider).then(function(t) {
                         t ? (u.endActionAsync(r, "EMAIL_VERIFICATION_SKIPPED"), y.handleLoggedIn(e)) : (E.debug("email not verified - show verification dialog. Address changed:", n === !0), n ? (u.endActionAsync(r, "EMAIL_NOT_VERIFIED"), y.showEmailVerification(e, "emailUpdated")) : y.attemptResendVerification(e.user.core.primaryEmail).then(function() {
-                            E.info("automatically resent verification email"), u.endActionAsync(r, "EMAIL_NOT_VERIFIED"), y.showEmailVerification(e)
+                            E.info("automatically resent verification email"), u.endActionAsync(r, "EMAIL_NOT_VERIFIED")
                         }).catch(function(t) {
                             E.error("Failed to re-send verification email automatically. Continue anyway."), u.endActionAsync(r, "EMAIL_NOT_VERIFIED_RESEND_FAILED"), y.showEmailVerification(e)
                         }))
