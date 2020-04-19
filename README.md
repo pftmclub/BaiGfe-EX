@@ -115,7 +115,7 @@ Step 2 - Add at the end of the file (CHOOSE ONE OR THE OTHER LIST, NOT BOTH) :
 `0.0.0.0 login.nvgs.nvidia.cn`  
 
 
-- LITE BLOCKLIST (keep Game Optimizations / Drivers Update working) : (as of 04/17/2020 - GFE 3.20.3.63)  
+- LITE BLOCKLIST (keep GFE / Drivers Update working) : (as of 04/17/2020 - GFE 3.20.3.63)  
 
 `0.0.0.0 ls.dtrace.nvidia.com`  
 `0.0.0.0 telemetry.gfe.nvidia.com`  
