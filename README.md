@@ -86,7 +86,6 @@ To make the shadowplay & share buttons show on the main GFE screen
 \- Optional (might help in some case where user previously was logged in) find   
 
 
-
     E.info("automatically resent verification email"), u.endActionAsync(r, "EMAIL_NOT_VERIFIED"), y.showEmailVerification(e)  
 
 \-  and remove  
@@ -101,7 +100,10 @@ Step 1 - Open the hosts file in a text editor (notepad++) :
 
 (copy-paste the file on your desktop to edit, copy back to "etc" folder if you have permission errors)
 
-Step 2 - Add at the end of the file (CHOOSE ONE OR THE OTHER LIST, NOT BOTH) :
+Step 2 - Add at the end of the file (CHOOSE ONE OR THE OTHER LIST, NOT BOTH) :  
+> Full blocklist: blocks telemetry / driver & Gfe updates (Keeps Game Optimisations and all "offline" features working)
+> Lite blocklist : only blocks telemetry (might break Game Optimisations in some cases, fix/workaround pending)
+
 - FULL BLOCKLIST : (as of 04/17/2020 - GFE 3.20.3.63)  
 
 `0.0.0.0 telemetry.gfe.nvidia.com`  
